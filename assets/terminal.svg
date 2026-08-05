@@ -1,40 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="210" viewBox="0 0 1200 210" role="img" aria-labelledby="title desc">
-  <title id="title">Talkdedsec terminal</title>
-  <desc id="desc">Animated terminal panel showing a short build sequence</desc>
-  <defs>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0d0d0d"/>
-      <stop offset="1" stop-color="#171717"/>
-    </linearGradient>
-    <filter id="glow" x="-20%" y="-50%" width="140%" height="200%">
-      <feGaussianBlur stdDeviation="3" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <clipPath id="line1"><rect x="56" y="66" width="0" height="30"><animate attributeName="width" values="0;560;560" keyTimes="0;.75;1" dur="3.2s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="line2"><rect x="56" y="108" width="0" height="30"><animate attributeName="width" values="0;0;730;730" keyTimes="0;.22;.82;1" dur="4.8s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="line3"><rect x="56" y="150" width="0" height="30"><animate attributeName="width" values="0;0;520;520" keyTimes="0;.42;.88;1" dur="5.8s" repeatCount="indefinite"/></rect></clipPath>
-  </defs>
-
-  <rect x="1" y="1" width="1198" height="208" rx="22" fill="url(#panel)" stroke="#292929" stroke-width="2"/>
-  <path d="M1 44H1199" stroke="#292929"/>
-  <circle cx="28" cy="23" r="5" fill="#ff1738"/>
-  <circle cx="47" cy="23" r="5" fill="#5b5b5b"/>
-  <circle cx="66" cy="23" r="5" fill="#353535"/>
-  <text x="600" y="28" text-anchor="middle" fill="#666" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" letter-spacing="2.5">TALKDEDSEC / WORKSPACE</text>
-
-  <g font-family="ui-monospace,SFMono-Regular,Consolas,Liberation Mono,monospace" font-size="20">
-    <text x="56" y="84" fill="#ff2748" clip-path="url(#line1)" filter="url(#glow)">talkdedsec@workstation:~$ build --release</text>
-    <text x="56" y="126" fill="#d6d6d6" clip-path="url(#line2)">[ok] software · tools · systems · digital products</text>
-    <text x="56" y="168" fill="#8a8a8a" clip-path="url(#line3)">[ready] publish when it is worth keeping</text>
-  </g>
-
-  <rect x="579" y="62" width="10" height="24" fill="#ff1738">
-    <animate attributeName="opacity" values="1;0;1" dur=".9s" repeatCount="indefinite"/>
-    <animate attributeName="x" values="56;579;579" keyTimes="0;.75;1" dur="3.2s" repeatCount="indefinite"/>
-  </rect>
-
-  <rect x="0" y="207" width="1200" height="2" fill="#181818"/>
-  <rect x="-200" y="207" width="200" height="2" fill="#ff1738">
-    <animate attributeName="x" values="-200;1200" dur="5.4s" repeatCount="indefinite"/>
-  </rect>
+<svg width="1280" height="246" viewBox="0 0 1280 246" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="246">
+    <stop stop-color="#050505"/>
+    <stop offset="1" stop-color="#090909"/>
+  </linearGradient>
+</defs>
+<rect width="1280" height="246" rx="24" fill="url(#bg)"/>
+<rect x=".5" y=".5" width="1279" height="245" rx="23.5" stroke="#1B1B1B"/>
+<circle cx="34" cy="28" r="5" fill="#A52A2A"/>
+<circle cx="54" cy="28" r="5" fill="#505050"/>
+<circle cx="74" cy="28" r="5" fill="#858585"/>
+<path d="M0 54H1280" stroke="#181818"/>
+<text x="36" y="94" fill="#CACACA" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="20">
+  <tspan fill="#D23D3D">talkdedsec</tspan><tspan fill="#686868">:</tspan><tspan fill="#F0F0F0">~</tspan><tspan fill="#686868">$</tspan>
+  <tspan dx="10">portfolio --scope public</tspan>
+</text>
+<text x="36" y="134" fill="#939393" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="18">
+  editor / design systems / 274 tools / 205 games / desktop / web / security
+</text>
+<text x="36" y="176" fill="#D0D0D0" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="18">
+  <tspan fill="#61B866">ready</tspan><tspan fill="#666">  —  </tspan><tspan>build, release, maintain</tspan>
+</text>
+<rect x="36" y="203" width="10" height="22" rx="2" fill="#E6E6E6">
+  <animate attributeName="opacity" values="1;0;1" dur="1.1s" repeatCount="indefinite"/>
+</rect>
 </svg>

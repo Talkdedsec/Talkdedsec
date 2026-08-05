@@ -1,22 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="36" viewBox="0 0 1200 36" role="img" aria-label="Animated divider">
-  <defs>
-    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#202020"/>
-      <stop offset=".45" stop-color="#ff1738"/>
-      <stop offset=".55" stop-color="#ff6a7f"/>
-      <stop offset="1" stop-color="#202020"/>
-    </linearGradient>
-    <filter id="glow" x="-20%" y="-200%" width="140%" height="500%">
-      <feGaussianBlur stdDeviation="2.5" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-  </defs>
-  <rect x="0" y="17" width="1200" height="1" fill="#242424"/>
-  <rect x="-260" y="16" width="260" height="3" rx="2" fill="url(#line)" filter="url(#glow)">
-    <animate attributeName="x" values="-260;1200" dur="4.8s" repeatCount="indefinite"/>
-  </rect>
-  <circle cx="600" cy="17.5" r="4" fill="#ff1738">
-    <animate attributeName="r" values="3;5;3" dur="2.4s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values=".45;1;.45" dur="2.4s" repeatCount="indefinite"/>
-  </circle>
+<svg width="1280" height="34" viewBox="0 0 1280 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="line" x1="80" y1="0" x2="1200" y2="0">
+    <stop stop-color="#171717" stop-opacity="0"/>
+    <stop offset=".22" stop-color="#3B0B0B"/>
+    <stop offset=".5" stop-color="#E5E5E5"/>
+    <stop offset=".78" stop-color="#3B0B0B"/>
+    <stop offset="1" stop-color="#171717" stop-opacity="0"/>
+  </linearGradient>
+</defs>
+<path d="M80 17H1200" stroke="url(#line)" stroke-width="1.5"/>
+<circle cx="640" cy="17" r="3" fill="#C82F2F">
+  <animate attributeName="r" values="2;4;2" dur="3.8s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values=".4;1;.4" dur="3.8s" repeatCount="indefinite"/>
+</circle>
 </svg>
