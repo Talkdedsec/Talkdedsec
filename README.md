@@ -10,10 +10,6 @@
   <a href="https://github.com/talkdedseccode"><b>Product GitHub</b></a>
 </p>
 
-<p align="center">
-  <sub>Currently using <code>Talkdedsec1</code> while the original username is being released.</sub>
-</p>
-
 <img src="assets/divider.svg" width="100%" alt="" />
 
 <table>
