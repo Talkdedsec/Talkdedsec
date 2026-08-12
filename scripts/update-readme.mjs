@@ -9,14 +9,14 @@ const TEXT = {
   "README.md": {
     locale: "en-GB",
     head: ["Repository", "What it is", "Stack", "Updated"],
-    empty: "No public repositories yet — the catalogue is published product by product.",
+    empty: "Nothing public yet. Repositories are opened one at a time.",
     stars: "stars",
     synced: (d) => `Synced ${d} · public repositories only`,
   },
   "README.tr.md": {
     locale: "tr-TR",
     head: ["Depo", "Nedir", "Teknoloji", "Güncelleme"],
-    empty: "Henüz açık kaynak depo yok — katalog ürün ürün yayınlanıyor.",
+    empty: "Henüz public depo yok. Depolar tek tek açılıyor.",
     stars: "yıldız",
     synced: (d) => `${d} tarihinde eşitlendi · yalnızca açık depolar`,
   },
