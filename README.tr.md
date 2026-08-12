@@ -143,7 +143,7 @@ Uçtan uca sürdürülen bir üretim platformu: dağıtım, izleme ve operasyone
 <!-- OSS:START -->
 Henüz açık kaynak depo yok — katalog ürün ürün yayınlanıyor.
 
-<sub>13 Ağu 2026 tarihinde eşitlendi · yalnızca açık depolar</sub>
+<sub>12 Ağu 2026 tarihinde eşitlendi · yalnızca açık depolar</sub>
 <!-- OSS:END -->
 
 <p align="right"><a href="PROJECTS.md"><b>Tüm proje dizini →</b></a></p>
