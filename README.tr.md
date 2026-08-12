@@ -11,11 +11,15 @@
   &nbsp;·&nbsp;
   <a href="https://styles.talkdedsec.com">Styles</a>
   &nbsp;·&nbsp;
+  <a href="https://agents.talkdedsec.com">Agents</a>
+  &nbsp;·&nbsp;
   <a href="https://talkdedsec.com/tools">Araçlar</a>
   &nbsp;·&nbsp;
   <a href="https://talkdedsec.com/games">Oyunlar</a>
   &nbsp;·&nbsp;
-  <a href="PROJECTS.md">Proje dizini</a>
+  <a href="https://talkdedsec.com/writeups">Writeup</a>
+  &nbsp;·&nbsp;
+  <a href="PROJECTS.md">Projeler</a>
   &nbsp;&nbsp;|&nbsp;&nbsp;
   <a href="README.md"><b>English</b></a>
 </p>
@@ -29,11 +33,11 @@
 </td>
 <td width="70%" valign="middle">
 
-### Gerçekten kullanılan yazılımlar üreten bağımsız bir stüdyo
+### Talkdedsec
 
-Talkdedsec kendi ürünlerini tasarlar, geliştirir ve sürdürür: bir Windows kod editörü, bileşen ve tasarım sistemi kütüphanesi, tarayıcıda çalışan araç ve oyun kataloğu, ticari web platformları ve bunların arkasındaki lisans ile sürüm altyapısı.
+Küçük bir stüdyo işletiyorum. Bu hesaptaki her şey kendi işim: bir Windows kod editörü, bir tasarım sistemi kütüphanesi, tarayıcıda çalışan araç ve oyun kataloğu, bir AI ajan arşivi, bir FiveM script mağazası ve bunları ayakta tutan lisans ile dağıtım katmanı.
 
-İşler dile göre değil ürüne göre düzenlenir. Bir depo küçük bir yardımcı araç olarak başlayıp kurulumu, güncellemesi, telemetrisi ve destek akışı olan bir uygulamaya dönüşebilir. Buradaki her şey gösterilmek için değil, teslim edilmek için yapılır.
+Çoğu demo olarak değil ürün olarak çıkıyor. Yani kurulum paketi, güncelleme kanalı, lisans kontrolü ve destek kutusu var. Hiçbiri telemetri toplamıyor, hiçbirinin arkasında sponsor yok.
 
 </td>
 </tr>
@@ -50,51 +54,42 @@ Talkdedsec kendi ürünlerini tasarlar, geliştirir ve sürdürür: bir Windows 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/metrics-tr-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/metrics-tr-light.svg">
-  <img src="assets/metrics-tr-light.svg" width="100%" alt="274 geliştirici aracı, 205 tarayıcı oyunu, 202 arayüz bileşeni, 26 tasarım sistemi, 308 tasarım referansı">
+  <img src="assets/metrics-tr-light.svg" width="100%" alt="274 geliştirici aracı, 212 tarayıcı oyunu, 202 arayüz bileşeni, 26 tasarım sistemi, 308 tasarım referansı">
 </picture>
 
 <img src="assets/rule.svg" width="100%" alt="">
 
-## Ürünler
+## Siteler
+
+| | Nedir |
+|:--|:--|
+| **[talkdedsec.com](https://talkdedsec.com)** | Stüdyo sitesi. Araçlar, oyunlar, portföy, notlar ve CTF writeup'ları. Türkçe ve İngilizce. |
+| **[code.talkdedsec.com](https://code.talkdedsec.com)** | Talkdedsec Editör. Açık kaynak bir çekirdek üzerine kurulu, telemetri katmanı kaynaktan sökülmüş Windows editörü. |
+| **[styles.talkdedsec.com](https://styles.talkdedsec.com)** | Tek bir TypeScript kaynağından DESIGN.md, Tailwind v4, CSS değişkeni ve design token'a derlenen 26 tasarım sistemi. 202 bileşen, 130 tema, 308 referans. |
+| **[agents.talkdedsec.com](https://agents.talkdedsec.com)** | AI ajan tanımları, 54 Claude Code skill'i, sistem promptları, MCP sunucu rehberleri ve çok-ajanlı workflow şablonları. |
+| **[projects.talkdedsec.com](https://projects.talkdedsec.com)** | Masaüstü işletim sistemi arayüzünde portföy: güvenlik araçları, FiveM scriptleri, CLI ve masaüstü uygulamaları. |
+| **[store.talkdedsec.com](https://store.talkdedsec.com)** | FiveM scriptleri. Server-authoritative, resmon dostu, Tebex üzerinden anında teslim. |
+| **[ornek.talkdedsec.com](https://ornek.talkdedsec.com)** | Sattığım site şablonlarının canlı demoları. |
+| **[flypen.com.tr](https://flypen.com.tr)** | Geliştirip işlettiğim üretim platformu. |
+
+<img src="assets/rule.svg" width="100%" alt="">
+
+## Tarayıcı kataloğu
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### [Talkdedsec Editör](https://code.talkdedsec.com)
+### [274 geliştirici aracı](https://talkdedsec.com/tools)
 
-Kendi sürüm kanalı, temaları, dokümantasyonu ve destek akışı olan bir Windows kod editörü. Entegre güncelleme yolu bulunan bir kurulum paketi olarak dağıtılır.
-
-<sub>`Windows` · `Masaüstü` · `Geliştirici aracı`</sub>
+Hash, base64, JWT, regex, subnet hesabı, kodlama, metin işleme, veri biçimleri. Hepsi tarayıcıda çalışır. Hiçbir veri sunucuya gitmez, hiçbir şey loglanmaz.
 
 </td>
 <td width="50%" valign="top">
 
-### [talkdedsec styles](https://styles.talkdedsec.com)
+### [212 oyun](https://talkdedsec.com/games)
 
-Tutarlı arayüzler için tasarım sistemleri ve üretime hazır React bileşenleri — hem insanların hem kod yazan ajanların kullanabileceği biçimde.
-
-<sub>`TypeScript` · `React` · `Tasarım sistemi`</sub>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### [Geliştirici araçları](https://talkdedsec.com/tools)
-
-Kriptografi, kodlama, metin işleme, ağ, veri biçimleri ve günlük geliştirme akışlarını kapsayan, tarayıcıda çalışan bir koleksiyon.
-
-<sub>`274 araç` · `Tarayıcı` · `Kurulum yok`</sub>
-
-</td>
-<td width="50%" valign="top">
-
-### [Oyunlar](https://talkdedsec.com/games)
-
-Bulmaca, strateji, refleks, hafıza ve kelime oyunlarının yanında daha büyük terminal ve sandbox yapımları — tamamı istemci tarafında.
-
-<sub>`205 oyun` · `Tarayıcı` · `Canvas / WebGL`</sub>
+Bulmaca, strateji, refleks, hafıza ve kelime oyunları; ayrıca daha büyük terminal ve sandbox yapımları. Tamamı istemci tarafında, hesap gerekmez.
 
 </td>
 </tr>
@@ -102,46 +97,23 @@ Bulmaca, strateji, refleks, hafıza ve kelime oyunlarının yanında daha büyü
 
 <img src="assets/rule.svg" width="100%" alt="">
 
-## Yayındaki platformlar
+## Masaüstü uygulamaları
 
-<table>
-<tr>
-<td width="33%" valign="top">
-
-### [rixor.tr](https://rixor.tr)
-
-Kendi istemci uygulaması ve hesap katmanı olan masaüstü + web ürün ekosistemi.
-
-<sub>`Next.js` · `React` · `Masaüstü entegrasyonu`</sub>
-
-</td>
-<td width="33%" valign="top">
-
-### [rixor.com.tr](https://rixor.com.tr)
-
-Tam yönetim katmanı, ödeme akışı ve 3B vitrini olan çok dilli e-ticaret.
-
-<sub>`Next.js` · `Prisma` · `PostgreSQL`</sub>
-
-</td>
-<td width="33%" valign="top">
-
-### [flypen.com.tr](https://flypen.com.tr)
-
-Uçtan uca sürdürülen bir üretim platformu: dağıtım, izleme ve operasyonel süreklilik.
-
-<sub>`Next.js` · `PM2` · `CI/CD`</sub>
-
-</td>
-</tr>
-</table>
+| | Açıklama | Teknoloji |
+|:--|:--|:--|
+| **Talkdedsec Editör** | Windows kod editörü. Kendi sürüm kanalı, temaları, dokümanı ve destek akışı var. | TypeScript / Node |
+| **Talkdedsec Visual** | Windows için gerçek zamanlı ekran renk motoru. 5×5 renk matrisi üzerinden parlaklık, kontrast, doygunluk, ton ve gece görüşü. Çalışma zamanı bağımlılığı yok. | Rust / Slint |
+| **TLK Player** | Yedi temalı yerel müzik widget'ı, bire bir ses zinciri. | Rust / Tauri |
+| **Talkdedsec Browser** | Windows tarayıcısı; WebView2 ve Chromium (CEF) olmak üzere iki sürüm. | C# / WPF |
+| **DedSec Control Center** | Lisans modeli olan Windows tweak ve temizlik paketi. | C# / .NET |
+| **TLK Cleaner** | Disk, önbellek ve artık dosya temizliği. | C# |
 
 <img src="assets/rule.svg" width="100%" alt="">
 
 ## Açık kaynak
 
 <!-- OSS:START -->
-Henüz açık kaynak depo yok — katalog ürün ürün yayınlanıyor.
+Henüz public depo yok. Depolar tek tek açılıyor.
 
 <sub>12 Ağu 2026 tarihinde eşitlendi · yalnızca açık depolar</sub>
 <!-- OSS:END -->
@@ -152,58 +124,23 @@ Henüz açık kaynak depo yok — katalog ürün ürün yayınlanıyor.
 
 ## Teknoloji
 
-<table>
-<tr>
-<td width="25%" valign="top"><sub><b>DİLLER</b></sub><br><br>
-
-`TypeScript` `JavaScript` `Rust` `C#` `Go` `Python` `Lua` `PowerShell` `SQL`
-
-</td>
-<td width="25%" valign="top"><sub><b>UYGULAMA</b></sub><br><br>
-
-`Next.js` `React` `Node.js` `Tauri` `WPF` `WebView2` `Electron` `Slint`
-
-</td>
-<td width="25%" valign="top"><sub><b>VERİ & PLATFORM</b></sub><br><br>
-
-`PostgreSQL` `Prisma` `Redis` `Linux` `nginx` `PM2` `systemd`
-
-</td>
-<td width="25%" valign="top"><sub><b>TESLİMAT</b></sub><br><br>
-
-`GitHub Actions` `Playwright` `Sentry` `Lisanslama` `Otomatik güncelleme`
-
-</td>
-</tr>
-</table>
+| | |
+|:--|:--|
+| **Diller** | TypeScript · JavaScript · Rust · C# · Go · Python · Lua · PowerShell · SQL |
+| **Uygulama** | Next.js · React · Node.js · Tauri · WPF · WebView2 · Slint |
+| **Veri ve platform** | PostgreSQL · Prisma · Redis · Linux · nginx · PM2 · systemd |
+| **Teslimat** | GitHub Actions · Playwright · Sentry · Tebex · lisans sunucusu · otomatik güncelleme |
 
 <img src="assets/rule.svg" width="100%" alt="">
 
-## Stüdyo nasıl çalışır
-
-```text
-01  ilk ekranı yazmadan önce akışı anla
-02  en çok tıkanma ihtimali olan yeri prototiple
-03  hatayı görünür kıl — log, telemetri, kurtarma yolu
-04  teslim yolunu bitir — kurulum, güncelleme, lisans, doküman
-05  sonucu ölç ve sürdürmeye devam et
-```
-
-Bir proje ana ekranı çalıştığında bitmiş olmaz. Paketleme, güncelleme, kurtarma, dokümantasyon ve uzun vadeli bakım ürünün parçasıdır; sonraki bir aşama değil.
-
-<img src="assets/rule.svg" width="100%" alt="">
-
-## Dizin
+## İletişim
 
 | | |
 |:--|:--|
-| Stüdyo ve ürünler | [talkdedsec.com](https://talkdedsec.com) |
-| Kod editörü | [code.talkdedsec.com](https://code.talkdedsec.com) |
-| Tasarım sistemleri ve bileşenler | [styles.talkdedsec.com](https://styles.talkdedsec.com) |
-| Geliştirici araçları | [talkdedsec.com/tools](https://talkdedsec.com/tools) |
-| Tarayıcı oyunları | [talkdedsec.com/games](https://talkdedsec.com/games) |
-| Editör sürüm hesabı | [github.com/talkdedseccode](https://github.com/talkdedseccode) |
-| İletişim | [talkdedsec@proton.me](mailto:talkdedsec@proton.me) |
+| E-posta | [talkdedsec@proton.me](mailto:talkdedsec@proton.me) |
+| İletişim sayfası | [talkdedsec.com/contact](https://talkdedsec.com/contact) |
+| Editör sürümleri | [github.com/talkdedseccode](https://github.com/talkdedseccode) |
+| Notlar ve writeup | [talkdedsec.com/blog](https://talkdedsec.com/blog) · [talkdedsec.com/writeups](https://talkdedsec.com/writeups) |
 
 <br>
 

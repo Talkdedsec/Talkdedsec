@@ -5,17 +5,21 @@
 </picture>
 
 <p align="center">
-  <a href="https://talkdedsec.com">Website</a>
+  <a href="https://talkdedsec.com/en">Site</a>
   &nbsp;·&nbsp;
   <a href="https://code.talkdedsec.com">Editor</a>
   &nbsp;·&nbsp;
   <a href="https://styles.talkdedsec.com/en">Styles</a>
   &nbsp;·&nbsp;
+  <a href="https://agents.talkdedsec.com">Agents</a>
+  &nbsp;·&nbsp;
   <a href="https://talkdedsec.com/tools">Tools</a>
   &nbsp;·&nbsp;
   <a href="https://talkdedsec.com/games">Games</a>
   &nbsp;·&nbsp;
-  <a href="PROJECTS.md">Project index</a>
+  <a href="https://talkdedsec.com/writeups">Writeups</a>
+  &nbsp;·&nbsp;
+  <a href="PROJECTS.md">Projects</a>
   &nbsp;&nbsp;|&nbsp;&nbsp;
   <a href="README.tr.md"><b>Türkçe</b></a>
 </p>
@@ -29,11 +33,11 @@
 </td>
 <td width="70%" valign="middle">
 
-### An independent studio for software people actually run
+### Talkdedsec
 
-Talkdedsec designs, builds and maintains its own products: a Windows code editor, a component and design-system library, a catalogue of browser tools and games, commercial web platforms, and the licensing and release infrastructure behind them.
+I run a small studio. Everything on this account is my own work: a Windows code editor, a design-system library, a catalogue of browser tools and games, an AI agent archive, a FiveM script store, and the licensing and deployment layer that keeps them running.
 
-Work is organised by product, not by language. A repository can begin as a small utility and grow into a shipped application with installers, updates, telemetry and a support flow. Everything here is built to be delivered — not demonstrated.
+Most of it ships as a product, not a demo. That means installers, update channels, licence checks and a support inbox. Nothing collects telemetry and nothing is funded by a sponsor.
 
 </td>
 </tr>
@@ -50,51 +54,42 @@ Work is organised by product, not by language. A repository can begin as a small
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/metrics-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/metrics-light.svg">
-  <img src="assets/metrics-light.svg" width="100%" alt="274 developer tools, 205 browser games, 202 UI components, 26 design systems, 308 design references">
+  <img src="assets/metrics-light.svg" width="100%" alt="274 developer tools, 212 browser games, 202 UI components, 26 design systems, 308 design references">
 </picture>
 
 <img src="assets/rule.svg" width="100%" alt="">
 
-## Products
+## Sites
+
+| | What it is |
+|:--|:--|
+| **[talkdedsec.com](https://talkdedsec.com/en)** | Studio site. Tools, games, portfolio, notes and CTF writeups. Turkish and English. |
+| **[code.talkdedsec.com](https://code.talkdedsec.com)** | Talkdedsec Editor. A Windows editor built on an open-source core, with the telemetry layer removed at the source. |
+| **[styles.talkdedsec.com](https://styles.talkdedsec.com/en)** | 26 design systems compiled from one TypeScript source into DESIGN.md, Tailwind v4, CSS variables and design tokens. 202 components, 130 themes, 308 references. |
+| **[agents.talkdedsec.com](https://agents.talkdedsec.com)** | AI agent definitions, 54 Claude Code skills, system prompts, MCP server guides and multi-agent workflow templates. |
+| **[projects.talkdedsec.com](https://projects.talkdedsec.com)** | Portfolio in a desktop-OS interface: security tools, FiveM scripts, CLI and desktop apps. |
+| **[store.talkdedsec.com](https://store.talkdedsec.com)** | FiveM scripts. Server-authoritative, resmon-friendly, delivered through Tebex. |
+| **[ornek.talkdedsec.com](https://ornek.talkdedsec.com)** | Live demos of the site templates I sell. |
+| **[flypen.com.tr](https://flypen.com.tr)** | Production platform I build and operate. |
+
+<img src="assets/rule.svg" width="100%" alt="">
+
+## Browser catalogue
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### [Talkdedsec Editor](https://code.talkdedsec.com)
+### [274 developer tools](https://talkdedsec.com/tools)
 
-A Windows code editor with its own release channel, themes, documentation and support flow. Ships as an installer with an integrated update path.
-
-<sub>`Windows` · `Desktop` · `Developer tooling`</sub>
+Hashing, base64, JWT, regex, subnet maths, encoding, text processing, data formats. Everything runs in the browser. Nothing is uploaded, nothing is logged.
 
 </td>
 <td width="50%" valign="top">
 
-### [talkdedsec styles](https://styles.talkdedsec.com/en)
+### [212 games](https://talkdedsec.com/games)
 
-Design systems and production React components for consistent interfaces — built to be consumed by humans and coding agents alike.
-
-<sub>`TypeScript` · `React` · `Design systems`</sub>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### [Developer tools](https://talkdedsec.com/tools)
-
-A browser-based collection covering cryptography, encoding, text processing, networking, data formats and everyday development workflows.
-
-<sub>`274 tools` · `Browser` · `Zero install`</sub>
-
-</td>
-<td width="50%" valign="top">
-
-### [Games](https://talkdedsec.com/games)
-
-Puzzle, strategy, reflex, memory and word games alongside larger terminal and sandbox titles — all running client-side.
-
-<sub>`205 games` · `Browser` · `Canvas / WebGL`</sub>
+Puzzle, strategy, reflex, memory and word games, plus larger terminal and sandbox titles. All client-side, no accounts.
 
 </td>
 </tr>
@@ -102,46 +97,23 @@ Puzzle, strategy, reflex, memory and word games alongside larger terminal and sa
 
 <img src="assets/rule.svg" width="100%" alt="">
 
-## Platforms in production
+## Desktop applications
 
-<table>
-<tr>
-<td width="33%" valign="top">
-
-### [rixor.tr](https://rixor.tr)
-
-A desktop and web product ecosystem, with its own client application and account layer.
-
-<sub>`Next.js` · `React` · `Desktop integration`</sub>
-
-</td>
-<td width="33%" valign="top">
-
-### [rixor.com.tr](https://rixor.com.tr)
-
-Multilingual e-commerce with a complete administration layer, payment flow and 3D storefront.
-
-<sub>`Next.js` · `Prisma` · `PostgreSQL`</sub>
-
-</td>
-<td width="33%" valign="top">
-
-### [flypen.com.tr](https://flypen.com.tr)
-
-A production platform maintained end to end: deployment, observability and operational continuity.
-
-<sub>`Next.js` · `PM2` · `CI/CD`</sub>
-
-</td>
-</tr>
-</table>
+| | Description | Stack |
+|:--|:--|:--|
+| **Talkdedsec Editor** | Windows code editor. Own release channel, themes, docs and support flow. | TypeScript / Node |
+| **Talkdedsec Visual** | Real-time screen colour engine for Windows. Brightness, contrast, saturation, hue and night vision through a 5×5 colour matrix. No runtime dependencies. | Rust / Slint |
+| **TLK Player** | Local music widget with seven themes and a bit-perfect audio chain. | Rust / Tauri |
+| **Talkdedsec Browser** | Windows browser, shipped in a WebView2 build and a Chromium (CEF) build. | C# / WPF |
+| **DedSec Control Center** | Windows tweak and cleanup suite with a licence model. | C# / .NET |
+| **TLK Cleaner** | Disk, cache and leftover-file cleanup. | C# |
 
 <img src="assets/rule.svg" width="100%" alt="">
 
 ## Open source
 
 <!-- OSS:START -->
-No public repositories yet — the catalogue is published product by product.
+Nothing public yet. Repositories are opened one at a time.
 
 <sub>Synced 12 Aug 2026 · public repositories only</sub>
 <!-- OSS:END -->
@@ -150,60 +122,25 @@ No public repositories yet — the catalogue is published product by product.
 
 <img src="assets/rule.svg" width="100%" alt="">
 
-## Engineering
-
-<table>
-<tr>
-<td width="25%" valign="top"><sub><b>LANGUAGES</b></sub><br><br>
-
-`TypeScript` `JavaScript` `Rust` `C#` `Go` `Python` `Lua` `PowerShell` `SQL`
-
-</td>
-<td width="25%" valign="top"><sub><b>APPLICATION</b></sub><br><br>
-
-`Next.js` `React` `Node.js` `Tauri` `WPF` `WebView2` `Electron` `Slint`
-
-</td>
-<td width="25%" valign="top"><sub><b>DATA & PLATFORM</b></sub><br><br>
-
-`PostgreSQL` `Prisma` `Redis` `Linux` `nginx` `PM2` `systemd`
-
-</td>
-<td width="25%" valign="top"><sub><b>DELIVERY</b></sub><br><br>
-
-`GitHub Actions` `Playwright` `Sentry` `Licensing` `Auto-update`
-
-</td>
-</tr>
-</table>
-
-<img src="assets/rule.svg" width="100%" alt="">
-
-## How the studio ships
-
-```text
-01  understand the workflow before writing the first screen
-02  prototype the part most likely to fail
-03  make failure visible — logs, telemetry, recovery paths
-04  finish the delivery path — installer, update, licence, docs
-05  measure the result and keep maintaining it
-```
-
-A project is not finished when its main screen works. Packaging, updates, recovery, documentation and long-term maintenance are part of the product, not a follow-up phase.
-
-<img src="assets/rule.svg" width="100%" alt="">
-
-## Directory
+## Stack
 
 | | |
 |:--|:--|
-| Studio & products | [talkdedsec.com](https://talkdedsec.com) |
-| Code editor | [code.talkdedsec.com](https://code.talkdedsec.com) |
-| Design systems & components | [styles.talkdedsec.com](https://styles.talkdedsec.com/en) |
-| Developer tools | [talkdedsec.com/tools](https://talkdedsec.com/tools) |
-| Browser games | [talkdedsec.com/games](https://talkdedsec.com/games) |
-| Editor release account | [github.com/talkdedseccode](https://github.com/talkdedseccode) |
-| Contact | [talkdedsec@proton.me](mailto:talkdedsec@proton.me) |
+| **Languages** | TypeScript · JavaScript · Rust · C# · Go · Python · Lua · PowerShell · SQL |
+| **Application** | Next.js · React · Node.js · Tauri · WPF · WebView2 · Slint |
+| **Data & platform** | PostgreSQL · Prisma · Redis · Linux · nginx · PM2 · systemd |
+| **Delivery** | GitHub Actions · Playwright · Sentry · Tebex · licence server · auto-update |
+
+<img src="assets/rule.svg" width="100%" alt="">
+
+## Contact
+
+| | |
+|:--|:--|
+| Email | [talkdedsec@proton.me](mailto:talkdedsec@proton.me) |
+| Contact page | [talkdedsec.com/contact](https://talkdedsec.com/contact) |
+| Editor releases | [github.com/talkdedseccode](https://github.com/talkdedseccode) |
+| Notes and writeups | [talkdedsec.com/blog](https://talkdedsec.com/blog) · [talkdedsec.com/writeups](https://talkdedsec.com/writeups) |
 
 <br>
 
@@ -212,5 +149,5 @@ A project is not finished when its main screen works. Packaging, updates, recove
 </p>
 
 <p align="center">
-  <sub>Primary account for work published under the Talkdedsec name.</sub>
+  <sub>Main account for work published under the Talkdedsec name.</sub>
 </p>
