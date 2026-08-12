@@ -1,267 +1,214 @@
-<p align="center">
-  <img src="assets/hero.svg" width="100%" alt="Talkdedsec — primary GitHub account" />
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
+  <img src="assets/hero-light.svg" width="100%" alt="Talkdedsec — independent software studio">
+</picture>
 
 <p align="center">
-  <a href="https://talkdedsec.com"><b>Website ↗</b></a>
-  &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="https://code.talkdedsec.com"><b>Editor ↗</b></a>
-  &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="https://styles.talkdedsec.com/en"><b>Styles ↗</b></a>
-  &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="https://talkdedsec.com/tools"><b>Tools ↗</b></a>
-  &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="https://talkdedsec.com/games"><b>Games ↗</b></a>
-  &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="PROJECTS.md"><b>Project index</b></a>
+  <a href="https://talkdedsec.com">Website</a>
+  &nbsp;·&nbsp;
+  <a href="https://code.talkdedsec.com">Editor</a>
+  &nbsp;·&nbsp;
+  <a href="https://styles.talkdedsec.com/en">Styles</a>
+  &nbsp;·&nbsp;
+  <a href="https://talkdedsec.com/tools">Tools</a>
+  &nbsp;·&nbsp;
+  <a href="https://talkdedsec.com/games">Games</a>
+  &nbsp;·&nbsp;
+  <a href="PROJECTS.md">Project index</a>
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="README.tr.md"><b>Türkçe</b></a>
 </p>
 
-<img src="assets/divider.svg" width="100%" alt="" />
+<img src="assets/rule.svg" width="100%" alt="">
 
 <table>
 <tr>
-<td width="34%" align="center" valign="middle">
-
-<img src="assets/logo.png" width="280" alt="Talkdedsec eye mark" />
-
+<td width="30%" align="center" valign="middle">
+  <img src="assets/logo.png" width="230" alt="Talkdedsec">
 </td>
-<td width="66%" valign="middle">
+<td width="70%" valign="middle">
 
-## Talkdedsec
+### An independent studio for software people actually run
 
-This is the primary GitHub account for my personal work and public portfolio.
+Talkdedsec designs, builds and maintains its own products: a Windows code editor, a component and design-system library, a catalogue of browser tools and games, commercial web platforms, and the licensing and release infrastructure behind them.
 
-I build and maintain desktop applications, developer tools, web products, security utilities and browser games. Product-specific releases for Talkdedsec Editor live under the separate [`talkdedseccode`](https://github.com/talkdedseccode) account.
-
-The work is grouped by product, not by language. A repository can start as a small utility and grow into a complete application, service or platform.
+Work is organised by product, not by language. A repository can begin as a small utility and grow into a shipped application with installers, updates, telemetry and a support flow. Everything here is built to be delivered — not demonstrated.
 
 </td>
 </tr>
 </table>
 
-<br>
+<img src="assets/rule.svg" width="100%" alt="">
 
-<img src="assets/terminal.svg" width="100%" alt="Talkdedsec public project scope" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/pillars-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/pillars-light.svg">
+  <img src="assets/pillars-light.svg" width="100%" alt="Desktop, Web, Systems, Interactive">
+</picture>
 
-<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/metrics-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/metrics-light.svg">
+  <img src="assets/metrics-light.svg" width="100%" alt="274 developer tools, 205 browser games, 202 UI components, 26 design systems, 308 design references">
+</picture>
 
-<img src="assets/metrics.svg" width="100%" alt="Public catalog metrics: 274 tools, 205 games, 202 components and 26 design systems" />
+<img src="assets/rule.svg" width="100%" alt="">
 
-<img src="assets/divider.svg" width="100%" alt="" />
-
-## Main products
+## Products
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### [Talkdedsec Editor ↗](https://code.talkdedsec.com)
+### [Talkdedsec Editor](https://code.talkdedsec.com)
 
-Windows code editor with its own releases, documentation, themes and support flow.
+A Windows code editor with its own release channel, themes, documentation and support flow. Ships as an installer with an integrated update path.
 
-`Windows` `Desktop` `Developer tooling`
+<sub>`Windows` · `Desktop` · `Developer tooling`</sub>
 
 </td>
 <td width="50%" valign="top">
 
-### [talkdedsec styles ↗](https://styles.talkdedsec.com/en)
+### [talkdedsec styles](https://styles.talkdedsec.com/en)
 
-Design systems and working React components for consistent product interfaces and agent-driven development.
+Design systems and production React components for consistent interfaces — built to be consumed by humans and coding agents alike.
 
-`TypeScript` `React` `Design systems`
+<sub>`TypeScript` · `React` · `Design systems`</sub>
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### [Developer tools ↗](https://talkdedsec.com/tools)
+### [Developer tools](https://talkdedsec.com/tools)
 
-A browser-based collection covering cryptography, encoding, text, web, networking, data formats and development workflows.
+A browser-based collection covering cryptography, encoding, text processing, networking, data formats and everyday development workflows.
 
-`274 tools` `Browser` `Utilities`
+<sub>`274 tools` · `Browser` · `Zero install`</sub>
 
 </td>
 <td width="50%" valign="top">
 
-### [Games ↗](https://talkdedsec.com/games)
+### [Games](https://talkdedsec.com/games)
 
-A browser game collection spanning puzzles, strategy, reflex, memory, word games and larger terminal/sandbox titles.
+Puzzle, strategy, reflex, memory and word games alongside larger terminal and sandbox titles — all running client-side.
 
-`205 games` `Browser` `Interactive`
+<sub>`205 games` · `Browser` · `Canvas / WebGL`</sub>
 
 </td>
 </tr>
 </table>
 
-<img src="assets/divider.svg" width="100%" alt="" />
+<img src="assets/rule.svg" width="100%" alt="">
 
-## Web platforms
+## Platforms in production
 
 <table>
 <tr>
 <td width="33%" valign="top">
 
-### [rixor.tr ↗](https://rixor.tr)
+### [rixor.tr](https://rixor.tr)
 
-FiveM-oriented desktop and web product ecosystem.
+A desktop and web product ecosystem, with its own client application and account layer.
 
-`Next.js` `React` `Desktop integration`
-
-</td>
-<td width="33%" valign="top">
-
-### [rixor.com.tr ↗](https://rixor.com.tr)
-
-Multilingual e-commerce platform with a full administration layer.
-
-`Next.js` `PostgreSQL` `E-commerce`
+<sub>`Next.js` · `React` · `Desktop integration`</sub>
 
 </td>
 <td width="33%" valign="top">
 
-### [flypen.com.tr ↗](https://flypen.com.tr)
+### [rixor.com.tr](https://rixor.com.tr)
 
-Production web platform built around deployment, observability and operational continuity.
+Multilingual e-commerce with a complete administration layer, payment flow and 3D storefront.
 
-`Next.js` `CI/CD` `Operations`
+<sub>`Next.js` · `Prisma` · `PostgreSQL`</sub>
+
+</td>
+<td width="33%" valign="top">
+
+### [flypen.com.tr](https://flypen.com.tr)
+
+A production platform maintained end to end: deployment, observability and operational continuity.
+
+<sub>`Next.js` · `PM2` · `CI/CD`</sub>
 
 </td>
 </tr>
 </table>
 
-<img src="assets/divider.svg" width="100%" alt="" />
+<img src="assets/rule.svg" width="100%" alt="">
 
-## Public software portfolio
+## Open source
+
+<!-- OSS:START -->
+No public repositories yet — the catalogue is published product by product.
+
+<sub>Synced 13 Aug 2026 · public repositories only</sub>
+<!-- OSS:END -->
+
+<p align="right"><a href="PROJECTS.md"><b>Full project index →</b></a></p>
+
+<img src="assets/rule.svg" width="100%" alt="">
+
+## Engineering
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="25%" valign="top"><sub><b>LANGUAGES</b></sub><br><br>
 
-### Security and systems
-
-- **SentinelAI** — security and monitoring for AI-agent workflows
-- **ghostkey** — secret scanning with false-positive reduction
-- **ShieldX** — reversible Windows security and privacy controls
-- **ipspy** — passive IP and domain intelligence
-- **portx** — lightweight Go port scanner
-- **checksum** — file hashing and reputation checks
+`TypeScript` `JavaScript` `Rust` `C#` `Go` `Python` `Lua` `PowerShell` `SQL`
 
 </td>
-<td width="50%" valign="top">
+<td width="25%" valign="top"><sub><b>APPLICATION</b></sub><br><br>
 
-### Local and productivity tools
+`Next.js` `React` `Node.js` `Tauri` `WPF` `WebView2` `Electron` `Slint`
 
-- **tweakforge** — Windows tweak and cleanup utility
-- **encodex** — multi-format encoder and decoder
-- **vaultpass** — password generation and exposure checking
-- **vaultx** — encrypted notes
-- **taskforge** — browser-local Kanban workspace
+</td>
+<td width="25%" valign="top"><sub><b>DATA & PLATFORM</b></sub><br><br>
+
+`PostgreSQL` `Prisma` `Redis` `Linux` `nginx` `PM2` `systemd`
+
+</td>
+<td width="25%" valign="top"><sub><b>DELIVERY</b></sub><br><br>
+
+`GitHub Actions` `Playwright` `Sentry` `Licensing` `Auto-update`
 
 </td>
 </tr>
 </table>
 
-<p align="center">
-  <a href="PROJECTS.md"><b>Open the full public project index →</b></a>
-</p>
+<img src="assets/rule.svg" width="100%" alt="">
 
-<img src="assets/divider.svg" width="100%" alt="" />
-
-## Working areas
-
-<table>
-<tr>
-<td width="25%" align="center" valign="top">
-
-### 01
-
-**Desktop**
-
-Windows applications, local utilities and product tooling.
-
-</td>
-<td width="25%" align="center" valign="top">
-
-### 02
-
-**Web**
-
-Full-stack products, dashboards and public platforms.
-
-</td>
-<td width="25%" align="center" valign="top">
-
-### 03
-
-**Systems**
-
-Automation, release flows, monitoring and operations.
-
-</td>
-<td width="25%" align="center" valign="top">
-
-### 04
-
-**Interactive**
-
-Games, design systems and interface-heavy experiments.
-
-</td>
-</tr>
-</table>
-
-<br>
-
-### Stack
-
-<p>
-  <kbd>TypeScript</kbd>
-  <kbd>JavaScript</kbd>
-  <kbd>React</kbd>
-  <kbd>Next.js</kbd>
-  <kbd>Node.js</kbd>
-  <kbd>Go</kbd>
-  <kbd>Rust</kbd>
-  <kbd>Tauri</kbd>
-  <kbd>C#</kbd>
-  <kbd>Python</kbd>
-  <kbd>PowerShell</kbd>
-  <kbd>PostgreSQL</kbd>
-  <kbd>Linux</kbd>
-</p>
-
-<img src="assets/divider.svg" width="100%" alt="" />
-
-## Project approach
+## How the studio ships
 
 ```text
-understand the workflow
-prototype the risky parts
-make failure visible
-finish the delivery path
-measure the result
+01  understand the workflow before writing the first screen
+02  prototype the part most likely to fail
+03  make failure visible — logs, telemetry, recovery paths
+04  finish the delivery path — installer, update, licence, docs
+05  measure the result and keep maintaining it
 ```
 
-A project is not finished when its main screen works. Packaging, updates, recovery, documentation and maintenance are part of the product.
+A project is not finished when its main screen works. Packaging, updates, recovery, documentation and long-term maintenance are part of the product, not a follow-up phase.
 
-<img src="assets/divider.svg" width="100%" alt="" />
+<img src="assets/rule.svg" width="100%" alt="">
 
-## Links
+## Directory
 
-| Area | Destination |
+| | |
 |:--|:--|
-| Main website | [talkdedsec.com ↗](https://talkdedsec.com) |
-| Code editor | [code.talkdedsec.com ↗](https://code.talkdedsec.com) |
-| Design systems and components | [styles.talkdedsec.com ↗](https://styles.talkdedsec.com/en) |
-| Developer tools | [talkdedsec.com/tools ↗](https://talkdedsec.com/tools) |
-| Browser games | [talkdedsec.com/games ↗](https://talkdedsec.com/games) |
-| Editor project account | [github.com/talkdedseccode ↗](https://github.com/talkdedseccode) |
+| Studio & products | [talkdedsec.com](https://talkdedsec.com) |
+| Code editor | [code.talkdedsec.com](https://code.talkdedsec.com) |
+| Design systems & components | [styles.talkdedsec.com](https://styles.talkdedsec.com/en) |
+| Developer tools | [talkdedsec.com/tools](https://talkdedsec.com/tools) |
+| Browser games | [talkdedsec.com/games](https://talkdedsec.com/games) |
+| Editor release account | [github.com/talkdedseccode](https://github.com/talkdedseccode) |
+| Contact | [talkdedsec@proton.me](mailto:talkdedsec@proton.me) |
 
 <br>
 
 <p align="center">
-  <img src="assets/logo.png" width="96" alt="Talkdedsec" />
+  <img src="assets/logo.png" width="130" alt="">
 </p>
 
 <p align="center">
