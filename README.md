@@ -143,7 +143,7 @@ A production platform maintained end to end: deployment, observability and opera
 <!-- OSS:START -->
 No public repositories yet — the catalogue is published product by product.
 
-<sub>Synced 13 Aug 2026 · public repositories only</sub>
+<sub>Synced 12 Aug 2026 · public repositories only</sub>
 <!-- OSS:END -->
 
 <p align="right"><a href="PROJECTS.md"><b>Full project index →</b></a></p>
