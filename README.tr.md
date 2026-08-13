@@ -115,7 +115,7 @@ Bulmaca, strateji, refleks, hafıza ve kelime oyunları; ayrıca daha büyük te
 <!-- OSS:START -->
 Henüz public depo yok. Depolar tek tek açılıyor.
 
-<sub>12 Ağu 2026 tarihinde eşitlendi · yalnızca açık depolar</sub>
+<sub>13 Ağu 2026 tarihinde eşitlendi · yalnızca açık depolar</sub>
 <!-- OSS:END -->
 
 <p align="right"><a href="PROJECTS.md"><b>Tüm proje dizini →</b></a></p>
