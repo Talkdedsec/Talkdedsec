@@ -1,8 +1,4 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-tr-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/hero-tr-light.svg">
-  <img src="assets/hero-tr-light.svg" width="100%" alt="Talkdedsec — bağımsız yazılım stüdyosu">
-</picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/hero-dark.svg"><img width="100%" src="assets/v1/hero-light.svg" alt=""></picture>
 
 <p align="center">
   <a href="https://talkdedsec.com">Site</a>
@@ -24,93 +20,54 @@
   <a href="README.md"><b>English</b></a>
 </p>
 
-<img src="assets/rule.svg" width="100%" alt="">
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/rule-dark.svg"><img width="100%" src="assets/v1/rule-light.svg" alt=""></picture>
 
-<table>
-<tr>
-<td width="30%" align="center" valign="middle">
-  <img src="assets/logo.png" width="230" alt="Talkdedsec">
-</td>
-<td width="70%" valign="middle">
+<img align="left" width="190" src="assets/logo.png" alt="Talkdedsec">
 
-### Talkdedsec
-
-Küçük bir stüdyo işletiyorum. Bu hesaptaki her şey kendi işim: bir Windows kod editörü, bir tasarım sistemi kütüphanesi, tarayıcıda çalışan araç ve oyun kataloğu, bir AI ajan arşivi, bir FiveM script mağazası ve bunları ayakta tutan lisans ile dağıtım katmanı.
+Küçük bir stüdyo işletiyorum. Buradaki her şey kendi işim: bir Windows kod editörü, bir tasarım sistemi kütüphanesi, tarayıcıda çalışan araç ve oyun kataloğu, bir AI ajan tanımları arşivi, bir FiveM script mağazası ve bunları ayakta tutan lisans ile dağıtım katmanı.
 
 Çoğu demo olarak değil ürün olarak çıkıyor. Yani kurulum paketi, güncelleme kanalı, lisans kontrolü ve destek kutusu var. Hiçbiri telemetri toplamıyor, hiçbirinin arkasında sponsor yok.
 
-</td>
-</tr>
-</table>
+<br clear="left">
 
-<img src="assets/rule.svg" width="100%" alt="">
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/pil-desktop-dark.svg"><img width="24.3%" src="assets/v1/pil-desktop-light.svg" alt=""></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/pil-web-dark.svg"><img width="24.3%" src="assets/v1/pil-web-light.svg" alt=""></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/pil-systems-dark.svg"><img width="24.3%" src="assets/v1/pil-systems-light.svg" alt=""></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/pil-interactive-dark.svg"><img width="24.3%" src="assets/v1/pil-interactive-light.svg" alt=""></picture>
+</p>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/pillars-tr-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/pillars-tr-light.svg">
-  <img src="assets/pillars-tr-light.svg" width="100%" alt="Masaüstü, Web, Sistem, Etkileşim">
-</picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/metrics-dark.svg"><img width="100%" src="assets/v1/metrics-light.svg" alt=""></picture>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/metrics-tr-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/metrics-tr-light.svg">
-  <img src="assets/metrics-tr-light.svg" width="100%" alt="274 geliştirici aracı, 212 tarayıcı oyunu, 202 arayüz bileşeni, 26 tasarım sistemi, 308 tasarım referansı">
-</picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/h-sites-dark.svg"><img width="100%" src="assets/v1/h-sites-light.svg" alt=""></picture>
 
-<img src="assets/rule.svg" width="100%" alt="">
+<p align="center">
+  <a href="https://talkdedsec.com/en"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/site-main-dark.svg"><img width="49%" src="assets/v1/site-main-light.svg" alt=""></picture></a>
+  <a href="https://code.talkdedsec.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/site-code-dark.svg"><img width="49%" src="assets/v1/site-code-light.svg" alt=""></picture></a>
+  <a href="https://styles.talkdedsec.com/en"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/site-styles-dark.svg"><img width="49%" src="assets/v1/site-styles-light.svg" alt=""></picture></a>
+  <a href="https://agents.talkdedsec.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/site-agents-dark.svg"><img width="49%" src="assets/v1/site-agents-light.svg" alt=""></picture></a>
+  <a href="https://projects.talkdedsec.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/site-projects-dark.svg"><img width="49%" src="assets/v1/site-projects-light.svg" alt=""></picture></a>
+  <a href="https://store.talkdedsec.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/site-store-dark.svg"><img width="49%" src="assets/v1/site-store-light.svg" alt=""></picture></a>
+  <a href="https://ornek.talkdedsec.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/site-ornek-dark.svg"><img width="49%" src="assets/v1/site-ornek-light.svg" alt=""></picture></a>
+  <a href="https://flypen.com.tr"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/site-flypen-dark.svg"><img width="49%" src="assets/v1/site-flypen-light.svg" alt=""></picture></a>
+</p>
 
-## Siteler
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/h-catalogue-dark.svg"><img width="100%" src="assets/v1/h-catalogue-light.svg" alt=""></picture>
 
-| | Nedir |
-|:--|:--|
-| **[talkdedsec.com](https://talkdedsec.com)** | Stüdyo sitesi. Araçlar, oyunlar, portföy, notlar ve CTF writeup'ları. Türkçe ve İngilizce. |
-| **[code.talkdedsec.com](https://code.talkdedsec.com)** | Talkdedsec Editör. Açık kaynak bir çekirdek üzerine kurulu, telemetri katmanı kaynaktan sökülmüş Windows editörü. |
-| **[styles.talkdedsec.com](https://styles.talkdedsec.com)** | Tek bir TypeScript kaynağından DESIGN.md, Tailwind v4, CSS değişkeni ve design token'a derlenen 26 tasarım sistemi. 202 bileşen, 130 tema, 308 referans. |
-| **[agents.talkdedsec.com](https://agents.talkdedsec.com)** | AI ajan tanımları, 54 Claude Code skill'i, sistem promptları, MCP sunucu rehberleri ve çok-ajanlı workflow şablonları. |
-| **[projects.talkdedsec.com](https://projects.talkdedsec.com)** | Masaüstü işletim sistemi arayüzünde portföy: güvenlik araçları, FiveM scriptleri, CLI ve masaüstü uygulamaları. |
-| **[store.talkdedsec.com](https://store.talkdedsec.com)** | FiveM scriptleri. Server-authoritative, resmon dostu, Tebex üzerinden anında teslim. |
-| **[ornek.talkdedsec.com](https://ornek.talkdedsec.com)** | Sattığım site şablonlarının canlı demoları. |
-| **[flypen.com.tr](https://flypen.com.tr)** | Geliştirip işlettiğim üretim platformu. |
+<p align="center">
+  <a href="https://talkdedsec.com/tools"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/cat-tools-dark.svg"><img width="49%" src="assets/v1/cat-tools-light.svg" alt=""></picture></a>
+  <a href="https://talkdedsec.com/games"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/cat-games-dark.svg"><img width="49%" src="assets/v1/cat-games-light.svg" alt=""></picture></a>
+</p>
 
-<img src="assets/rule.svg" width="100%" alt="">
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/h-libraries-dark.svg"><img width="100%" src="assets/v1/h-libraries-light.svg" alt=""></picture>
 
-## Tarayıcı kataloğu
+<p align="center">
+  <a href="https://styles.talkdedsec.com/en"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/lib-systems-dark.svg"><img width="32.3%" src="assets/v1/lib-systems-light.svg" alt=""></picture></a>
+  <a href="https://styles.talkdedsec.com/en"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/lib-components-dark.svg"><img width="32.3%" src="assets/v1/lib-components-light.svg" alt=""></picture></a>
+  <a href="https://agents.talkdedsec.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/lib-skills-dark.svg"><img width="32.3%" src="assets/v1/lib-skills-light.svg" alt=""></picture></a>
+</p>
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### [274 geliştirici aracı](https://talkdedsec.com/tools)
-
-Hash, base64, JWT, regex, subnet hesabı, kodlama, metin işleme, veri biçimleri. Hepsi tarayıcıda çalışır. Hiçbir veri sunucuya gitmez, hiçbir şey loglanmaz.
-
-</td>
-<td width="50%" valign="top">
-
-### [212 oyun](https://talkdedsec.com/games)
-
-Bulmaca, strateji, refleks, hafıza ve kelime oyunları; ayrıca daha büyük terminal ve sandbox yapımları. Tamamı istemci tarafında, hesap gerekmez.
-
-</td>
-</tr>
-</table>
-
-<img src="assets/rule.svg" width="100%" alt="">
-
-## Masaüstü uygulamaları
-
-| | Açıklama | Teknoloji |
-|:--|:--|:--|
-| **Talkdedsec Editör** | Windows kod editörü. Kendi sürüm kanalı, temaları, dokümanı ve destek akışı var. | TypeScript / Node |
-| **Talkdedsec Visual** | Windows için gerçek zamanlı ekran renk motoru. 5×5 renk matrisi üzerinden parlaklık, kontrast, doygunluk, ton ve gece görüşü. Çalışma zamanı bağımlılığı yok. | Rust / Slint |
-| **TLK Player** | Yedi temalı yerel müzik widget'ı, bire bir ses zinciri. | Rust / Tauri |
-| **Talkdedsec Browser** | Windows tarayıcısı; WebView2 ve Chromium (CEF) olmak üzere iki sürüm. | C# / WPF |
-| **DedSec Control Center** | Lisans modeli olan Windows tweak ve temizlik paketi. | C# / .NET |
-| **TLK Cleaner** | Disk, önbellek ve artık dosya temizliği. | C# |
-
-<img src="assets/rule.svg" width="100%" alt="">
-
-## Açık kaynak
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/h-oss-dark.svg"><img width="100%" src="assets/v1/h-oss-light.svg" alt=""></picture>
 
 <!-- OSS:START -->
 Henüz public depo yok. Depolar tek tek açılıyor.
@@ -120,34 +77,28 @@ Henüz public depo yok. Depolar tek tek açılıyor.
 
 <p align="right"><a href="PROJECTS.md"><b>Tüm proje dizini →</b></a></p>
 
-<img src="assets/rule.svg" width="100%" alt="">
-
-## Teknoloji
-
-| | |
-|:--|:--|
-| **Diller** | TypeScript · JavaScript · Rust · C# · Go · Python · Lua · PowerShell · SQL |
-| **Uygulama** | Next.js · React · Node.js · Tauri · WPF · WebView2 · Slint |
-| **Veri ve platform** | PostgreSQL · Prisma · Redis · Linux · nginx · PM2 · systemd |
-| **Teslimat** | GitHub Actions · Playwright · Sentry · Tebex · lisans sunucusu · otomatik güncelleme |
-
-<img src="assets/rule.svg" width="100%" alt="">
-
-## İletişim
-
-| | |
-|:--|:--|
-| E-posta | [talkdedsec@proton.me](mailto:talkdedsec@proton.me) |
-| İletişim sayfası | [talkdedsec.com/contact](https://talkdedsec.com/contact) |
-| Editör sürümleri | [github.com/talkdedseccode](https://github.com/talkdedseccode) |
-| Notlar ve writeup | [talkdedsec.com/blog](https://talkdedsec.com/blog) · [talkdedsec.com/writeups](https://talkdedsec.com/writeups) |
-
-<br>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/h-stack-dark.svg"><img width="100%" src="assets/v1/h-stack-light.svg" alt=""></picture>
 
 <p align="center">
-  <img src="assets/logo.png" width="130" alt="">
+  <code>TypeScript</code> <code>JavaScript</code> <code>Rust</code> <code>C#</code> <code>Go</code> <code>Python</code> <code>Lua</code> <code>PowerShell</code> <code>SQL</code><br>
+  <code>Next.js</code> <code>React</code> <code>Node.js</code> <code>Tauri</code> <code>Prisma</code> <code>PostgreSQL</code> <code>Redis</code><br>
+  <code>Linux</code> <code>nginx</code> <code>PM2</code> <code>systemd</code> <code>GitHub Actions</code> <code>Playwright</code> <code>Sentry</code> <code>Tebex</code>
+</p>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/rule-dark.svg"><img width="100%" src="assets/v1/rule-light.svg" alt=""></picture>
+
+<p align="center">
+  <a href="mailto:talkdedsec@proton.me">talkdedsec@proton.me</a>
+  &nbsp;·&nbsp;
+  <a href="https://talkdedsec.com/contact">İletişim</a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/talkdedseccode">Editör sürümleri</a>
+  &nbsp;·&nbsp;
+  <a href="https://talkdedsec.com/blog">Blog</a>
+  &nbsp;·&nbsp;
+  <a href="https://talkdedsec.com/writeups">Writeup</a>
 </p>
 
 <p align="center">
-  <sub>Talkdedsec adıyla yayınlanan işlerin ana hesabı.</sub>
+  <img src="assets/logo.png" width="120" alt="">
 </p>
