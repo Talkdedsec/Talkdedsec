@@ -70,9 +70,12 @@ Most of it ships as a product, not a demo. That means installers, update channel
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/h-oss-dark.svg"><img width="100%" src="assets/v1/h-oss-light.svg" alt=""></picture>
 
 <!-- OSS:START -->
-Nothing public yet. Repositories are opened one at a time.
+| Repository | What it is | Stack | Updated |
+|:--|:--|:--|:--|
+| **[tlk-pass](https://github.com/Talkdedsec1/tlk-pass)** | Tarayicida calisan sifre ureteci - tek HTML dosyasi, kurulum yok | `HTML` | 13 Aug 2026 |
+| **[talkdedsec-visual](https://github.com/Talkdedsec1/talkdedsec-visual)** | Real-time screen colour engine for Windows - brightness, contrast, saturation, hue and night vision applied to the whole desktop through a 5x5 colour matrix. Rust + Slint, no runtime dependencies. | `Slint` `color-correction` `desktop-app` | 13 Aug 2026 |
 
-<sub>Synced 13 Aug 2026 · public repositories only</sub>
+<sub>Synced 14 Aug 2026 · public repositories only</sub>
 <!-- OSS:END -->
 
 <p align="right"><a href="PROJECTS.md"><b>Full project index →</b></a></p>
