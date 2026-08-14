@@ -70,9 +70,12 @@ Küçük bir stüdyo işletiyorum. Buradaki her şey kendi işim: bir Windows ko
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/h-oss-dark.svg"><img width="100%" src="assets/v1/h-oss-light.svg" alt=""></picture>
 
 <!-- OSS:START -->
-Henüz public depo yok. Depolar tek tek açılıyor.
+| Depo | Nedir | Teknoloji | Güncelleme |
+|:--|:--|:--|:--|
+| **[tlk-pass](https://github.com/Talkdedsec1/tlk-pass)** | Tarayicida calisan sifre ureteci - tek HTML dosyasi, kurulum yok | `HTML` | 13 Ağu 2026 |
+| **[talkdedsec-visual](https://github.com/Talkdedsec1/talkdedsec-visual)** | Real-time screen colour engine for Windows - brightness, contrast, saturation, hue and night vision applied to the whole desktop through a 5x5 colour matrix. Rust + Slint, no runtime dependencies. | `Slint` `color-correction` `desktop-app` | 13 Ağu 2026 |
 
-<sub>13 Ağu 2026 tarihinde eşitlendi · yalnızca açık depolar</sub>
+<sub>14 Ağu 2026 tarihinde eşitlendi · yalnızca açık depolar</sub>
 <!-- OSS:END -->
 
 <p align="right"><a href="PROJECTS.md"><b>Tüm proje dizini →</b></a></p>
