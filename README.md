@@ -75,7 +75,7 @@ Most of it ships as a product, not a demo. That means installers, update channel
 | **[tlk-pass](https://github.com/Talkdedsec1/tlk-pass)** | Tarayicida calisan sifre ureteci - tek HTML dosyasi, kurulum yok | `HTML` | 13 Aug 2026 |
 | **[talkdedsec-visual](https://github.com/Talkdedsec1/talkdedsec-visual)** | Real-time screen colour engine for Windows - brightness, contrast, saturation, hue and night vision applied to the whole desktop through a 5x5 colour matrix. Rust + Slint, no runtime dependencies. | `Slint` `color-correction` `desktop-app` | 13 Aug 2026 |
 
-<sub>Synced 19 Aug 2026 · public repositories only</sub>
+<sub>Synced 20 Aug 2026 · public repositories only</sub>
 <!-- OSS:END -->
 
 <p align="right"><a href="PROJECTS.md"><b>Full project index →</b></a></p>
