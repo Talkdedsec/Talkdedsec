@@ -1,4 +1,4 @@
-import { readFileSync, writeFileSync } from "node:fs";
+import { existsSync, readFileSync, writeFileSync } from "node:fs";
 
 const USER = process.env.PROFILE_USER || "Talkdedsec1";
 const TOKEN = process.env.GITHUB_TOKEN;
@@ -31,6 +31,9 @@ const TEXT = {
     synced: (d) => `${d} tarihinde eşitlendi · yalnızca açık depolar`,
   },
 };
+
+TEXT["PROJECTS.md"] = TEXT["README.md"];
+TEXT["PROJECTS.tr.md"] = TEXT["README.tr.md"];
 
 async function api(path) {
   const res = await fetch(`https://api.github.com${path}`, {
@@ -76,6 +79,7 @@ function block(file) {
 
 let changed = false;
 for (const file of Object.keys(TEXT)) {
+  if (!existsSync(file)) continue;
   const src = readFileSync(file, "utf8");
   const a = src.indexOf(START);
   const b = src.indexOf(END);

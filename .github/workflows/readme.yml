@@ -9,6 +9,7 @@ on:
     paths:
       - "assets/cards.mjs"
       - "assets/readme.mjs"
+      - "assets/repos.json"
       - "scripts/update-readme.mjs"
       - ".github/workflows/readme.yml"
 
