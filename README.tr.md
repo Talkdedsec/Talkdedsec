@@ -9,7 +9,7 @@
   &nbsp;·&nbsp;
   <a href="https://agents.talkdedsec.com">Agents</a>
   &nbsp;·&nbsp;
-  <a href="PROJECTS.md">Projeler</a>
+  <a href="PROJECTS.tr.md">Projeler</a>
   &nbsp;&nbsp;|&nbsp;&nbsp;
   <a href="README.md"><b>English</b></a>
 </p>
@@ -74,15 +74,15 @@ Küçük bir stüdyo işletiyorum ve buradaki her şeyi ben yapıyorum: bir Wind
 <!-- OSS:START -->
 | Depo | Nedir | Teknoloji | Güncelleme |
 |:--|:--|:--|:--|
-| **[tlk-wymcmd](https://github.com/Talkdedsec1/tlk-wymcmd)** | O konsol penceresini neyin açtığını buluyor — zamanlanmış görev, servis, kayıt defteri anahtarı ya da tıklama — kapandıktan saatler sonra. | `C#` `.NET 10` `ETW` | 24 Ağu 2026 |
-| **[tlk-sentinel](https://github.com/Talkdedsec1/tlk-sentinel)** | Sunucu ve uygulama güvenlik motoru: loglardan saldırı tespiti, IP banlama, itibar ve anomali skoru, canlı panel. | `TypeScript` `Node` `SQLite` | 24 Ağu 2026 |
 | **[tlk-visual](https://github.com/Talkdedsec1/tlk-visual)** | Windows için ekranın tamamını kapsayan renk motoru; doğrudan ekranın gama tablosuna yazıyor. Tek exe, sürücü yok, yönetici hakkı yok. | `Rust` `Slint` `Win32` | 24 Ağu 2026 |
+| **[tlk-sentinel](https://github.com/Talkdedsec1/tlk-sentinel)** | Sunucu ve uygulama güvenlik motoru: loglardan saldırı tespiti, IP banlama, itibar ve anomali skoru, canlı panel. | `TypeScript` `Node` `SQLite` | 24 Ağu 2026 |
+| **[tlk-wymcmd](https://github.com/Talkdedsec1/tlk-wymcmd)** | O konsol penceresini neyin açtığını buluyor — zamanlanmış görev, servis, kayıt defteri anahtarı ya da tıklama — kapandıktan saatler sonra. | `C#` `.NET 10` `ETW` | 24 Ağu 2026 |
 | **[tlk-pass](https://github.com/Talkdedsec1/tlk-pass)** | Web Crypto ile çalışan çevrimdışı şifre üreteci. Tek HTML dosyası, sıfır bağımlılık, sıfır ağ isteği. | `HTML` `JavaScript` | 24 Ağu 2026 |
 
 <sub>24 Ağu 2026 tarihinde eşitlendi · yalnızca açık depolar</sub>
 <!-- OSS:END -->
 
-<p align="right"><a href="PROJECTS.md"><b>Tüm proje dizini →</b></a></p>
+<p align="right"><a href="PROJECTS.tr.md"><b>Tüm proje dizini →</b></a></p>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/h-stack-dark.svg"><img width="100%" src="assets/v1/h-stack-light.svg" alt=""></picture>
 

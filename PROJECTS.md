@@ -1,12 +1,12 @@
-<img src="assets/v1/rule-light.svg" width="100%" alt="">
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/rule-dark.svg"><img width="100%" src="assets/v1/rule-light.svg" alt=""></picture>
 
 # Projects
 
 Everything currently published under the Talkdedsec name. Work that is not publicly available is not listed here.
 
-[← Profile](README.md) &nbsp;·&nbsp; [Türkçe](README.tr.md)
+[← Profile](README.md) &nbsp;·&nbsp; [Türkçe](PROJECTS.tr.md)
 
-<img src="assets/v1/rule-light.svg" width="100%" alt="">
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/rule-dark.svg"><img width="100%" src="assets/v1/rule-light.svg" alt=""></picture>
 
 ## Sites
 
@@ -21,7 +21,7 @@ Everything currently published under the Talkdedsec name. Work that is not publi
 | [ornek.talkdedsec.com](https://ornek.talkdedsec.com) | Demos of the site templates I sell. | Next.js |
 | [flypen.com.tr](https://flypen.com.tr) | Production platform I build and operate. | Next.js / PM2 |
 
-<img src="assets/v1/rule-light.svg" width="100%" alt="">
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/rule-dark.svg"><img width="100%" src="assets/v1/rule-light.svg" alt=""></picture>
 
 ## Catalogue
 
@@ -35,7 +35,28 @@ Everything currently published under the Talkdedsec name. Work that is not publi
 | Design references | 308 | [styles.talkdedsec.com](https://styles.talkdedsec.com/en) |
 | Claude Code skills | 54 | [agents.talkdedsec.com](https://agents.talkdedsec.com) |
 
-<img src="assets/v1/rule-light.svg" width="100%" alt="">
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/rule-dark.svg"><img width="100%" src="assets/v1/rule-light.svg" alt=""></picture>
+
+## Open source
+
+Four repositories, opened one at a time. This table is rebuilt daily from the GitHub API.
+
+<!-- OSS:START -->
+| Repository | What it is | Stack | Updated |
+|:--|:--|:--|:--|
+| **[tlk-visual](https://github.com/Talkdedsec1/tlk-visual)** | Whole-screen colour engine for Windows, written straight to the display gamma ramp. One exe, no driver, no admin rights. | `Rust` `Slint` `Win32` | 24 Aug 2026 |
+| **[tlk-sentinel](https://github.com/Talkdedsec1/tlk-sentinel)** | Server and application security engine: log-driven attack detection, IP banning, reputation and anomaly scoring, live panel. | `TypeScript` `Node` `SQLite` | 24 Aug 2026 |
+| **[tlk-wymcmd](https://github.com/Talkdedsec1/tlk-wymcmd)** | Finds out what launched that console window — scheduled task, service, registry key or click — hours after it closed. | `C#` `.NET 10` `ETW` | 24 Aug 2026 |
+| **[tlk-pass](https://github.com/Talkdedsec1/tlk-pass)** | Offline password generator powered by the Web Crypto API. One HTML file, zero dependencies, zero network requests. | `HTML` `JavaScript` | 24 Aug 2026 |
+
+<sub>Synced 24 Aug 2026 · public repositories only</sub>
+<!-- OSS:END -->
+
+Each of them ships a README in English and Turkish, a security policy and CI. `tlk-sentinel` is
+source-available rather than open source — you may run and modify it for your own use, but not sell
+or redistribute it; the rest are MIT or GPL-3.0.
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/rule-dark.svg"><img width="100%" src="assets/v1/rule-light.svg" alt=""></picture>
 
 ## Products
 
@@ -45,7 +66,7 @@ Everything currently published under the Talkdedsec name. Work that is not publi
 
 **Site templates** — production Next.js templates with live demos at [ornek.talkdedsec.com](https://ornek.talkdedsec.com).
 
-<img src="assets/v1/rule-light.svg" width="100%" alt="">
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/rule-dark.svg"><img width="100%" src="assets/v1/rule-light.svg" alt=""></picture>
 
 <p align="center">
   <sub>Client work and unreleased software stay private.<br>

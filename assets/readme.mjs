@@ -9,6 +9,7 @@ const L = {
   en: {
     file: "README.md",
     other: ["README.tr.md", "Türkçe"],
+    projects: "PROJECTS.md",
     nav: [
       ["Site", "https://talkdedsec.com/en"],
       ["Editor", "https://code.talkdedsec.com"],
@@ -35,12 +36,13 @@ const L = {
   tr: {
     file: "README.tr.md",
     other: ["README.md", "English"],
+    projects: "PROJECTS.tr.md",
     nav: [
       ["Site", "https://talkdedsec.com"],
       ["Editör", "https://code.talkdedsec.com"],
       ["Styles", "https://styles.talkdedsec.com"],
       ["Agents", "https://agents.talkdedsec.com"],
-      ["Projeler", "PROJECTS.md"],
+      ["Projeler", "PROJECTS.tr.md"],
     ],
     intro: [
       "Küçük bir stüdyo işletiyorum ve buradaki her şeyi ben yapıyorum: bir Windows kod editörü, bir tasarım sistemi kütüphanesi, tarayıcıda çalışan araç ve oyun kataloğu, bir AI ajan tanımları arşivi, bir FiveM script mağazası ve bunları ayakta tutan lisans ile dağıtım katmanı.",
@@ -146,7 +148,7 @@ ${full("h-oss")}
 ${t.ossFallback}
 <!-- OSS:END -->
 
-<p align="right"><a href="PROJECTS.md"><b>${t.index}</b></a></p>
+<p align="right"><a href="${t.projects}"><b>${t.index}</b></a></p>
 
 ${full("h-stack")}
 
