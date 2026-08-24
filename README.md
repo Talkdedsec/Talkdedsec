@@ -72,10 +72,11 @@ Most of it ships as a product, not a demo. That means installers, update channel
 <!-- OSS:START -->
 | Repository | What it is | Stack | Updated |
 |:--|:--|:--|:--|
+| **[tlk-sentinel](https://github.com/Talkdedsec1/tlk-sentinel)** | Server and application security engine: log-driven attack detection, IP banning, reputation and anomaly scoring, live panel. Source-available, no redistribution. | `TypeScript` `fail2ban-alternative` `intrusion-detection` | 23 Aug 2026 |
 | **[tlk-pass](https://github.com/Talkdedsec1/tlk-pass)** | Tarayicida calisan sifre ureteci - tek HTML dosyasi, kurulum yok | `HTML` | 13 Aug 2026 |
-| **[talkdedsec-visual](https://github.com/Talkdedsec1/talkdedsec-visual)** | Real-time screen colour engine for Windows - brightness, contrast, saturation, hue and night vision applied to the whole desktop through a 5x5 colour matrix. Rust + Slint, no runtime dependencies. | `Slint` `color-correction` `desktop-app` | 13 Aug 2026 |
+| **[tlk-visual](https://github.com/Talkdedsec1/tlk-visual)** | Real-time screen colour engine for Windows - brightness, contrast, saturation, hue and night vision applied to the whole desktop through a 5x5 colour matrix. Rust + Slint, no runtime dependencies. | `Slint` `color-correction` `desktop-app` | 13 Aug 2026 |
 
-<sub>Synced 23 Aug 2026 · public repositories only</sub>
+<sub>Synced 24 Aug 2026 · public repositories only</sub>
 <!-- OSS:END -->
 
 <p align="right"><a href="PROJECTS.md"><b>Full project index →</b></a></p>

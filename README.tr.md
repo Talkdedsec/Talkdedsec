@@ -72,10 +72,11 @@ Küçük bir stüdyo işletiyorum. Buradaki her şey kendi işim: bir Windows ko
 <!-- OSS:START -->
 | Depo | Nedir | Teknoloji | Güncelleme |
 |:--|:--|:--|:--|
+| **[tlk-sentinel](https://github.com/Talkdedsec1/tlk-sentinel)** | Server and application security engine: log-driven attack detection, IP banning, reputation and anomaly scoring, live panel. Source-available, no redistribution. | `TypeScript` `fail2ban-alternative` `intrusion-detection` | 23 Ağu 2026 |
 | **[tlk-pass](https://github.com/Talkdedsec1/tlk-pass)** | Tarayicida calisan sifre ureteci - tek HTML dosyasi, kurulum yok | `HTML` | 13 Ağu 2026 |
-| **[talkdedsec-visual](https://github.com/Talkdedsec1/talkdedsec-visual)** | Real-time screen colour engine for Windows - brightness, contrast, saturation, hue and night vision applied to the whole desktop through a 5x5 colour matrix. Rust + Slint, no runtime dependencies. | `Slint` `color-correction` `desktop-app` | 13 Ağu 2026 |
+| **[tlk-visual](https://github.com/Talkdedsec1/tlk-visual)** | Real-time screen colour engine for Windows - brightness, contrast, saturation, hue and night vision applied to the whole desktop through a 5x5 colour matrix. Rust + Slint, no runtime dependencies. | `Slint` `color-correction` `desktop-app` | 13 Ağu 2026 |
 
-<sub>23 Ağu 2026 tarihinde eşitlendi · yalnızca açık depolar</sub>
+<sub>24 Ağu 2026 tarihinde eşitlendi · yalnızca açık depolar</sub>
 <!-- OSS:END -->
 
 <p align="right"><a href="PROJECTS.md"><b>Tüm proje dizini →</b></a></p>
