@@ -14,20 +14,19 @@ const L = {
       ["Editor", "https://code.talkdedsec.com"],
       ["Styles", "https://styles.talkdedsec.com/en"],
       ["Agents", "https://agents.talkdedsec.com"],
-      ["Tools", "https://talkdedsec.com/tools"],
-      ["Games", "https://talkdedsec.com/games"],
-      ["Writeups", "https://talkdedsec.com/writeups"],
       ["Projects", "PROJECTS.md"],
     ],
     intro: [
-      "I run a small studio. Everything here is my own work: a Windows code editor, a design-system library, a catalogue of browser tools and games, an archive of AI agent definitions, a FiveM script store, and the licensing and deployment layer that keeps them running.",
-      "Most of it ships as a product, not a demo. That means installers, update channels, licence checks and a support inbox. Nothing collects telemetry and nothing is funded by a sponsor.",
+      "I run a small studio and build everything listed here: a Windows code editor, a design-system library, a catalogue of browser tools and games, an archive of AI agent definitions, a FiveM script store, and the licensing and deployment layer that keeps them running.",
+      "Most of it ships as a product, not a demo — installers, update channels, licence checks and a support inbox. None of it carries analytics or usage tracking; the licensed products check a licence key and send nothing else. No sponsors either.",
     ],
     ossFallback: "Nothing public yet. Repositories are opened one at a time.",
     index: "Full project index →",
     contact: [
       ["talkdedsec@proton.me", "mailto:talkdedsec@proton.me"],
       ["Contact", "https://talkdedsec.com/contact"],
+      ["Tools", "https://talkdedsec.com/tools"],
+      ["Games", "https://talkdedsec.com/games"],
       ["Editor releases", "https://github.com/talkdedseccode"],
       ["Blog", "https://talkdedsec.com/blog"],
       ["Writeups", "https://talkdedsec.com/writeups"],
@@ -41,20 +40,19 @@ const L = {
       ["Editör", "https://code.talkdedsec.com"],
       ["Styles", "https://styles.talkdedsec.com"],
       ["Agents", "https://agents.talkdedsec.com"],
-      ["Araçlar", "https://talkdedsec.com/tools"],
-      ["Oyunlar", "https://talkdedsec.com/games"],
-      ["Writeup", "https://talkdedsec.com/writeups"],
       ["Projeler", "PROJECTS.md"],
     ],
     intro: [
-      "Küçük bir stüdyo işletiyorum. Buradaki her şey kendi işim: bir Windows kod editörü, bir tasarım sistemi kütüphanesi, tarayıcıda çalışan araç ve oyun kataloğu, bir AI ajan tanımları arşivi, bir FiveM script mağazası ve bunları ayakta tutan lisans ile dağıtım katmanı.",
-      "Çoğu demo olarak değil ürün olarak çıkıyor. Yani kurulum paketi, güncelleme kanalı, lisans kontrolü ve destek kutusu var. Hiçbiri telemetri toplamıyor, hiçbirinin arkasında sponsor yok.",
+      "Küçük bir stüdyo işletiyorum ve buradaki her şeyi ben yapıyorum: bir Windows kod editörü, bir tasarım sistemi kütüphanesi, tarayıcıda çalışan araç ve oyun kataloğu, bir AI ajan tanımları arşivi, bir FiveM script mağazası ve bunları ayakta tutan lisans ile dağıtım katmanı.",
+      "Çoğu demo olarak değil ürün olarak çıkıyor — kurulum paketi, güncelleme kanalı, lisans kontrolü ve destek kutusu var. Hiçbirinde analitik ya da kullanım takibi yok; lisanslı ürünler yalnız lisans anahtarını doğruluyor, başka hiçbir şey göndermiyor. Sponsor da yok.",
     ],
     ossFallback: "Henüz public depo yok. Depolar tek tek açılıyor.",
     index: "Tüm proje dizini →",
     contact: [
       ["talkdedsec@proton.me", "mailto:talkdedsec@proton.me"],
       ["İletişim", "https://talkdedsec.com/contact"],
+      ["Araçlar", "https://talkdedsec.com/tools"],
+      ["Oyunlar", "https://talkdedsec.com/games"],
       ["Editör sürümleri", "https://github.com/talkdedseccode"],
       ["Blog", "https://talkdedsec.com/blog"],
       ["Writeup", "https://talkdedsec.com/writeups"],
@@ -82,6 +80,11 @@ const LIBRARIES = [
   ["lib-skills", "https://agents.talkdedsec.com"],
 ];
 const PILLARS = ["pil-desktop", "pil-web", "pil-systems", "pil-interactive"];
+const FEATURED = [
+  ["feat-sentinel", "https://github.com/Talkdedsec1/tlk-sentinel"],
+  ["feat-visual", "https://github.com/Talkdedsec1/tlk-visual"],
+  ["feat-wymcmd", "https://github.com/Talkdedsec1/tlk-wymcmd"],
+];
 
 const STACK = [
   ["TypeScript", "JavaScript", "Rust", "C#", "Go", "Python", "Lua", "PowerShell", "SQL"],
@@ -120,6 +123,10 @@ ${t.intro.join("\n\n")}
 ${grid(PILLARS, "24.3%")}
 
 ${full("metrics")}
+
+${full("h-featured")}
+
+${grid(FEATURED, "32.3%")}
 
 ${full("h-sites")}
 

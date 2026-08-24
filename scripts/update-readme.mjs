@@ -5,8 +5,17 @@ const TOKEN = process.env.GITHUB_TOKEN;
 const START = "<!-- OSS:START -->";
 const END = "<!-- OSS:END -->";
 
+const OVERRIDES = (() => {
+  try {
+    return JSON.parse(readFileSync("assets/repos.json", "utf8"));
+  } catch {
+    return {};
+  }
+})();
+
 const TEXT = {
   "README.md": {
+    lang: "en",
     locale: "en-GB",
     head: ["Repository", "What it is", "Stack", "Updated"],
     empty: "Nothing public yet. Repositories are opened one at a time.",
@@ -14,6 +23,7 @@ const TEXT = {
     synced: (d) => `Synced ${d} · public repositories only`,
   },
   "README.tr.md": {
+    lang: "tr",
     locale: "tr-TR",
     head: ["Depo", "Nedir", "Teknoloji", "Güncelleme"],
     empty: "Henüz public depo yok. Depolar tek tek açılıyor.",
@@ -46,10 +56,13 @@ function block(file) {
   if (!repos.length) return `${t.empty}\n\n<sub>${t.synced(date)}</sub>`;
 
   const rows = repos.slice(0, 12).map((r) => {
-    const stack = [r.language, ...(r.topics || []).slice(0, 2)].filter(Boolean).map((x) => `\`${x}\``).join(" ");
+    const ov = OVERRIDES[r.name] ?? {};
+    const parts = ov.stack ?? [r.language, ...(r.topics || []).slice(0, 2)];
+    const stack = parts.filter(Boolean).map((x) => `\`${x}\``).join(" ");
+    const about = ov[t.lang] ?? r.description;
     const stars = r.stargazers_count ? ` · ${r.stargazers_count} ★` : "";
     const upd = new Date(r.pushed_at).toLocaleDateString(t.locale, { day: "2-digit", month: "short", year: "numeric" });
-    return `| **[${cell(r.name)}](${r.html_url})**${stars} | ${cell(r.description) || "—"} | ${stack || "—"} | ${upd} |`;
+    return `| **[${cell(r.name)}](${r.html_url})**${stars} | ${cell(about) || "—"} | ${stack || "—"} | ${upd} |`;
   });
 
   return [

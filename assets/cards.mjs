@@ -148,7 +148,7 @@ function rule(theme) {
 const HERO = {
   eyebrow: "INDEPENDENT SOFTWARE STUDIO",
   sub1: "Security and productivity tools, a code editor, design systems",
-  sub2: "and web platforms. No sponsors. No telemetry. No tracking.",
+  sub2: "and web platforms. No sponsors, no analytics, no tracking.",
   foot: "talkdedsec.com",
 };
 
@@ -179,13 +179,17 @@ const CARDS = {
   "lib-components": { w: W3, h: 190, link: 1, big: "202", kicker: "styles", title: "Components", lines: ["Production React parts", "with 308 curated design", "references behind them."], meta: "STYLES.TALKDEDSEC.COM" },
   "lib-skills": { w: W3, h: 190, link: 1, big: "54", kicker: "agents", title: "Claude Code skills", lines: ["Tested agent definitions,", "prompts and MCP guides.", "Copy, install, run."], meta: "AGENTS.TALKDEDSEC.COM" },
 
+  "feat-sentinel": { w: W3, h: 224, link: 1, kicker: "security", title: "tlk-sentinel", lines: ["Reads your logs, spots the", "attack, bans the source and", "shows you what happened.", "60 tests, zero runtime deps."], meta: "TYPESCRIPT · NODE · LINUX" },
+  "feat-visual": { w: W3, h: 224, link: 1, kicker: "windows", title: "Talkdedsec Visual", lines: ["Whole-screen colour engine", "written to the display gamma", "ramp. One exe, no driver,", "no admin rights."], meta: "RUST · SLINT · WIN32" },
+  "feat-wymcmd": { w: W3, h: 224, link: 1, kicker: "forensics", title: "Why My CMD Opened", lines: ["A console flashed and", "vanished. This says what", "started it, hours later,", "with nothing resident."], meta: "C# · .NET 10 · ETW" },
+
   "pil-desktop": { w: 300, h: 214, kicker: "01", title: "Desktop", lines: ["Windows apps and local", "utilities. Installers,", "updates, no telemetry."], meta: "RUST · C# · TAURI" },
   "pil-web": { w: 300, h: 214, kicker: "02", title: "Web", lines: ["Product sites and", "storefronts. Bilingual,", "server-rendered."], meta: "NEXT.JS · PRISMA" },
   "pil-systems": { w: 300, h: 214, kicker: "03", title: "Systems", lines: ["Licensing, releases and", "deploys. Runs on my", "own servers."], meta: "NODE · LINUX · NGINX" },
   "pil-interactive": { w: 300, h: 214, kicker: "04", title: "Interactive", lines: ["Browser games and", "design systems. Client-", "side, nothing sent out."], meta: "TYPESCRIPT · CANVAS" },
 };
 
-const HEADINGS = { "h-sites": "Sites", "h-catalogue": "Catalogue", "h-libraries": "Libraries", "h-oss": "Open source", "h-stack": "Stack" };
+const HEADINGS = { "h-featured": "Featured", "h-sites": "Sites", "h-catalogue": "Catalogue", "h-libraries": "Libraries", "h-oss": "Open source", "h-stack": "Stack" };
 
 const dir = join(OUT, DIR);
 mkdirSync(dir, { recursive: true });

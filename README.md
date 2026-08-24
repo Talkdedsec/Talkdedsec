@@ -9,12 +9,6 @@
   &nbsp;·&nbsp;
   <a href="https://agents.talkdedsec.com">Agents</a>
   &nbsp;·&nbsp;
-  <a href="https://talkdedsec.com/tools">Tools</a>
-  &nbsp;·&nbsp;
-  <a href="https://talkdedsec.com/games">Games</a>
-  &nbsp;·&nbsp;
-  <a href="https://talkdedsec.com/writeups">Writeups</a>
-  &nbsp;·&nbsp;
   <a href="PROJECTS.md">Projects</a>
   &nbsp;&nbsp;|&nbsp;&nbsp;
   <a href="README.tr.md"><b>Türkçe</b></a>
@@ -24,9 +18,9 @@
 
 <img align="left" width="190" src="assets/logo.png" alt="Talkdedsec">
 
-I run a small studio. Everything here is my own work: a Windows code editor, a design-system library, a catalogue of browser tools and games, an archive of AI agent definitions, a FiveM script store, and the licensing and deployment layer that keeps them running.
+I run a small studio and build everything listed here: a Windows code editor, a design-system library, a catalogue of browser tools and games, an archive of AI agent definitions, a FiveM script store, and the licensing and deployment layer that keeps them running.
 
-Most of it ships as a product, not a demo. That means installers, update channels, licence checks and a support inbox. Nothing collects telemetry and nothing is funded by a sponsor.
+Most of it ships as a product, not a demo — installers, update channels, licence checks and a support inbox. None of it carries analytics or usage tracking; the licensed products check a licence key and send nothing else. No sponsors either.
 
 <br clear="left">
 
@@ -38,6 +32,14 @@ Most of it ships as a product, not a demo. That means installers, update channel
 </p>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/metrics-dark.svg"><img width="100%" src="assets/v1/metrics-light.svg" alt=""></picture>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/h-featured-dark.svg"><img width="100%" src="assets/v1/h-featured-light.svg" alt=""></picture>
+
+<p align="center">
+  <a href="https://github.com/Talkdedsec1/tlk-sentinel"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/feat-sentinel-dark.svg"><img width="32.3%" src="assets/v1/feat-sentinel-light.svg" alt=""></picture></a>
+  <a href="https://github.com/Talkdedsec1/tlk-visual"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/feat-visual-dark.svg"><img width="32.3%" src="assets/v1/feat-visual-light.svg" alt=""></picture></a>
+  <a href="https://github.com/Talkdedsec1/tlk-wymcmd"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/feat-wymcmd-dark.svg"><img width="32.3%" src="assets/v1/feat-wymcmd-light.svg" alt=""></picture></a>
+</p>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/h-sites-dark.svg"><img width="100%" src="assets/v1/h-sites-light.svg" alt=""></picture>
 
@@ -72,10 +74,10 @@ Most of it ships as a product, not a demo. That means installers, update channel
 <!-- OSS:START -->
 | Repository | What it is | Stack | Updated |
 |:--|:--|:--|:--|
-| **[tlk-sentinel](https://github.com/Talkdedsec1/tlk-sentinel)** | Server and application security engine: log-driven attack detection, IP banning, reputation and anomaly scoring, live panel. Source-available, no redistribution. | `TypeScript` `fail2ban-alternative` `intrusion-detection` | 24 Aug 2026 |
-| **[tlk-pass](https://github.com/Talkdedsec1/tlk-pass)** | Offline password generator powered by the Web Crypto API — one HTML file, zero dependencies, zero network requests. | `HTML` `cryptography` `html` | 24 Aug 2026 |
-| **[tlk-wymcmd](https://github.com/Talkdedsec1/tlk-wymcmd)** | talkdedsec-wymcmd - Why My CMD Opened: find out what launched that console window, even when nothing was running | `C#` `cli` `dfir` | 24 Aug 2026 |
-| **[tlk-visual](https://github.com/Talkdedsec1/tlk-visual)** | Real-time screen colour engine for Windows — brightness, contrast, gamma, temperature and night vision written straight to the display gamma ramp. Rust + Slint, single exe, no injection, no driver, no admin rights. | `Slint` `color-correction` `desktop-app` | 24 Aug 2026 |
+| **[tlk-wymcmd](https://github.com/Talkdedsec1/tlk-wymcmd)** | Finds out what launched that console window — scheduled task, service, registry key or click — hours after it closed. | `C#` `.NET 10` `ETW` | 24 Aug 2026 |
+| **[tlk-sentinel](https://github.com/Talkdedsec1/tlk-sentinel)** | Server and application security engine: log-driven attack detection, IP banning, reputation and anomaly scoring, live panel. | `TypeScript` `Node` `SQLite` | 24 Aug 2026 |
+| **[tlk-visual](https://github.com/Talkdedsec1/tlk-visual)** | Whole-screen colour engine for Windows, written straight to the display gamma ramp. One exe, no driver, no admin rights. | `Rust` `Slint` `Win32` | 24 Aug 2026 |
+| **[tlk-pass](https://github.com/Talkdedsec1/tlk-pass)** | Offline password generator powered by the Web Crypto API. One HTML file, zero dependencies, zero network requests. | `HTML` `JavaScript` | 24 Aug 2026 |
 
 <sub>Synced 24 Aug 2026 · public repositories only</sub>
 <!-- OSS:END -->
@@ -96,6 +98,10 @@ Most of it ships as a product, not a demo. That means installers, update channel
   <a href="mailto:talkdedsec@proton.me">talkdedsec@proton.me</a>
   &nbsp;·&nbsp;
   <a href="https://talkdedsec.com/contact">Contact</a>
+  &nbsp;·&nbsp;
+  <a href="https://talkdedsec.com/tools">Tools</a>
+  &nbsp;·&nbsp;
+  <a href="https://talkdedsec.com/games">Games</a>
   &nbsp;·&nbsp;
   <a href="https://github.com/talkdedseccode">Editor releases</a>
   &nbsp;·&nbsp;

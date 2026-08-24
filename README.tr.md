@@ -9,12 +9,6 @@
   &nbsp;·&nbsp;
   <a href="https://agents.talkdedsec.com">Agents</a>
   &nbsp;·&nbsp;
-  <a href="https://talkdedsec.com/tools">Araçlar</a>
-  &nbsp;·&nbsp;
-  <a href="https://talkdedsec.com/games">Oyunlar</a>
-  &nbsp;·&nbsp;
-  <a href="https://talkdedsec.com/writeups">Writeup</a>
-  &nbsp;·&nbsp;
   <a href="PROJECTS.md">Projeler</a>
   &nbsp;&nbsp;|&nbsp;&nbsp;
   <a href="README.md"><b>English</b></a>
@@ -24,9 +18,9 @@
 
 <img align="left" width="190" src="assets/logo.png" alt="Talkdedsec">
 
-Küçük bir stüdyo işletiyorum. Buradaki her şey kendi işim: bir Windows kod editörü, bir tasarım sistemi kütüphanesi, tarayıcıda çalışan araç ve oyun kataloğu, bir AI ajan tanımları arşivi, bir FiveM script mağazası ve bunları ayakta tutan lisans ile dağıtım katmanı.
+Küçük bir stüdyo işletiyorum ve buradaki her şeyi ben yapıyorum: bir Windows kod editörü, bir tasarım sistemi kütüphanesi, tarayıcıda çalışan araç ve oyun kataloğu, bir AI ajan tanımları arşivi, bir FiveM script mağazası ve bunları ayakta tutan lisans ile dağıtım katmanı.
 
-Çoğu demo olarak değil ürün olarak çıkıyor. Yani kurulum paketi, güncelleme kanalı, lisans kontrolü ve destek kutusu var. Hiçbiri telemetri toplamıyor, hiçbirinin arkasında sponsor yok.
+Çoğu demo olarak değil ürün olarak çıkıyor — kurulum paketi, güncelleme kanalı, lisans kontrolü ve destek kutusu var. Hiçbirinde analitik ya da kullanım takibi yok; lisanslı ürünler yalnız lisans anahtarını doğruluyor, başka hiçbir şey göndermiyor. Sponsor da yok.
 
 <br clear="left">
 
@@ -38,6 +32,14 @@ Küçük bir stüdyo işletiyorum. Buradaki her şey kendi işim: bir Windows ko
 </p>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/metrics-dark.svg"><img width="100%" src="assets/v1/metrics-light.svg" alt=""></picture>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/h-featured-dark.svg"><img width="100%" src="assets/v1/h-featured-light.svg" alt=""></picture>
+
+<p align="center">
+  <a href="https://github.com/Talkdedsec1/tlk-sentinel"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/feat-sentinel-dark.svg"><img width="32.3%" src="assets/v1/feat-sentinel-light.svg" alt=""></picture></a>
+  <a href="https://github.com/Talkdedsec1/tlk-visual"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/feat-visual-dark.svg"><img width="32.3%" src="assets/v1/feat-visual-light.svg" alt=""></picture></a>
+  <a href="https://github.com/Talkdedsec1/tlk-wymcmd"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/feat-wymcmd-dark.svg"><img width="32.3%" src="assets/v1/feat-wymcmd-light.svg" alt=""></picture></a>
+</p>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/h-sites-dark.svg"><img width="100%" src="assets/v1/h-sites-light.svg" alt=""></picture>
 
@@ -72,10 +74,10 @@ Küçük bir stüdyo işletiyorum. Buradaki her şey kendi işim: bir Windows ko
 <!-- OSS:START -->
 | Depo | Nedir | Teknoloji | Güncelleme |
 |:--|:--|:--|:--|
-| **[tlk-sentinel](https://github.com/Talkdedsec1/tlk-sentinel)** | Server and application security engine: log-driven attack detection, IP banning, reputation and anomaly scoring, live panel. Source-available, no redistribution. | `TypeScript` `fail2ban-alternative` `intrusion-detection` | 24 Ağu 2026 |
-| **[tlk-pass](https://github.com/Talkdedsec1/tlk-pass)** | Offline password generator powered by the Web Crypto API — one HTML file, zero dependencies, zero network requests. | `HTML` `cryptography` `html` | 24 Ağu 2026 |
-| **[tlk-wymcmd](https://github.com/Talkdedsec1/tlk-wymcmd)** | talkdedsec-wymcmd - Why My CMD Opened: find out what launched that console window, even when nothing was running | `C#` `cli` `dfir` | 24 Ağu 2026 |
-| **[tlk-visual](https://github.com/Talkdedsec1/tlk-visual)** | Real-time screen colour engine for Windows — brightness, contrast, gamma, temperature and night vision written straight to the display gamma ramp. Rust + Slint, single exe, no injection, no driver, no admin rights. | `Slint` `color-correction` `desktop-app` | 24 Ağu 2026 |
+| **[tlk-wymcmd](https://github.com/Talkdedsec1/tlk-wymcmd)** | O konsol penceresini neyin açtığını buluyor — zamanlanmış görev, servis, kayıt defteri anahtarı ya da tıklama — kapandıktan saatler sonra. | `C#` `.NET 10` `ETW` | 24 Ağu 2026 |
+| **[tlk-sentinel](https://github.com/Talkdedsec1/tlk-sentinel)** | Sunucu ve uygulama güvenlik motoru: loglardan saldırı tespiti, IP banlama, itibar ve anomali skoru, canlı panel. | `TypeScript` `Node` `SQLite` | 24 Ağu 2026 |
+| **[tlk-visual](https://github.com/Talkdedsec1/tlk-visual)** | Windows için ekranın tamamını kapsayan renk motoru; doğrudan ekranın gama tablosuna yazıyor. Tek exe, sürücü yok, yönetici hakkı yok. | `Rust` `Slint` `Win32` | 24 Ağu 2026 |
+| **[tlk-pass](https://github.com/Talkdedsec1/tlk-pass)** | Web Crypto ile çalışan çevrimdışı şifre üreteci. Tek HTML dosyası, sıfır bağımlılık, sıfır ağ isteği. | `HTML` `JavaScript` | 24 Ağu 2026 |
 
 <sub>24 Ağu 2026 tarihinde eşitlendi · yalnızca açık depolar</sub>
 <!-- OSS:END -->
@@ -96,6 +98,10 @@ Küçük bir stüdyo işletiyorum. Buradaki her şey kendi işim: bir Windows ko
   <a href="mailto:talkdedsec@proton.me">talkdedsec@proton.me</a>
   &nbsp;·&nbsp;
   <a href="https://talkdedsec.com/contact">İletişim</a>
+  &nbsp;·&nbsp;
+  <a href="https://talkdedsec.com/tools">Araçlar</a>
+  &nbsp;·&nbsp;
+  <a href="https://talkdedsec.com/games">Oyunlar</a>
   &nbsp;·&nbsp;
   <a href="https://github.com/talkdedseccode">Editör sürümleri</a>
   &nbsp;·&nbsp;
