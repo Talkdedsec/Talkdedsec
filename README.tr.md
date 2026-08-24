@@ -72,9 +72,10 @@ Küçük bir stüdyo işletiyorum. Buradaki her şey kendi işim: bir Windows ko
 <!-- OSS:START -->
 | Depo | Nedir | Teknoloji | Güncelleme |
 |:--|:--|:--|:--|
-| **[tlk-sentinel](https://github.com/Talkdedsec1/tlk-sentinel)** | Server and application security engine: log-driven attack detection, IP banning, reputation and anomaly scoring, live panel. Source-available, no redistribution. | `TypeScript` `fail2ban-alternative` `intrusion-detection` | 23 Ağu 2026 |
-| **[tlk-pass](https://github.com/Talkdedsec1/tlk-pass)** | Tarayicida calisan sifre ureteci - tek HTML dosyasi, kurulum yok | `HTML` | 13 Ağu 2026 |
-| **[tlk-visual](https://github.com/Talkdedsec1/tlk-visual)** | Real-time screen colour engine for Windows - brightness, contrast, saturation, hue and night vision applied to the whole desktop through a 5x5 colour matrix. Rust + Slint, no runtime dependencies. | `Slint` `color-correction` `desktop-app` | 13 Ağu 2026 |
+| **[tlk-sentinel](https://github.com/Talkdedsec1/tlk-sentinel)** | Server and application security engine: log-driven attack detection, IP banning, reputation and anomaly scoring, live panel. Source-available, no redistribution. | `TypeScript` `fail2ban-alternative` `intrusion-detection` | 24 Ağu 2026 |
+| **[tlk-pass](https://github.com/Talkdedsec1/tlk-pass)** | Offline password generator powered by the Web Crypto API — one HTML file, zero dependencies, zero network requests. | `HTML` `cryptography` `html` | 24 Ağu 2026 |
+| **[tlk-wymcmd](https://github.com/Talkdedsec1/tlk-wymcmd)** | talkdedsec-wymcmd - Why My CMD Opened: find out what launched that console window, even when nothing was running | `C#` `cli` `dfir` | 24 Ağu 2026 |
+| **[tlk-visual](https://github.com/Talkdedsec1/tlk-visual)** | Real-time screen colour engine for Windows — brightness, contrast, gamma, temperature and night vision written straight to the display gamma ramp. Rust + Slint, single exe, no injection, no driver, no admin rights. | `Slint` `color-correction` `desktop-app` | 24 Ağu 2026 |
 
 <sub>24 Ağu 2026 tarihinde eşitlendi · yalnızca açık depolar</sub>
 <!-- OSS:END -->
