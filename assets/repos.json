@@ -1,0 +1,24 @@
+{
+  "_": "Per-repository overrides for the OSS table. Without one, the row falls back to the GitHub description (which is English only) and to language + the first two topics (which reads badly as a stack). Keys are repository names.",
+
+  "tlk-sentinel": {
+    "en": "Server and application security engine: log-driven attack detection, IP banning, reputation and anomaly scoring, live panel.",
+    "tr": "Sunucu ve uygulama güvenlik motoru: loglardan saldırı tespiti, IP banlama, itibar ve anomali skoru, canlı panel.",
+    "stack": ["TypeScript", "Node", "SQLite"]
+  },
+  "tlk-visual": {
+    "en": "Whole-screen colour engine for Windows, written straight to the display gamma ramp. One exe, no driver, no admin rights.",
+    "tr": "Windows için ekranın tamamını kapsayan renk motoru; doğrudan ekranın gama tablosuna yazıyor. Tek exe, sürücü yok, yönetici hakkı yok.",
+    "stack": ["Rust", "Slint", "Win32"]
+  },
+  "tlk-wymcmd": {
+    "en": "Finds out what launched that console window — scheduled task, service, registry key or click — hours after it closed.",
+    "tr": "O konsol penceresini neyin açtığını buluyor — zamanlanmış görev, servis, kayıt defteri anahtarı ya da tıklama — kapandıktan saatler sonra.",
+    "stack": ["C#", ".NET 10", "ETW"]
+  },
+  "tlk-pass": {
+    "en": "Offline password generator powered by the Web Crypto API. One HTML file, zero dependencies, zero network requests.",
+    "tr": "Web Crypto ile çalışan çevrimdışı şifre üreteci. Tek HTML dosyası, sıfır bağımlılık, sıfır ağ isteği.",
+    "stack": ["HTML", "JavaScript"]
+  }
+}
