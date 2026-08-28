@@ -49,7 +49,7 @@ Dört depo, tek tek açılıyor. Bu tablo her gün GitHub API'sinden yeniden ür
 | **[tlk-visual](https://github.com/Talkdedsec1/tlk-visual)** · 2 ★ | Windows için ekranın tamamını kapsayan renk motoru; doğrudan ekranın gama tablosuna yazıyor. Tek exe, sürücü yok, yönetici hakkı yok. | `Rust` `Slint` `Win32` | 24 Ağu 2026 |
 | **[tlk-pass](https://github.com/Talkdedsec1/tlk-pass)** | Web Crypto ile çalışan çevrimdışı şifre üreteci. Tek HTML dosyası, sıfır bağımlılık, sıfır ağ isteği. | `HTML` `JavaScript` | 24 Ağu 2026 |
 
-<sub>27 Ağu 2026 tarihinde eşitlendi · yalnızca açık depolar</sub>
+<sub>28 Ağu 2026 tarihinde eşitlendi · yalnızca açık depolar</sub>
 <!-- OSS:END -->
 
 Hepsinde İngilizce ve Türkçe README, bir güvenlik politikası ve CI var. `tlk-sentinel` açık kaynak
