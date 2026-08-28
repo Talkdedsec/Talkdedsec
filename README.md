@@ -79,7 +79,7 @@ Most of it ships as a product, not a demo — installers, update channels, licen
 | **[tlk-visual](https://github.com/Talkdedsec1/tlk-visual)** · 2 ★ | Whole-screen colour engine for Windows, written straight to the display gamma ramp. One exe, no driver, no admin rights. | `Rust` `Slint` `Win32` | 24 Aug 2026 |
 | **[tlk-pass](https://github.com/Talkdedsec1/tlk-pass)** | Offline password generator powered by the Web Crypto API. One HTML file, zero dependencies, zero network requests. | `HTML` `JavaScript` | 24 Aug 2026 |
 
-<sub>Synced 27 Aug 2026 · public repositories only</sub>
+<sub>Synced 28 Aug 2026 · public repositories only</sub>
 <!-- OSS:END -->
 
 <p align="right"><a href="PROJECTS.md"><b>Full project index →</b></a></p>
