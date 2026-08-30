@@ -83,9 +83,9 @@ const LIBRARIES = [
 ];
 const PILLARS = ["pil-desktop", "pil-web", "pil-systems", "pil-interactive"];
 const FEATURED = [
-  ["feat-sentinel", "https://github.com/Talkdedsec1/tlk-sentinel"],
-  ["feat-visual", "https://github.com/Talkdedsec1/tlk-visual"],
-  ["feat-wymcmd", "https://github.com/Talkdedsec1/tlk-wymcmd"],
+  ["feat-sentinel", "https://github.com/Talkdedsec/tlk-sentinel"],
+  ["feat-visual", "https://github.com/Talkdedsec/tlk-visual"],
+  ["feat-wymcmd", "https://github.com/Talkdedsec/tlk-wymcmd"],
 ];
 
 const STACK = [

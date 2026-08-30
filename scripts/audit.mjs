@@ -3,7 +3,7 @@
 // Findings land in one issue on this repository, updated in place and closed
 // when everything passes.
 
-const USER = process.env.PROFILE_USER || "Talkdedsec1";
+const USER = process.env.PROFILE_USER || "Talkdedsec";
 const TOKEN = process.env.GITHUB_TOKEN;
 const ISSUE_REPO = process.env.AUDIT_ISSUE_REPO || `${USER}/${USER}`;
 const ISSUE_TITLE = "Repo denetimi";

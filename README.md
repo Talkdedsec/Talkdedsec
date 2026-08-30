@@ -36,9 +36,9 @@ Most of it ships as a product, not a demo — installers, update channels, licen
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/h-featured-dark.svg"><img width="100%" src="assets/v1/h-featured-light.svg" alt=""></picture>
 
 <p align="center">
-  <a href="https://github.com/Talkdedsec1/tlk-sentinel"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/feat-sentinel-dark.svg"><img width="32.3%" src="assets/v1/feat-sentinel-light.svg" alt=""></picture></a>
-  <a href="https://github.com/Talkdedsec1/tlk-visual"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/feat-visual-dark.svg"><img width="32.3%" src="assets/v1/feat-visual-light.svg" alt=""></picture></a>
-  <a href="https://github.com/Talkdedsec1/tlk-wymcmd"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/feat-wymcmd-dark.svg"><img width="32.3%" src="assets/v1/feat-wymcmd-light.svg" alt=""></picture></a>
+  <a href="https://github.com/Talkdedsec/tlk-sentinel"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/feat-sentinel-dark.svg"><img width="32.3%" src="assets/v1/feat-sentinel-light.svg" alt=""></picture></a>
+  <a href="https://github.com/Talkdedsec/tlk-visual"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/feat-visual-dark.svg"><img width="32.3%" src="assets/v1/feat-visual-light.svg" alt=""></picture></a>
+  <a href="https://github.com/Talkdedsec/tlk-wymcmd"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/feat-wymcmd-dark.svg"><img width="32.3%" src="assets/v1/feat-wymcmd-light.svg" alt=""></picture></a>
 </p>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/h-sites-dark.svg"><img width="100%" src="assets/v1/h-sites-light.svg" alt=""></picture>
@@ -74,12 +74,12 @@ Most of it ships as a product, not a demo — installers, update channels, licen
 <!-- OSS:START -->
 | Repository | What it is | Stack | Updated |
 |:--|:--|:--|:--|
-| **[tlk-wymcmd](https://github.com/Talkdedsec1/tlk-wymcmd)** | Finds out what launched that console window — scheduled task, service, registry key or click — hours after it closed. | `C#` `.NET 10` `ETW` | 24 Aug 2026 |
-| **[tlk-sentinel](https://github.com/Talkdedsec1/tlk-sentinel)** | Server and application security engine: log-driven attack detection, IP banning, reputation and anomaly scoring, live panel. | `TypeScript` `Node` `SQLite` | 24 Aug 2026 |
-| **[tlk-visual](https://github.com/Talkdedsec1/tlk-visual)** · 2 ★ | Whole-screen colour engine for Windows, written straight to the display gamma ramp. One exe, no driver, no admin rights. | `Rust` `Slint` `Win32` | 24 Aug 2026 |
-| **[tlk-pass](https://github.com/Talkdedsec1/tlk-pass)** | Offline password generator powered by the Web Crypto API. One HTML file, zero dependencies, zero network requests. | `HTML` `JavaScript` | 24 Aug 2026 |
+| **[tlk-wymcmd](https://github.com/Talkdedsec/tlk-wymcmd)** | Finds out what launched that console window — scheduled task, service, registry key or click — hours after it closed. | `C#` `.NET 10` `ETW` | 24 Aug 2026 |
+| **[tlk-sentinel](https://github.com/Talkdedsec/tlk-sentinel)** | Server and application security engine: log-driven attack detection, IP banning, reputation and anomaly scoring, live panel. | `TypeScript` `Node` `SQLite` | 24 Aug 2026 |
+| **[tlk-visual](https://github.com/Talkdedsec/tlk-visual)** · 2 ★ | Whole-screen colour engine for Windows, written straight to the display gamma ramp. One exe, no driver, no admin rights. | `Rust` `Slint` `Win32` | 24 Aug 2026 |
+| **[tlk-pass](https://github.com/Talkdedsec/tlk-pass)** | Offline password generator powered by the Web Crypto API. One HTML file, zero dependencies, zero network requests. | `HTML` `JavaScript` | 24 Aug 2026 |
 
-<sub>Synced 29 Aug 2026 · public repositories only</sub>
+<sub>Synced 30 Aug 2026 · public repositories only</sub>
 <!-- OSS:END -->
 
 <p align="right"><a href="PROJECTS.md"><b>Full project index →</b></a></p>
