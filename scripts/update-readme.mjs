@@ -1,6 +1,6 @@
 import { existsSync, readFileSync, writeFileSync } from "node:fs";
 
-const USER = process.env.PROFILE_USER || "Talkdedsec1";
+const USER = process.env.PROFILE_USER || "Talkdedsec";
 const TOKEN = process.env.GITHUB_TOKEN;
 const START = "<!-- OSS:START -->";
 const END = "<!-- OSS:END -->";

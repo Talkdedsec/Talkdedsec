@@ -44,12 +44,12 @@ Dört depo, tek tek açılıyor. Bu tablo her gün GitHub API'sinden yeniden ür
 <!-- OSS:START -->
 | Depo | Nedir | Teknoloji | Güncelleme |
 |:--|:--|:--|:--|
-| **[tlk-wymcmd](https://github.com/Talkdedsec1/tlk-wymcmd)** | O konsol penceresini neyin açtığını buluyor — zamanlanmış görev, servis, kayıt defteri anahtarı ya da tıklama — kapandıktan saatler sonra. | `C#` `.NET 10` `ETW` | 24 Ağu 2026 |
-| **[tlk-sentinel](https://github.com/Talkdedsec1/tlk-sentinel)** | Sunucu ve uygulama güvenlik motoru: loglardan saldırı tespiti, IP banlama, itibar ve anomali skoru, canlı panel. | `TypeScript` `Node` `SQLite` | 24 Ağu 2026 |
-| **[tlk-visual](https://github.com/Talkdedsec1/tlk-visual)** · 2 ★ | Windows için ekranın tamamını kapsayan renk motoru; doğrudan ekranın gama tablosuna yazıyor. Tek exe, sürücü yok, yönetici hakkı yok. | `Rust` `Slint` `Win32` | 24 Ağu 2026 |
-| **[tlk-pass](https://github.com/Talkdedsec1/tlk-pass)** | Web Crypto ile çalışan çevrimdışı şifre üreteci. Tek HTML dosyası, sıfır bağımlılık, sıfır ağ isteği. | `HTML` `JavaScript` | 24 Ağu 2026 |
+| **[tlk-wymcmd](https://github.com/Talkdedsec/tlk-wymcmd)** | O konsol penceresini neyin açtığını buluyor — zamanlanmış görev, servis, kayıt defteri anahtarı ya da tıklama — kapandıktan saatler sonra. | `C#` `.NET 10` `ETW` | 24 Ağu 2026 |
+| **[tlk-sentinel](https://github.com/Talkdedsec/tlk-sentinel)** | Sunucu ve uygulama güvenlik motoru: loglardan saldırı tespiti, IP banlama, itibar ve anomali skoru, canlı panel. | `TypeScript` `Node` `SQLite` | 24 Ağu 2026 |
+| **[tlk-visual](https://github.com/Talkdedsec/tlk-visual)** · 2 ★ | Windows için ekranın tamamını kapsayan renk motoru; doğrudan ekranın gama tablosuna yazıyor. Tek exe, sürücü yok, yönetici hakkı yok. | `Rust` `Slint` `Win32` | 24 Ağu 2026 |
+| **[tlk-pass](https://github.com/Talkdedsec/tlk-pass)** | Web Crypto ile çalışan çevrimdışı şifre üreteci. Tek HTML dosyası, sıfır bağımlılık, sıfır ağ isteği. | `HTML` `JavaScript` | 24 Ağu 2026 |
 
-<sub>29 Ağu 2026 tarihinde eşitlendi · yalnızca açık depolar</sub>
+<sub>30 Ağu 2026 tarihinde eşitlendi · yalnızca açık depolar</sub>
 <!-- OSS:END -->
 
 Hepsinde İngilizce ve Türkçe README, bir güvenlik politikası ve CI var. `tlk-sentinel` açık kaynak
