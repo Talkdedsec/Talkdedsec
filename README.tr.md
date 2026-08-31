@@ -74,10 +74,11 @@ Küçük bir stüdyo işletiyorum ve buradaki her şeyi ben yapıyorum: bir Wind
 <!-- OSS:START -->
 | Depo | Nedir | Teknoloji | Güncelleme |
 |:--|:--|:--|:--|
-| **[tlk-wymcmd](https://github.com/Talkdedsec/tlk-wymcmd)** | O konsol penceresini neyin açtığını buluyor — zamanlanmış görev, servis, kayıt defteri anahtarı ya da tıklama — kapandıktan saatler sonra. | `C#` `.NET 10` `ETW` | 30 Ağu 2026 |
-| **[tlk-sentinel](https://github.com/Talkdedsec/tlk-sentinel)** | Sunucu ve uygulama güvenlik motoru: loglardan saldırı tespiti, IP banlama, itibar ve anomali skoru, canlı panel. | `TypeScript` `Node` `SQLite` | 30 Ağu 2026 |
-| **[tlk-visual](https://github.com/Talkdedsec/tlk-visual)** · 2 ★ | Windows için ekranın tamamını kapsayan renk motoru; doğrudan ekranın gama tablosuna yazıyor. Tek exe, sürücü yok, yönetici hakkı yok. | `Rust` `Slint` `Win32` | 30 Ağu 2026 |
-| **[tlk-pass](https://github.com/Talkdedsec/tlk-pass)** | Web Crypto ile çalışan çevrimdışı şifre üreteci. Tek HTML dosyası, sıfır bağımlılık, sıfır ağ isteği. | `HTML` `JavaScript` | 30 Ağu 2026 |
+| **[scoop-tlk](https://github.com/Talkdedsec/scoop-tlk)** | Scoop bucket for the Talkdedsec Windows tools - wymcmd and tlk-visual. | `package-manager` `scoop` | 31 Ağu 2026 |
+| **[tlk-pass](https://github.com/Talkdedsec/tlk-pass)** | Web Crypto ile çalışan çevrimdışı şifre üreteci. Tek HTML dosyası, sıfır bağımlılık, sıfır ağ isteği. | `HTML` `JavaScript` | 31 Ağu 2026 |
+| **[tlk-sentinel](https://github.com/Talkdedsec/tlk-sentinel)** | Sunucu ve uygulama güvenlik motoru: loglardan saldırı tespiti, IP banlama, itibar ve anomali skoru, canlı panel. | `TypeScript` `Node` `SQLite` | 31 Ağu 2026 |
+| **[tlk-wymcmd](https://github.com/Talkdedsec/tlk-wymcmd)** | O konsol penceresini neyin açtığını buluyor — zamanlanmış görev, servis, kayıt defteri anahtarı ya da tıklama — kapandıktan saatler sonra. | `C#` `.NET 10` `ETW` | 31 Ağu 2026 |
+| **[tlk-visual](https://github.com/Talkdedsec/tlk-visual)** · 2 ★ | Windows için ekranın tamamını kapsayan renk motoru; doğrudan ekranın gama tablosuna yazıyor. Tek exe, sürücü yok, yönetici hakkı yok. | `Rust` `Slint` `Win32` | 31 Ağu 2026 |
 
 <sub>31 Ağu 2026 tarihinde eşitlendi · yalnızca açık depolar</sub>
 <!-- OSS:END -->
