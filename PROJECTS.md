@@ -49,7 +49,7 @@ Four repositories, opened one at a time. This table is rebuilt daily from the Gi
 | **[tlk-visual](https://github.com/Talkdedsec/tlk-visual)** · 2 ★ | Whole-screen colour engine for Windows, written straight to the display gamma ramp. One exe, no driver, no admin rights. | `Rust` `Slint` `Win32` | 30 Aug 2026 |
 | **[tlk-pass](https://github.com/Talkdedsec/tlk-pass)** | Offline password generator powered by the Web Crypto API. One HTML file, zero dependencies, zero network requests. | `HTML` `JavaScript` | 30 Aug 2026 |
 
-<sub>Synced 30 Aug 2026 · public repositories only</sub>
+<sub>Synced 31 Aug 2026 · public repositories only</sub>
 <!-- OSS:END -->
 
 Each of them ships a README in English and Turkish, a security policy and CI. `tlk-sentinel` is
