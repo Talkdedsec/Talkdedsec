@@ -77,12 +77,12 @@ Most of it ships as a product, not a demo — installers, update channels, licen
 | **[tlk-wsmf](https://github.com/Talkdedsec/tlk-wsmf)** | Finds out which Windows application steals your keyboard focus, and stops it. Tray program in Rust, no keyboard hook, English and Turkish. | `Rust` `egui` `focus-stealing` | 08 Sept 2026 |
 | **[tlk-huntx](https://github.com/Talkdedsec/tlk-huntx)** | Single-binary bug bounty engine: scope-gated recon, detection, deterministic verification, LLM-assisted triage. Detection-only. | `Go` `appsec` `attack-surface` | 06 Sept 2026 |
 | **[scoop-tlk](https://github.com/Talkdedsec/scoop-tlk)** | Scoop bucket for the Talkdedsec Windows tools - wymcmd and tlk-visual. | `package-manager` `scoop` | 31 Aug 2026 |
-| **[tlk-wymcmd](https://github.com/Talkdedsec/tlk-wymcmd)** | Finds out what launched that console window — scheduled task, service, registry key or click — hours after it closed. | `C#` `.NET 10` `ETW` | 31 Aug 2026 |
+| **[tlk-wymcmd](https://github.com/Talkdedsec/tlk-wymcmd)** · 1 ★ | Finds out what launched that console window — scheduled task, service, registry key or click — hours after it closed. | `C#` `.NET 10` `ETW` | 31 Aug 2026 |
 | **[tlk-visual](https://github.com/Talkdedsec/tlk-visual)** · 2 ★ | Whole-screen colour engine for Windows, written straight to the display gamma ramp. One exe, no driver, no admin rights. | `Rust` `Slint` `Win32` | 31 Aug 2026 |
 | **[tlk-pass](https://github.com/Talkdedsec/tlk-pass)** | Offline password generator powered by the Web Crypto API. One HTML file, zero dependencies, zero network requests. | `HTML` `JavaScript` | 31 Aug 2026 |
 | **[tlk-sentinel](https://github.com/Talkdedsec/tlk-sentinel)** | Server and application security engine: log-driven attack detection, IP banning, reputation and anomaly scoring, live panel. | `TypeScript` `Node` `SQLite` | 31 Aug 2026 |
 
-<sub>Synced 08 Sept 2026 · public repositories only</sub>
+<sub>Synced 09 Sept 2026 · public repositories only</sub>
 <!-- OSS:END -->
 
 <p align="right"><a href="PROJECTS.md"><b>Full project index →</b></a></p>
