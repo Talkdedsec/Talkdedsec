@@ -74,6 +74,7 @@ Most of it ships as a product, not a demo — installers, update channels, licen
 <!-- OSS:START -->
 | Repository | What it is | Stack | Updated |
 |:--|:--|:--|:--|
+| **[talk-graph](https://github.com/Talkdedsec/talk-graph)** | Kod tabanindan gezilebilir tek dosyalik mimari haritasi / Single-file navigable architecture map from a codebase | `JavaScript` `bagimlilik-grafi` `dependency-graph` | 09 Sept 2026 |
 | **[tlk-wsmf](https://github.com/Talkdedsec/tlk-wsmf)** | Finds out which Windows application steals your keyboard focus, and stops it. Tray program in Rust, no keyboard hook, English and Turkish. | `Rust` `egui` `focus-stealing` | 08 Sept 2026 |
 | **[tlk-huntx](https://github.com/Talkdedsec/tlk-huntx)** | Single-binary bug bounty engine: scope-gated recon, detection, deterministic verification, LLM-assisted triage. Detection-only. | `Go` `appsec` `attack-surface` | 06 Sept 2026 |
 | **[scoop-tlk](https://github.com/Talkdedsec/scoop-tlk)** | Scoop bucket for the Talkdedsec Windows tools - wymcmd and tlk-visual. | `package-manager` `scoop` | 31 Aug 2026 |
@@ -82,7 +83,7 @@ Most of it ships as a product, not a demo — installers, update channels, licen
 | **[tlk-pass](https://github.com/Talkdedsec/tlk-pass)** | Offline password generator powered by the Web Crypto API. One HTML file, zero dependencies, zero network requests. | `HTML` `JavaScript` | 31 Aug 2026 |
 | **[tlk-sentinel](https://github.com/Talkdedsec/tlk-sentinel)** | Server and application security engine: log-driven attack detection, IP banning, reputation and anomaly scoring, live panel. | `TypeScript` `Node` `SQLite` | 31 Aug 2026 |
 
-<sub>Synced 09 Sept 2026 · public repositories only</sub>
+<sub>Synced 10 Sept 2026 · public repositories only</sub>
 <!-- OSS:END -->
 
 <p align="right"><a href="PROJECTS.md"><b>Full project index →</b></a></p>
