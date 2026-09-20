@@ -86,7 +86,7 @@ Küçük bir stüdyo işletiyorum ve buradaki her şeyi ben yapıyorum: bir Wind
 | **[talk-graph](https://github.com/Talkdedsec/talk-graph)** | Single-file navigable architecture map generated from a codebase. No dependencies, no config, one HTML file out. | `JavaScript` `architecture` `cli` | 18 Eyl 2026 |
 | **[tlk-truss](https://github.com/Talkdedsec/tlk-truss)** | Architecture diagrams bound to real code — text in, single-file HTML out, CI fails when the drawing drifts. | `JavaScript` `architecture` `ci` | 17 Eyl 2026 |
 
-<sub>19 Eyl 2026 tarihinde eşitlendi · yalnızca açık depolar</sub>
+<sub>20 Eyl 2026 tarihinde eşitlendi · yalnızca açık depolar</sub>
 <!-- OSS:END -->
 
 <p align="right"><a href="PROJECTS.tr.md"><b>Tüm proje dizini →</b></a></p>
