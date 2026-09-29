@@ -74,8 +74,9 @@ Küçük bir stüdyo işletiyorum ve buradaki her şeyi ben yapıyorum: bir Wind
 <!-- OSS:START -->
 | Depo | Nedir | Teknoloji | Güncelleme |
 |:--|:--|:--|:--|
+| **[tlk-grid](https://github.com/Talkdedsec/tlk-grid)** | Window layout, zoom and overlays for games. Win32 and DWM only, no injection. | `Rust` `dwm` `gaming` | 29 Eyl 2026 |
+| **[tlk-html-viewer](https://github.com/Talkdedsec/tlk-html-viewer)** | HTML, CSS and JavaScript studio with live preview, selectable themes, console and local projects. | `TypeScript` `code-editor` `html` | 28 Eyl 2026 |
 | **[tlk-sentinel](https://github.com/Talkdedsec/tlk-sentinel)** | Sunucu ve uygulama güvenlik motoru: loglardan saldırı tespiti, IP banlama, itibar ve anomali skoru, canlı panel. | `TypeScript` `Node` `SQLite` | 18 Eyl 2026 |
-| **[tlk-grid](https://github.com/Talkdedsec/tlk-grid)** | Window layout, zoom and overlays for games. Win32 and DWM only, no injection. | `Rust` `dwm` `gaming` | 18 Eyl 2026 |
 | **[scoop-tlk](https://github.com/Talkdedsec/scoop-tlk)** | Scoop bucket for the Talkdedsec Windows tools - wymcmd and tlk-visual. | `package-manager` `scoop` | 18 Eyl 2026 |
 | **[tlk-pass](https://github.com/Talkdedsec/tlk-pass)** | Web Crypto ile çalışan çevrimdışı şifre üreteci. Tek HTML dosyası, sıfır bağımlılık, sıfır ağ isteği. | `HTML` `JavaScript` | 18 Eyl 2026 |
 | **[tlk-visual](https://github.com/Talkdedsec/tlk-visual)** · 2 ★ | Windows için ekranın tamamını kapsayan renk motoru; doğrudan ekranın gama tablosuna yazıyor. Tek exe, sürücü yok, yönetici hakkı yok. | `Rust` `Slint` `Win32` | 18 Eyl 2026 |
@@ -86,7 +87,7 @@ Küçük bir stüdyo işletiyorum ve buradaki her şeyi ben yapıyorum: bir Wind
 | **[talk-graph](https://github.com/Talkdedsec/talk-graph)** | Single-file navigable architecture map generated from a codebase. No dependencies, no config, one HTML file out. | `JavaScript` `architecture` `cli` | 18 Eyl 2026 |
 | **[tlk-truss](https://github.com/Talkdedsec/tlk-truss)** | Architecture diagrams bound to real code — text in, single-file HTML out, CI fails when the drawing drifts. | `JavaScript` `architecture` `ci` | 17 Eyl 2026 |
 
-<sub>28 Eyl 2026 tarihinde eşitlendi · yalnızca açık depolar</sub>
+<sub>29 Eyl 2026 tarihinde eşitlendi · yalnızca açık depolar</sub>
 <!-- OSS:END -->
 
 <p align="right"><a href="PROJECTS.tr.md"><b>Tüm proje dizini →</b></a></p>
