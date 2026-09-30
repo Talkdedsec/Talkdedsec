@@ -74,6 +74,8 @@ Küçük bir stüdyo işletiyorum ve buradaki her şeyi ben yapıyorum: bir Wind
 <!-- OSS:START -->
 | Depo | Nedir | Teknoloji | Güncelleme |
 |:--|:--|:--|:--|
+| **[kolay-hesap](https://github.com/Talkdedsec/kolay-hesap)** | Türkçe, mobil uyumlu yüzde, indirim, zam ve KDV hesap makinesi | `TypeScript` | 29 Eyl 2026 |
+| **[fit-to-kb](https://github.com/Talkdedsec/fit-to-kb)** | Compress images to a target KB size in your browser. Private, free, English and Turkish. Batch processing and ZIP downloads. | `TypeScript` `github-pages` `image-compression` | 29 Eyl 2026 |
 | **[tlk-grid](https://github.com/Talkdedsec/tlk-grid)** | Window layout, zoom and overlays for games. Win32 and DWM only, no injection. | `Rust` `dwm` `gaming` | 29 Eyl 2026 |
 | **[tlk-html-viewer](https://github.com/Talkdedsec/tlk-html-viewer)** | HTML, CSS and JavaScript studio with live preview, selectable themes, console and local projects. | `TypeScript` `code-editor` `html` | 28 Eyl 2026 |
 | **[tlk-sentinel](https://github.com/Talkdedsec/tlk-sentinel)** | Sunucu ve uygulama güvenlik motoru: loglardan saldırı tespiti, IP banlama, itibar ve anomali skoru, canlı panel. | `TypeScript` `Node` `SQLite` | 18 Eyl 2026 |
@@ -84,10 +86,8 @@ Küçük bir stüdyo işletiyorum ve buradaki her şeyi ben yapıyorum: bir Wind
 | **[tlk-wsmf](https://github.com/Talkdedsec/tlk-wsmf)** | Finds out which Windows application steals your keyboard focus, and stops it. Tray program in Rust, no keyboard hook, English and Turkish. | `Rust` `egui` `focus-stealing` | 18 Eyl 2026 |
 | **[tlk-tune](https://github.com/Talkdedsec/tlk-tune)** | Terminal music player for Windows. One executable, no ffmpeg, mouse and keyboard, album art, synced lyrics, ten-band EQ. | `Rust` `audio` `cli` | 18 Eyl 2026 |
 | **[tlk-huntx](https://github.com/Talkdedsec/tlk-huntx)** | Single-binary bug bounty engine: scope-gated recon, detection, deterministic verification, LLM-assisted triage. Detection-only. | `Go` `appsec` `attack-surface` | 18 Eyl 2026 |
-| **[talk-graph](https://github.com/Talkdedsec/talk-graph)** | Single-file navigable architecture map generated from a codebase. No dependencies, no config, one HTML file out. | `JavaScript` `architecture` `cli` | 18 Eyl 2026 |
-| **[tlk-truss](https://github.com/Talkdedsec/tlk-truss)** | Architecture diagrams bound to real code — text in, single-file HTML out, CI fails when the drawing drifts. | `JavaScript` `architecture` `ci` | 17 Eyl 2026 |
 
-<sub>29 Eyl 2026 tarihinde eşitlendi · yalnızca açık depolar</sub>
+<sub>30 Eyl 2026 tarihinde eşitlendi · yalnızca açık depolar</sub>
 <!-- OSS:END -->
 
 <p align="right"><a href="PROJECTS.tr.md"><b>Tüm proje dizini →</b></a></p>
