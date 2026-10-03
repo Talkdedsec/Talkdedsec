@@ -57,7 +57,7 @@ Dört depo, tek tek açılıyor. Bu tablo her gün GitHub API'sinden yeniden ür
 | **[tlk-tune](https://github.com/Talkdedsec/tlk-tune)** | Terminal music player for Windows. One executable, no ffmpeg, mouse and keyboard, album art, synced lyrics, ten-band EQ. | `Rust` `audio` `cli` | 18 Eyl 2026 |
 | **[tlk-huntx](https://github.com/Talkdedsec/tlk-huntx)** | Single-binary bug bounty engine: scope-gated recon, detection, deterministic verification, LLM-assisted triage. Detection-only. | `Go` `appsec` `attack-surface` | 18 Eyl 2026 |
 
-<sub>02 Eki 2026 tarihinde eşitlendi · yalnızca açık depolar</sub>
+<sub>03 Eki 2026 tarihinde eşitlendi · yalnızca açık depolar</sub>
 <!-- OSS:END -->
 
 Hepsinde İngilizce ve Türkçe README, bir güvenlik politikası ve CI var. `tlk-sentinel` açık kaynak
