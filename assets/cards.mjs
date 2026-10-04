@@ -155,9 +155,7 @@ const HERO = {
 const METRICS = [
   { v: "274", k: "dev tools" },
   { v: "212", k: "games" },
-  { v: "202", k: "components" },
-  { v: "26", k: "design systems" },
-  { v: "308", k: "references" },
+  { v: "19", k: "public repos" },
 ];
 
 const W2 = 636, W3 = 418;
@@ -165,8 +163,6 @@ const W2 = 636, W3 = 418;
 const CARDS = {
   "site-main": { w: W2, h: 176, link: 1, kicker: "studio", title: "talkdedsec.com", lines: ["Tools, games, portfolio, notes and CTF writeups.", "Turkish and English."], meta: "NEXT.JS" },
   "site-code": { w: W2, h: 176, link: 1, kicker: "product", title: "code.talkdedsec.com", lines: ["Talkdedsec Editor. A Windows editor on an open-source", "core, telemetry layer removed at the source."], meta: "TYPESCRIPT · NODE" },
-  "site-styles": { w: W2, h: 176, link: 1, kicker: "library", title: "styles.talkdedsec.com", lines: ["Design systems compiled into DESIGN.md, Tailwind v4,", "CSS variables and design tokens."], meta: "TYPESCRIPT · REACT" },
-  "site-agents": { w: W2, h: 176, link: 1, kicker: "archive", title: "agents.talkdedsec.com", lines: ["Agent definitions, agent skills, system prompts,", "MCP guides and multi-agent workflows."], meta: "NEXT.JS" },
   "site-projects": { w: W2, h: 176, link: 1, kicker: "portfolio", title: "projects.talkdedsec.com", lines: ["Portfolio in a desktop-OS interface: security tools,", "FiveM scripts, CLI and desktop apps."], meta: "TYPESCRIPT" },
   "site-store": { w: W2, h: 176, link: 1, kicker: "commerce", title: "store.talkdedsec.com", lines: ["FiveM scripts. Server-authoritative, resmon-friendly,", "delivered through Tebex."], meta: "TEBEX HEADLESS" },
   "site-ornek": { w: W2, h: 176, link: 1, kicker: "demos", title: "ornek.talkdedsec.com", lines: ["Live demos of the site templates I sell."], meta: "NEXT.JS" },
@@ -174,10 +170,6 @@ const CARDS = {
 
   "cat-tools": { w: W2, h: 200, link: 1, big: "274", kicker: "browser", title: "Developer tools", lines: ["Hashing, base64, JWT, regex, subnet maths, encoding,", "text processing and data formats. Runs entirely in the", "browser — nothing uploaded, nothing logged."], meta: "TALKDEDSEC.COM/TOOLS" },
   "cat-games": { w: W2, h: 200, link: 1, big: "212", kicker: "browser", title: "Games", lines: ["Puzzle, strategy, reflex, memory and word games,", "plus larger terminal and sandbox titles.", "All client-side, no accounts."], meta: "TALKDEDSEC.COM/GAMES" },
-
-  "lib-systems": { w: W3, h: 190, link: 1, big: "26", kicker: "styles", title: "Design systems", lines: ["One TypeScript source,", "four compiled outputs.", "130 themes on top."], meta: "STYLES.TALKDEDSEC.COM" },
-  "lib-components": { w: W3, h: 190, link: 1, big: "202", kicker: "styles", title: "Components", lines: ["Production React parts", "with 308 curated design", "references behind them."], meta: "STYLES.TALKDEDSEC.COM" },
-  "lib-skills": { w: W3, h: 190, link: 1, big: "54", kicker: "agents", title: "agent skills", lines: ["Tested agent definitions,", "prompts and MCP guides.", "Copy, install, run."], meta: "AGENTS.TALKDEDSEC.COM" },
 
   "feat-sentinel": { w: W3, h: 224, link: 1, kicker: "security", title: "tlk-sentinel", lines: ["Reads your logs, spots the", "attack, bans the source and", "shows you what happened.", "60 tests, zero runtime deps."], meta: "TYPESCRIPT · NODE · LINUX" },
   "feat-visual": { w: W3, h: 224, link: 1, kicker: "windows", title: "Talkdedsec Visual", lines: ["Whole-screen colour engine", "written to the display gamma", "ramp. One exe, no driver,", "no admin rights."], meta: "RUST · SLINT · WIN32" },
@@ -189,7 +181,7 @@ const CARDS = {
   "pil-interactive": { w: 300, h: 214, kicker: "04", title: "Interactive", lines: ["Browser games and", "design systems. Client-", "side, nothing sent out."], meta: "TYPESCRIPT · CANVAS" },
 };
 
-const HEADINGS = { "h-featured": "Featured", "h-sites": "Sites", "h-catalogue": "Catalogue", "h-libraries": "Libraries", "h-oss": "Open source", "h-stack": "Stack" };
+const HEADINGS = { "h-featured": "Featured", "h-sites": "Sites", "h-catalogue": "Catalogue", "h-oss": "Open source", "h-stack": "Stack" };
 
 const dir = join(OUT, DIR);
 mkdirSync(dir, { recursive: true });

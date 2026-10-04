@@ -14,8 +14,6 @@ Talkdedsec adı altında şu an yayında olan her şey. Herkese açık olmayan i
 |:--|:--|:--|
 | [talkdedsec.com](https://talkdedsec.com) | Stüdyo sitesi: araçlar, oyunlar, portfolyo, blog, writeup. İki dilli. | Next.js |
 | [code.talkdedsec.com](https://code.talkdedsec.com) | Talkdedsec Editör: indirmeler, temalar ve dokümantasyon. | Next.js |
-| [styles.talkdedsec.com](https://styles.talkdedsec.com) | Tasarım sistemleri, bileşenler, temalar ve referanslar. | Next.js / TypeScript |
-| [agents.talkdedsec.com](https://agents.talkdedsec.com) | Ajan tanımları, ajan skill'leri, promptlar ve MCP rehberleri. | Next.js |
 | [projects.talkdedsec.com](https://projects.talkdedsec.com) | Masaüstü-OS arayüzünde portfolyo. | TypeScript |
 | [store.talkdedsec.com](https://store.talkdedsec.com) | Tebex Headless üzerinde FiveM script mağazası. | Next.js |
 | [ornek.talkdedsec.com](https://ornek.talkdedsec.com) | Sattığım site şablonlarının demoları. | Next.js |
@@ -29,11 +27,6 @@ Talkdedsec adı altında şu an yayında olan her şey. Herkese açık olmayan i
 |:--|--:|:--|
 | Geliştirici araçları | 274 | [talkdedsec.com/tools](https://talkdedsec.com/tools) |
 | Oyunlar | 212 | [talkdedsec.com/games](https://talkdedsec.com/games) |
-| UI bileşenleri | 202 | [styles.talkdedsec.com](https://styles.talkdedsec.com) |
-| Temalar | 130 | [styles.talkdedsec.com](https://styles.talkdedsec.com) |
-| Tasarım sistemleri | 26 | [styles.talkdedsec.com](https://styles.talkdedsec.com) |
-| Tasarım referansları | 308 | [styles.talkdedsec.com](https://styles.talkdedsec.com) |
-| ajan skill'leri | 54 | [agents.talkdedsec.com](https://agents.talkdedsec.com) |
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/rule-dark.svg"><img width="100%" src="assets/v1/rule-light.svg" alt=""></picture>
 
