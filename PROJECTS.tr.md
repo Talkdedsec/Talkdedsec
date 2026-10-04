@@ -32,7 +32,7 @@ Talkdedsec adı altında şu an yayında olan her şey. Herkese açık olmayan i
 
 ## Açık kaynak
 
-Dört depo, tek tek açılıyor. Bu tablo her gün GitHub API'sinden yeniden üretiliyor.
+Depolar tek tek açılıyor. Bu tablo her gün GitHub API'sinden yeniden üretiliyor.
 
 <!-- OSS:START -->
 | Depo | Nedir | Teknoloji | Güncelleme |
