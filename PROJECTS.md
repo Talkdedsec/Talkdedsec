@@ -14,8 +14,6 @@ Everything currently published under the Talkdedsec name. Work that is not publi
 |:--|:--|:--|
 | [talkdedsec.com](https://talkdedsec.com/en) | Studio site: tools, games, portfolio, blog, writeups. Bilingual. | Next.js |
 | [code.talkdedsec.com](https://code.talkdedsec.com) | Talkdedsec Editor: downloads, themes and documentation. | Next.js |
-| [styles.talkdedsec.com](https://styles.talkdedsec.com/en) | Design systems, components, themes and references. | Next.js / TypeScript |
-| [agents.talkdedsec.com](https://agents.talkdedsec.com) | Agent definitions, Claude Code skills, prompts and MCP guides. | Next.js |
 | [projects.talkdedsec.com](https://projects.talkdedsec.com) | Portfolio in a desktop-OS interface. | TypeScript |
 | [store.talkdedsec.com](https://store.talkdedsec.com) | FiveM script store on Tebex Headless. | Next.js |
 | [ornek.talkdedsec.com](https://ornek.talkdedsec.com) | Demos of the site templates I sell. | Next.js |
@@ -29,11 +27,6 @@ Everything currently published under the Talkdedsec name. Work that is not publi
 |:--|--:|:--|
 | Developer tools | 274 | [talkdedsec.com/tools](https://talkdedsec.com/tools) |
 | Games | 212 | [talkdedsec.com/games](https://talkdedsec.com/games) |
-| UI components | 202 | [styles.talkdedsec.com](https://styles.talkdedsec.com/en) |
-| Themes | 130 | [styles.talkdedsec.com](https://styles.talkdedsec.com/en) |
-| Design systems | 26 | [styles.talkdedsec.com](https://styles.talkdedsec.com/en) |
-| Design references | 308 | [styles.talkdedsec.com](https://styles.talkdedsec.com/en) |
-| Claude Code skills | 54 | [agents.talkdedsec.com](https://agents.talkdedsec.com) |
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/rule-dark.svg"><img width="100%" src="assets/v1/rule-light.svg" alt=""></picture>
 
