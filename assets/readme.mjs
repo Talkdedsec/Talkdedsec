@@ -13,12 +13,10 @@ const L = {
     nav: [
       ["Site", "https://talkdedsec.com/en"],
       ["Editor", "https://code.talkdedsec.com"],
-      ["Styles", "https://styles.talkdedsec.com/en"],
-      ["Agents", "https://agents.talkdedsec.com"],
       ["Projects", "PROJECTS.md"],
     ],
     intro: [
-      "I run a small studio and build everything listed here: a Windows code editor, a design-system library, a catalogue of browser tools and games, an archive of AI agent definitions, a FiveM script store, and the licensing and deployment layer that keeps them running.",
+      "I run a small studio and build everything listed here: a Windows code editor, a catalogue of browser tools and games, a FiveM script store, and the licensing and deployment layer that keeps them running.",
       "Most of it ships as a product, not a demo — installers, update channels, licence checks and a support inbox. None of it carries analytics or usage tracking; the licensed products check a licence key and send nothing else. No sponsors either.",
     ],
     ossFallback: "Nothing public yet. Repositories are opened one at a time.",
@@ -40,12 +38,10 @@ const L = {
     nav: [
       ["Site", "https://talkdedsec.com"],
       ["Editör", "https://code.talkdedsec.com"],
-      ["Styles", "https://styles.talkdedsec.com"],
-      ["Agents", "https://agents.talkdedsec.com"],
       ["Projeler", "PROJECTS.tr.md"],
     ],
     intro: [
-      "Küçük bir stüdyo işletiyorum ve buradaki her şeyi ben yapıyorum: bir Windows kod editörü, bir tasarım sistemi kütüphanesi, tarayıcıda çalışan araç ve oyun kataloğu, bir AI ajan tanımları arşivi, bir FiveM script mağazası ve bunları ayakta tutan lisans ile dağıtım katmanı.",
+      "Küçük bir stüdyo işletiyorum ve buradaki her şeyi ben yapıyorum: bir Windows kod editörü, tarayıcıda çalışan araç ve oyun kataloğu, bir FiveM script mağazası ve bunları ayakta tutan lisans ile dağıtım katmanı.",
       "Çoğu demo olarak değil ürün olarak çıkıyor — kurulum paketi, güncelleme kanalı, lisans kontrolü ve destek kutusu var. Hiçbirinde analitik ya da kullanım takibi yok; lisanslı ürünler yalnız lisans anahtarını doğruluyor, başka hiçbir şey göndermiyor. Sponsor da yok.",
     ],
     ossFallback: "Henüz public depo yok. Depolar tek tek açılıyor.",
@@ -65,8 +61,6 @@ const L = {
 const SITES = [
   ["site-main", "https://talkdedsec.com/en"],
   ["site-code", "https://code.talkdedsec.com"],
-  ["site-styles", "https://styles.talkdedsec.com/en"],
-  ["site-agents", "https://agents.talkdedsec.com"],
   ["site-projects", "https://projects.talkdedsec.com"],
   ["site-store", "https://store.talkdedsec.com"],
   ["site-ornek", "https://ornek.talkdedsec.com"],
@@ -75,11 +69,6 @@ const SITES = [
 const CATALOGUE = [
   ["cat-tools", "https://talkdedsec.com/tools"],
   ["cat-games", "https://talkdedsec.com/games"],
-];
-const LIBRARIES = [
-  ["lib-systems", "https://styles.talkdedsec.com/en"],
-  ["lib-components", "https://styles.talkdedsec.com/en"],
-  ["lib-skills", "https://agents.talkdedsec.com"],
 ];
 const PILLARS = ["pil-desktop", "pil-web", "pil-systems", "pil-interactive"];
 const FEATURED = [
@@ -137,10 +126,6 @@ ${grid(SITES, "49%")}
 ${full("h-catalogue")}
 
 ${grid(CATALOGUE, "49%")}
-
-${full("h-libraries")}
-
-${grid(LIBRARIES, "32.3%")}
 
 ${full("h-oss")}
 

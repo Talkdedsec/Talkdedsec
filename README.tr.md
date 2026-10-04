@@ -5,10 +5,6 @@
   &nbsp;·&nbsp;
   <a href="https://code.talkdedsec.com">Editör</a>
   &nbsp;·&nbsp;
-  <a href="https://styles.talkdedsec.com">Styles</a>
-  &nbsp;·&nbsp;
-  <a href="https://agents.talkdedsec.com">Agents</a>
-  &nbsp;·&nbsp;
   <a href="PROJECTS.tr.md">Projeler</a>
   &nbsp;&nbsp;|&nbsp;&nbsp;
   <a href="README.md"><b>English</b></a>
@@ -18,7 +14,7 @@
 
 <img align="left" width="190" src="assets/logo.png" alt="Talkdedsec">
 
-Küçük bir stüdyo işletiyorum ve buradaki her şeyi ben yapıyorum: bir Windows kod editörü, bir tasarım sistemi kütüphanesi, tarayıcıda çalışan araç ve oyun kataloğu, bir AI ajan tanımları arşivi, bir FiveM script mağazası ve bunları ayakta tutan lisans ile dağıtım katmanı.
+Küçük bir stüdyo işletiyorum ve buradaki her şeyi ben yapıyorum: bir Windows kod editörü, tarayıcıda çalışan araç ve oyun kataloğu, bir FiveM script mağazası ve bunları ayakta tutan lisans ile dağıtım katmanı.
 
 Çoğu demo olarak değil ürün olarak çıkıyor — kurulum paketi, güncelleme kanalı, lisans kontrolü ve destek kutusu var. Hiçbirinde analitik ya da kullanım takibi yok; lisanslı ürünler yalnız lisans anahtarını doğruluyor, başka hiçbir şey göndermiyor. Sponsor da yok.
 
@@ -46,8 +42,6 @@ Küçük bir stüdyo işletiyorum ve buradaki her şeyi ben yapıyorum: bir Wind
 <p align="center">
   <a href="https://talkdedsec.com/en"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/site-main-dark.svg"><img width="49%" src="assets/v1/site-main-light.svg" alt=""></picture></a>
   <a href="https://code.talkdedsec.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/site-code-dark.svg"><img width="49%" src="assets/v1/site-code-light.svg" alt=""></picture></a>
-  <a href="https://styles.talkdedsec.com/en"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/site-styles-dark.svg"><img width="49%" src="assets/v1/site-styles-light.svg" alt=""></picture></a>
-  <a href="https://agents.talkdedsec.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/site-agents-dark.svg"><img width="49%" src="assets/v1/site-agents-light.svg" alt=""></picture></a>
   <a href="https://projects.talkdedsec.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/site-projects-dark.svg"><img width="49%" src="assets/v1/site-projects-light.svg" alt=""></picture></a>
   <a href="https://store.talkdedsec.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/site-store-dark.svg"><img width="49%" src="assets/v1/site-store-light.svg" alt=""></picture></a>
   <a href="https://ornek.talkdedsec.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/site-ornek-dark.svg"><img width="49%" src="assets/v1/site-ornek-light.svg" alt=""></picture></a>
@@ -61,33 +55,10 @@ Küçük bir stüdyo işletiyorum ve buradaki her şeyi ben yapıyorum: bir Wind
   <a href="https://talkdedsec.com/games"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/cat-games-dark.svg"><img width="49%" src="assets/v1/cat-games-light.svg" alt=""></picture></a>
 </p>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/h-libraries-dark.svg"><img width="100%" src="assets/v1/h-libraries-light.svg" alt=""></picture>
-
-<p align="center">
-  <a href="https://styles.talkdedsec.com/en"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/lib-systems-dark.svg"><img width="32.3%" src="assets/v1/lib-systems-light.svg" alt=""></picture></a>
-  <a href="https://styles.talkdedsec.com/en"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/lib-components-dark.svg"><img width="32.3%" src="assets/v1/lib-components-light.svg" alt=""></picture></a>
-  <a href="https://agents.talkdedsec.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/lib-skills-dark.svg"><img width="32.3%" src="assets/v1/lib-skills-light.svg" alt=""></picture></a>
-</p>
-
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/h-oss-dark.svg"><img width="100%" src="assets/v1/h-oss-light.svg" alt=""></picture>
 
 <!-- OSS:START -->
-| Depo | Nedir | Teknoloji | Güncelleme |
-|:--|:--|:--|:--|
-| **[tlk-save](https://github.com/Talkdedsec/tlk-save)** | Download videos and audio from YouTube, TikTok, Instagram, X and 1800+ sites. No ads, no tracking. | `Rust` `react` `rust` | 04 Eki 2026 |
-| **[tlk-wsmf](https://github.com/Talkdedsec/tlk-wsmf)** | Finds out which Windows application steals your keyboard focus, and stops it. Tray program in Rust, no keyboard hook, English and Turkish. | `Rust` `egui` `focus-stealing` | 02 Eki 2026 |
-| **[tlk-html-viewer](https://github.com/Talkdedsec/tlk-html-viewer)** | HTML, CSS and JavaScript studio with live preview, selectable themes, console and local projects. | `TypeScript` `code-editor` `html` | 01 Eki 2026 |
-| **[tlk-visual](https://github.com/Talkdedsec/tlk-visual)** · 2 ★ | Windows için ekranın tamamını kapsayan renk motoru; doğrudan ekranın gama tablosuna yazıyor. Tek exe, sürücü yok, yönetici hakkı yok. | `Rust` `Slint` `Win32` | 01 Eki 2026 |
-| **[kolay-hesap](https://github.com/Talkdedsec/kolay-hesap)** | Türkçe, mobil uyumlu yüzde, indirim, zam ve KDV hesap makinesi | `TypeScript` | 29 Eyl 2026 |
-| **[fit-to-kb](https://github.com/Talkdedsec/fit-to-kb)** | Compress images to a target KB size in your browser. Private, free, English and Turkish. Batch processing and ZIP downloads. | `TypeScript` `github-pages` `image-compression` | 29 Eyl 2026 |
-| **[tlk-grid](https://github.com/Talkdedsec/tlk-grid)** | Window layout, zoom and overlays for games. Win32 and DWM only, no injection. | `Rust` `dwm` `gaming` | 29 Eyl 2026 |
-| **[tlk-sentinel](https://github.com/Talkdedsec/tlk-sentinel)** | Sunucu ve uygulama güvenlik motoru: loglardan saldırı tespiti, IP banlama, itibar ve anomali skoru, canlı panel. | `TypeScript` `Node` `SQLite` | 18 Eyl 2026 |
-| **[scoop-tlk](https://github.com/Talkdedsec/scoop-tlk)** | Scoop bucket for the Talkdedsec Windows tools - wymcmd and tlk-visual. | `package-manager` `scoop` | 18 Eyl 2026 |
-| **[tlk-pass](https://github.com/Talkdedsec/tlk-pass)** | Web Crypto ile çalışan çevrimdışı şifre üreteci. Tek HTML dosyası, sıfır bağımlılık, sıfır ağ isteği. | `HTML` `JavaScript` | 18 Eyl 2026 |
-| **[tlk-wymcmd](https://github.com/Talkdedsec/tlk-wymcmd)** · 1 ★ | O konsol penceresini neyin açtığını buluyor — zamanlanmış görev, servis, kayıt defteri anahtarı ya da tıklama — kapandıktan saatler sonra. | `C#` `.NET 10` `ETW` | 18 Eyl 2026 |
-| **[tlk-tune](https://github.com/Talkdedsec/tlk-tune)** | Terminal music player for Windows. One executable, no ffmpeg, mouse and keyboard, album art, synced lyrics, ten-band EQ. | `Rust` `audio` `cli` | 18 Eyl 2026 |
-
-<sub>04 Eki 2026 tarihinde eşitlendi · yalnızca açık depolar</sub>
+Henüz public depo yok. Depolar tek tek açılıyor.
 <!-- OSS:END -->
 
 <p align="right"><a href="PROJECTS.tr.md"><b>Tüm proje dizini →</b></a></p>
