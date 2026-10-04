@@ -32,7 +32,7 @@ Everything currently published under the Talkdedsec name. Work that is not publi
 
 ## Open source
 
-Four repositories, opened one at a time. This table is rebuilt daily from the GitHub API.
+Repositories are opened one at a time. This table is rebuilt daily from the GitHub API.
 
 <!-- OSS:START -->
 | Repository | What it is | Stack | Updated |
