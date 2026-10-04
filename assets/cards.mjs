@@ -147,7 +147,7 @@ function rule(theme) {
 
 const HERO = {
   eyebrow: "INDEPENDENT SOFTWARE STUDIO",
-  sub1: "Security and productivity tools, a code editor, design systems",
+  sub1: "Security and productivity tools, a code editor",
   sub2: "and web platforms. No sponsors, no analytics, no tracking.",
   foot: "talkdedsec.com",
 };
@@ -155,7 +155,6 @@ const HERO = {
 const METRICS = [
   { v: "274", k: "dev tools" },
   { v: "212", k: "games" },
-  { v: "19", k: "public repos" },
 ];
 
 const W2 = 636, W3 = 418;
@@ -178,7 +177,7 @@ const CARDS = {
   "pil-desktop": { w: 300, h: 214, kicker: "01", title: "Desktop", lines: ["Windows apps and local", "utilities. Installers,", "updates, no telemetry."], meta: "RUST · C# · TAURI" },
   "pil-web": { w: 300, h: 214, kicker: "02", title: "Web", lines: ["Product sites and", "storefronts. Bilingual,", "server-rendered."], meta: "NEXT.JS · PRISMA" },
   "pil-systems": { w: 300, h: 214, kicker: "03", title: "Systems", lines: ["Licensing, releases and", "deploys. Runs on my", "own servers."], meta: "NODE · LINUX · NGINX" },
-  "pil-interactive": { w: 300, h: 214, kicker: "04", title: "Interactive", lines: ["Browser games and", "design systems. Client-", "side, nothing sent out."], meta: "TYPESCRIPT · CANVAS" },
+  "pil-interactive": { w: 300, h: 214, kicker: "04", title: "Interactive", lines: ["Browser games, puzzles", "and sandbox titles. All", "client-side, no accounts."], meta: "TYPESCRIPT · CANVAS" },
 };
 
 const HEADINGS = { "h-featured": "Featured", "h-sites": "Sites", "h-catalogue": "Catalogue", "h-oss": "Open source", "h-stack": "Stack" };
