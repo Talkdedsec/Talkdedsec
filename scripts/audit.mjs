@@ -24,7 +24,8 @@ const TOOL_FOOTER = [
   /^[A-Z][\w-]*-Session:/m,
 ];
 const TURKISH = /[ğşıçöüĞŞİÇÖÜ]|\b(ve|ile|için|bir|olan|yok|var|tek|kurulum|çalışan|araç|dosya)\b/;
-const CHECKSUM = /\.(sha256|sha512|txt|asc|sig)$/i;
+// Either a per-file digest (app.exe.sha256, .asc, .sig) or a combined list (SHA256SUMS, checksums.txt).
+const CHECKSUM = /\.(sha256|sha512|txt|asc|sig)$|^(sha256|sha512)sums$/i;
 
 const headers = {
   accept: "application/vnd.github+json",
@@ -48,7 +49,7 @@ async function raw(repo, path) {
 
 // --- checks ----------------------------------------------------------------
 
-function metadata(r, findings) {
+function metadata(r, latest, findings) {
   const say = (m) => findings.push(m);
   const d = (r.description || "").trim();
 
@@ -65,7 +66,8 @@ function metadata(r, findings) {
   if (!isProfile && (r.topics || []).length < MIN_TOPICS) {
     say(`${(r.topics || []).length} topics, at least ${MIN_TOPICS} expected`);
   }
-  if (!r.homepage) say("homepage is empty");
+  // A homepage needs something to point at: a Pages site or a release to download.
+  if (!r.homepage && (r.has_pages || latest)) say("homepage is empty");
   if (r.has_wiki) say("wiki is enabled but unused");
   if (r.has_projects) say("projects tab is enabled but unused");
 }
@@ -92,8 +94,7 @@ async function commits(r, findings) {
   if (footers) findings.push(`${footers} commit message(s) carry a tool co-author or generated-with footer`);
 }
 
-async function releases(r, findings) {
-  const latest = await api(`/repos/${r.full_name}/releases/latest`);
+function releases(latest, findings) {
   if (!latest) return; // a repository without releases is not a finding
 
   if (!SEMVER.test(latest.tag_name)) findings.push(`release tag is not semver: ${latest.tag_name}`);
@@ -170,10 +171,11 @@ for (const r of repos) {
   const findings = [];
   const tree = await api(`/repos/${r.full_name}/git/trees/${r.default_branch}?recursive=1`);
   const paths = new Set((tree?.tree || []).map((n) => n.path));
-  metadata(r, findings);
+  const latest = await api(`/repos/${r.full_name}/releases/latest`);
+  metadata(r, latest, findings);
   readmes(paths, findings);
   await commits(r, findings);
-  await releases(r, findings);
+  releases(latest, findings);
   await links(r, paths, findings);
   if (findings.length) report.push({ repo: r.name, url: r.html_url, findings });
   console.log(`${r.name}: ${findings.length || "clean"}`);
