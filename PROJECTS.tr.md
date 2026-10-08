@@ -37,8 +37,8 @@ Depolar tek tek açılıyor. Bu tablo her gün GitHub API'sinden yeniden üretil
 <!-- OSS:START -->
 | Depo | Nedir | Teknoloji | Güncelleme |
 |:--|:--|:--|:--|
+| **[tlk-hex](https://github.com/Talkdedsec/tlk-hex)** · 2 ★ | Interactive disassembler — static analysis / reverse engineering for x86/x64 PE, ELF and raw binaries | `C#` `csharp` `decompiler` | 08 Eki 2026 |
 | **[clipdeck](https://github.com/Talkdedsec/clipdeck)** | Windows için hızlı ve şifreli pano geçmişi, emoji, kaomoji ve sembol seçici — Win+V ve Win+. yerine. | `C#` `clipboard` `clipboard-history` | 06 Eki 2026 |
-| **[tlk-hex](https://github.com/Talkdedsec/tlk-hex)** | Interactive disassembler — static analysis / reverse engineering for x86/x64 PE, ELF and raw binaries | `C#` `csharp` `decompiler` | 06 Eki 2026 |
 | **[scoop-tlk](https://github.com/Talkdedsec/scoop-tlk)** | Scoop bucket for the Talkdedsec Windows tools - wymcmd and tlk-visual. | `package-manager` `scoop` | 06 Eki 2026 |
 | **[tlk-visual](https://github.com/Talkdedsec/tlk-visual)** · 2 ★ | Windows için ekranın tamamını kapsayan renk motoru; doğrudan ekranın gama tablosuna yazıyor. Tek exe, sürücü yok, yönetici hakkı yok. | `Rust` `Slint` `Win32` | 06 Eki 2026 |
 | **[tlk-grid](https://github.com/Talkdedsec/tlk-grid)** | Window layout, zoom and overlays for games. Win32 and DWM only, no injection. | `Rust` `dwm` `gaming` | 06 Eki 2026 |
@@ -50,7 +50,7 @@ Depolar tek tek açılıyor. Bu tablo her gün GitHub API'sinden yeniden üretil
 | **[tlk-wsmf](https://github.com/Talkdedsec/tlk-wsmf)** | Finds out which Windows application steals your keyboard focus, and stops it. Tray program in Rust, no keyboard hook, English and Turkish. | `Rust` `egui` `focus-stealing` | 05 Eki 2026 |
 | **[tlk-tune](https://github.com/Talkdedsec/tlk-tune)** | Terminal music player for Windows. One executable, no ffmpeg, mouse and keyboard, album art, synced lyrics, ten-band EQ. | `Rust` `audio` `cli` | 05 Eki 2026 |
 
-<sub>07 Eki 2026 tarihinde eşitlendi · yalnızca açık depolar</sub>
+<sub>08 Eki 2026 tarihinde eşitlendi · yalnızca açık depolar</sub>
 <!-- OSS:END -->
 
 Hepsinde İngilizce ve Türkçe README, bir güvenlik politikası ve CI var. `tlk-sentinel` açık kaynak

@@ -37,8 +37,8 @@ Repositories are opened one at a time. This table is rebuilt daily from the GitH
 <!-- OSS:START -->
 | Repository | What it is | Stack | Updated |
 |:--|:--|:--|:--|
+| **[tlk-hex](https://github.com/Talkdedsec/tlk-hex)** · 2 ★ | Interactive disassembler — static analysis / reverse engineering for x86/x64 PE, ELF and raw binaries | `C#` `csharp` `decompiler` | 08 Oct 2026 |
 | **[clipdeck](https://github.com/Talkdedsec/clipdeck)** | Windows için hızlı ve şifreli pano geçmişi, emoji, kaomoji ve sembol seçici — Win+V ve Win+. yerine. | `C#` `clipboard` `clipboard-history` | 06 Oct 2026 |
-| **[tlk-hex](https://github.com/Talkdedsec/tlk-hex)** | Interactive disassembler — static analysis / reverse engineering for x86/x64 PE, ELF and raw binaries | `C#` `csharp` `decompiler` | 06 Oct 2026 |
 | **[scoop-tlk](https://github.com/Talkdedsec/scoop-tlk)** | Scoop bucket for the Talkdedsec Windows tools - wymcmd and tlk-visual. | `package-manager` `scoop` | 06 Oct 2026 |
 | **[tlk-visual](https://github.com/Talkdedsec/tlk-visual)** · 2 ★ | Whole-screen colour engine for Windows, written straight to the display gamma ramp. One exe, no driver, no admin rights. | `Rust` `Slint` `Win32` | 06 Oct 2026 |
 | **[tlk-grid](https://github.com/Talkdedsec/tlk-grid)** | Window layout, zoom and overlays for games. Win32 and DWM only, no injection. | `Rust` `dwm` `gaming` | 06 Oct 2026 |
@@ -50,7 +50,7 @@ Repositories are opened one at a time. This table is rebuilt daily from the GitH
 | **[tlk-wsmf](https://github.com/Talkdedsec/tlk-wsmf)** | Finds out which Windows application steals your keyboard focus, and stops it. Tray program in Rust, no keyboard hook, English and Turkish. | `Rust` `egui` `focus-stealing` | 05 Oct 2026 |
 | **[tlk-tune](https://github.com/Talkdedsec/tlk-tune)** | Terminal music player for Windows. One executable, no ffmpeg, mouse and keyboard, album art, synced lyrics, ten-band EQ. | `Rust` `audio` `cli` | 05 Oct 2026 |
 
-<sub>Synced 07 Oct 2026 · public repositories only</sub>
+<sub>Synced 08 Oct 2026 · public repositories only</sub>
 <!-- OSS:END -->
 
 Each of them ships a README in English and Turkish, a security policy and CI. `tlk-sentinel` is
