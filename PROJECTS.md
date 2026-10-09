@@ -50,7 +50,7 @@ Repositories are opened one at a time. This table is rebuilt daily from the GitH
 | **[tlk-wsmf](https://github.com/Talkdedsec/tlk-wsmf)** | Finds out which Windows application steals your keyboard focus, and stops it. Tray program in Rust, no keyboard hook, English and Turkish. | `Rust` `egui` `focus-stealing` | 05 Oct 2026 |
 | **[tlk-tune](https://github.com/Talkdedsec/tlk-tune)** | Terminal music player for Windows. One executable, no ffmpeg, mouse and keyboard, album art, synced lyrics, ten-band EQ. | `Rust` `audio` `cli` | 05 Oct 2026 |
 
-<sub>Synced 08 Oct 2026 · public repositories only</sub>
+<sub>Synced 09 Oct 2026 · public repositories only</sub>
 <!-- OSS:END -->
 
 Each of them ships a README in English and Turkish, a security policy and CI. `tlk-sentinel` is
