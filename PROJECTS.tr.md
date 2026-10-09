@@ -50,7 +50,7 @@ Depolar tek tek açılıyor. Bu tablo her gün GitHub API'sinden yeniden üretil
 | **[tlk-wsmf](https://github.com/Talkdedsec/tlk-wsmf)** | Finds out which Windows application steals your keyboard focus, and stops it. Tray program in Rust, no keyboard hook, English and Turkish. | `Rust` `egui` `focus-stealing` | 05 Eki 2026 |
 | **[tlk-tune](https://github.com/Talkdedsec/tlk-tune)** | Terminal music player for Windows. One executable, no ffmpeg, mouse and keyboard, album art, synced lyrics, ten-band EQ. | `Rust` `audio` `cli` | 05 Eki 2026 |
 
-<sub>08 Eki 2026 tarihinde eşitlendi · yalnızca açık depolar</sub>
+<sub>09 Eki 2026 tarihinde eşitlendi · yalnızca açık depolar</sub>
 <!-- OSS:END -->
 
 Hepsinde İngilizce ve Türkçe README, bir güvenlik politikası ve CI var. `tlk-sentinel` açık kaynak
