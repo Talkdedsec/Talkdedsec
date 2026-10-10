@@ -20,5 +20,10 @@
     "en": "Offline password generator powered by the Web Crypto API. One HTML file, zero dependencies, zero network requests.",
     "tr": "Web Crypto ile çalışan çevrimdışı şifre üreteci. Tek HTML dosyası, sıfır bağımlılık, sıfır ağ isteği.",
     "stack": ["HTML", "JavaScript"]
+  },
+  "tlk-pdf": {
+    "en": "PDF editor that runs on your device: text, signatures, form filling, highlights, merge and split. In the browser or as a Windows app.",
+    "tr": "Cihazında çalışan PDF düzenleyici: yazı, imza, form doldurma, vurgulama, birleştirme ve bölme. Tarayıcıda ya da Windows programı olarak.",
+    "stack": ["JavaScript", "pdf.js", "pdf-lib", "Electron"]
   }
 }
