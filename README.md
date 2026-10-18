@@ -45,7 +45,6 @@ Most of it ships as a product, not a demo — installers, update channels, licen
   <a href="https://projects.talkdedsec.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/site-projects-dark.svg"><img width="49%" src="assets/v1/site-projects-light.svg" alt=""></picture></a>
   <a href="https://store.talkdedsec.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/site-store-dark.svg"><img width="49%" src="assets/v1/site-store-light.svg" alt=""></picture></a>
   <a href="https://ornek.talkdedsec.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/site-ornek-dark.svg"><img width="49%" src="assets/v1/site-ornek-light.svg" alt=""></picture></a>
-  <a href="https://flypen.com.tr"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/site-flypen-dark.svg"><img width="49%" src="assets/v1/site-flypen-light.svg" alt=""></picture></a>
 </p>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/h-catalogue-dark.svg"><img width="100%" src="assets/v1/h-catalogue-light.svg" alt=""></picture>
@@ -62,7 +61,7 @@ Most of it ships as a product, not a demo — installers, update channels, licen
 |:--|:--|:--|:--|
 | **[tlk-pdf](https://github.com/Talkdedsec/tlk-pdf)** | PDF editor that runs on your device: text, signatures, form filling, highlights, merge and split. In the browser or as a Windows app. | `JavaScript` `pdf.js` `pdf-lib` `Electron` | 17 Oct 2026 |
 | **[tlk-grid](https://github.com/Talkdedsec/tlk-grid)** | Window layout, zoom and overlays for games. Win32 and DWM only, no injection. | `Rust` `dwm` `gaming` | 14 Oct 2026 |
-| **[tlk-hex](https://github.com/Talkdedsec/tlk-hex)** · 4 ★ | Interactive disassembler — static analysis / reverse engineering for x86/x64 PE, ELF and raw binaries | `C#` `csharp` `decompiler` | 13 Oct 2026 |
+| **[tlk-hex](https://github.com/Talkdedsec/tlk-hex)** · 5 ★ | Interactive disassembler — static analysis / reverse engineering for x86/x64 PE, ELF and raw binaries | `C#` `csharp` `decompiler` | 13 Oct 2026 |
 | **[tlk-html-viewer](https://github.com/Talkdedsec/tlk-html-viewer)** | HTML, CSS and JavaScript studio with live preview, selectable themes, console and local projects. | `TypeScript` `code-editor` `html` | 12 Oct 2026 |
 | **[tlk-rpf](https://github.com/Talkdedsec/tlk-rpf)** | Open-source editor for the .rpf packages in your FiveM mods folder: textures, visual settings, particle effects, models and maps. A backup before every save, undo for every change. | `TypeScript` `fivem` `gta5` | 11 Oct 2026 |
 | **[scoop-tlk](https://github.com/Talkdedsec/scoop-tlk)** | Scoop bucket for the Talkdedsec Windows tools - wymcmd and tlk-visual. | `package-manager` `scoop` | 10 Oct 2026 |
@@ -73,7 +72,7 @@ Most of it ships as a product, not a demo — installers, update channels, licen
 | **[easy-calc](https://github.com/Talkdedsec/easy-calc)** | Percentage, discount, increase and VAT calculator. Mobile-friendly, private, English and Turkish. | `TypeScript` `calculator` `discount` | 05 Oct 2026 |
 | **[tlk-pass](https://github.com/Talkdedsec/tlk-pass)** | Offline password generator powered by the Web Crypto API. One HTML file, zero dependencies, zero network requests. | `HTML` `JavaScript` | 05 Oct 2026 |
 
-<sub>Synced 17 Oct 2026 · public repositories only</sub>
+<sub>Synced 18 Oct 2026 · public repositories only</sub>
 <!-- OSS:END -->
 
 <p align="right"><a href="PROJECTS.md"><b>Full project index →</b></a></p>

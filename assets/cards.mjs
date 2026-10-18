@@ -165,7 +165,6 @@ const CARDS = {
   "site-projects": { w: W2, h: 176, link: 1, kicker: "portfolio", title: "projects.talkdedsec.com", lines: ["Portfolio in a desktop-OS interface: security tools,", "FiveM scripts, CLI and desktop apps."], meta: "TYPESCRIPT" },
   "site-store": { w: W2, h: 176, link: 1, kicker: "commerce", title: "store.talkdedsec.com", lines: ["FiveM scripts. Server-authoritative, resmon-friendly,", "delivered through Tebex."], meta: "TEBEX HEADLESS" },
   "site-ornek": { w: W2, h: 176, link: 1, kicker: "demos", title: "ornek.talkdedsec.com", lines: ["Live demos of the site templates I sell."], meta: "NEXT.JS" },
-  "site-flypen": { w: W2, h: 176, link: 1, kicker: "platform", title: "flypen.com.tr", lines: ["Production platform I build and operate.", "Deploys, monitoring, uptime."], meta: "NEXT.JS · PM2" },
 
   "cat-tools": { w: W2, h: 200, link: 1, big: "274", kicker: "browser", title: "Developer tools", lines: ["Hashing, base64, JWT, regex, subnet maths, encoding,", "text processing and data formats. Runs entirely in the", "browser — nothing uploaded, nothing logged."], meta: "TALKDEDSEC.COM/TOOLS" },
   "cat-games": { w: W2, h: 200, link: 1, big: "212", kicker: "browser", title: "Games", lines: ["Puzzle, strategy, reflex, memory and word games,", "plus larger terminal and sandbox titles.", "All client-side, no accounts."], meta: "TALKDEDSEC.COM/GAMES" },
