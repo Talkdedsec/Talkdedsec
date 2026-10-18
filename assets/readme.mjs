@@ -64,7 +64,6 @@ const SITES = [
   ["site-projects", "https://projects.talkdedsec.com"],
   ["site-store", "https://store.talkdedsec.com"],
   ["site-ornek", "https://ornek.talkdedsec.com"],
-  ["site-flypen", "https://flypen.com.tr"],
 ];
 const CATALOGUE = [
   ["cat-tools", "https://talkdedsec.com/tools"],
