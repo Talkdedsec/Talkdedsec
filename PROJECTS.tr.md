@@ -49,7 +49,7 @@ Depolar tek tek açılıyor. Bu tablo her gün GitHub API'sinden yeniden üretil
 | **[easy-calc](https://github.com/Talkdedsec/easy-calc)** | Percentage, discount, increase and VAT calculator. Mobile-friendly, private, English and Turkish. | `TypeScript` `calculator` `discount` | 05 Eki 2026 |
 | **[tlk-pass](https://github.com/Talkdedsec/tlk-pass)** | Web Crypto ile çalışan çevrimdışı şifre üreteci. Tek HTML dosyası, sıfır bağımlılık, sıfır ağ isteği. | `HTML` `JavaScript` | 05 Eki 2026 |
 
-<sub>21 Eki 2026 tarihinde eşitlendi · yalnızca açık depolar</sub>
+<sub>22 Eki 2026 tarihinde eşitlendi · yalnızca açık depolar</sub>
 <!-- OSS:END -->
 
 Hepsinde İngilizce ve Türkçe README, bir güvenlik politikası ve CI var. `tlk-sentinel` açık kaynak
