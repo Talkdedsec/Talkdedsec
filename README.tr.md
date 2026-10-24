@@ -68,11 +68,11 @@ Küçük bir stüdyo işletiyorum ve buradaki her şeyi ben yapıyorum: bir Wind
 | **[tlk-huntx](https://github.com/Talkdedsec/tlk-huntx)** | Single-binary bug bounty engine: scope-gated recon, detection, deterministic verification, LLM-assisted triage. Detection-only. | `Go` `appsec` `attack-surface` | 22 Eki 2026 |
 | **[tlk-grid](https://github.com/Talkdedsec/tlk-grid)** | Window layout, zoom and overlays for games. Win32 and DWM only, no injection. | `Rust` `dwm` `gaming` | 22 Eki 2026 |
 | **[tlk-pdf](https://github.com/Talkdedsec/tlk-pdf)** | Cihazında çalışan PDF düzenleyici: yazı, imza, form doldurma, vurgulama, birleştirme ve bölme. Tarayıcıda ya da Windows programı olarak. | `JavaScript` `pdf.js` `pdf-lib` `Electron` | 22 Eki 2026 |
-| **[tlk-hex](https://github.com/Talkdedsec/tlk-hex)** · 6 ★ | Interactive disassembler — static analysis / reverse engineering for x86/x64 PE, ELF and raw binaries | `C#` `csharp` `decompiler` | 22 Eki 2026 |
+| **[tlk-hex](https://github.com/Talkdedsec/tlk-hex)** · 7 ★ | Interactive disassembler — static analysis / reverse engineering for x86/x64 PE, ELF and raw binaries | `C#` `csharp` `decompiler` | 22 Eki 2026 |
 | **[tlk-html-viewer](https://github.com/Talkdedsec/tlk-html-viewer)** | HTML, CSS and JavaScript studio with live preview, selectable themes, console and local projects. | `TypeScript` `code-editor` `html` | 22 Eki 2026 |
 | **[tlk-truss](https://github.com/Talkdedsec/tlk-truss)** | Architecture diagrams bound to real code — text in, single-file HTML out, CI fails when the drawing drifts. | `JavaScript` `architecture` `ci` | 22 Eki 2026 |
 
-<sub>23 Eki 2026 tarihinde eşitlendi · yalnızca açık depolar</sub>
+<sub>24 Eki 2026 tarihinde eşitlendi · yalnızca açık depolar</sub>
 <!-- OSS:END -->
 
 <p align="right"><a href="PROJECTS.tr.md"><b>Tüm proje dizini →</b></a></p>

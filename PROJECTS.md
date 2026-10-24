@@ -45,11 +45,11 @@ Repositories are opened one at a time. This table is rebuilt daily from the GitH
 | **[tlk-huntx](https://github.com/Talkdedsec/tlk-huntx)** | Single-binary bug bounty engine: scope-gated recon, detection, deterministic verification, LLM-assisted triage. Detection-only. | `Go` `appsec` `attack-surface` | 22 Oct 2026 |
 | **[tlk-grid](https://github.com/Talkdedsec/tlk-grid)** | Window layout, zoom and overlays for games. Win32 and DWM only, no injection. | `Rust` `dwm` `gaming` | 22 Oct 2026 |
 | **[tlk-pdf](https://github.com/Talkdedsec/tlk-pdf)** | PDF editor that runs on your device: text, signatures, form filling, highlights, merge and split. In the browser or as a Windows app. | `JavaScript` `pdf.js` `pdf-lib` `Electron` | 22 Oct 2026 |
-| **[tlk-hex](https://github.com/Talkdedsec/tlk-hex)** · 6 ★ | Interactive disassembler — static analysis / reverse engineering for x86/x64 PE, ELF and raw binaries | `C#` `csharp` `decompiler` | 22 Oct 2026 |
+| **[tlk-hex](https://github.com/Talkdedsec/tlk-hex)** · 7 ★ | Interactive disassembler — static analysis / reverse engineering for x86/x64 PE, ELF and raw binaries | `C#` `csharp` `decompiler` | 22 Oct 2026 |
 | **[tlk-html-viewer](https://github.com/Talkdedsec/tlk-html-viewer)** | HTML, CSS and JavaScript studio with live preview, selectable themes, console and local projects. | `TypeScript` `code-editor` `html` | 22 Oct 2026 |
 | **[tlk-truss](https://github.com/Talkdedsec/tlk-truss)** | Architecture diagrams bound to real code — text in, single-file HTML out, CI fails when the drawing drifts. | `JavaScript` `architecture` `ci` | 22 Oct 2026 |
 
-<sub>Synced 23 Oct 2026 · public repositories only</sub>
+<sub>Synced 24 Oct 2026 · public repositories only</sub>
 <!-- OSS:END -->
 
 Each of them ships a README in English and Turkish, a security policy and CI. `tlk-sentinel` is
