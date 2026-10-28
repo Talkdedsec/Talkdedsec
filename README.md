@@ -72,7 +72,7 @@ Most of it ships as a product, not a demo — installers, update channels, licen
 | **[tlk-hex](https://github.com/Talkdedsec/tlk-hex)** · 8 ★ | Interactive disassembler — static analysis / reverse engineering for x86/x64 PE, ELF and raw binaries | `C#` `csharp` `decompiler` | 22 Oct 2026 |
 | **[tlk-html-viewer](https://github.com/Talkdedsec/tlk-html-viewer)** | HTML, CSS and JavaScript studio with live preview, selectable themes, console and local projects. | `TypeScript` `code-editor` `html` | 22 Oct 2026 |
 
-<sub>Synced 27 Oct 2026 · public repositories only</sub>
+<sub>Synced 28 Oct 2026 · public repositories only</sub>
 <!-- OSS:END -->
 
 <p align="right"><a href="PROJECTS.md"><b>Full project index →</b></a></p>

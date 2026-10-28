@@ -49,7 +49,7 @@ Depolar tek tek açılıyor. Bu tablo her gün GitHub API'sinden yeniden üretil
 | **[tlk-hex](https://github.com/Talkdedsec/tlk-hex)** · 8 ★ | Interactive disassembler — static analysis / reverse engineering for x86/x64 PE, ELF and raw binaries | `C#` `csharp` `decompiler` | 22 Eki 2026 |
 | **[tlk-html-viewer](https://github.com/Talkdedsec/tlk-html-viewer)** | HTML, CSS and JavaScript studio with live preview, selectable themes, console and local projects. | `TypeScript` `code-editor` `html` | 22 Eki 2026 |
 
-<sub>27 Eki 2026 tarihinde eşitlendi · yalnızca açık depolar</sub>
+<sub>28 Eki 2026 tarihinde eşitlendi · yalnızca açık depolar</sub>
 <!-- OSS:END -->
 
 Hepsinde İngilizce ve Türkçe README, bir güvenlik politikası ve CI var. `tlk-sentinel` açık kaynak
