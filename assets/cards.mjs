@@ -161,7 +161,6 @@ const W2 = 636, W3 = 418;
 
 const CARDS = {
   "site-main": { w: W2, h: 176, link: 1, kicker: "studio", title: "talkdedsec.com", lines: ["Tools, games, portfolio, notes and CTF writeups.", "Turkish and English."], meta: "NEXT.JS" },
-  "site-code": { w: W2, h: 176, link: 1, kicker: "product", title: "code.talkdedsec.com", lines: ["Talkdedsec Editor. A Windows editor on an open-source", "core, telemetry layer removed at the source."], meta: "TYPESCRIPT · NODE" },
   "site-projects": { w: W2, h: 176, link: 1, kicker: "portfolio", title: "projects.talkdedsec.com", lines: ["Portfolio in a desktop-OS interface: security tools,", "FiveM scripts, CLI and desktop apps."], meta: "TYPESCRIPT" },
   "site-store": { w: W2, h: 176, link: 1, kicker: "commerce", title: "store.talkdedsec.com", lines: ["FiveM scripts. Server-authoritative, resmon-friendly,", "delivered through Tebex."], meta: "TEBEX HEADLESS" },
   "site-ornek": { w: W2, h: 176, link: 1, kicker: "demos", title: "ornek.talkdedsec.com", lines: ["Live demos of the site templates I sell."], meta: "NEXT.JS" },

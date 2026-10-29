@@ -12,7 +12,6 @@ const L = {
     projects: "PROJECTS.md",
     nav: [
       ["Site", "https://talkdedsec.com/en"],
-      ["Editor", "https://code.talkdedsec.com"],
       ["Projects", "PROJECTS.md"],
     ],
     intro: [
@@ -37,7 +36,6 @@ const L = {
     projects: "PROJECTS.tr.md",
     nav: [
       ["Site", "https://talkdedsec.com"],
-      ["Editör", "https://code.talkdedsec.com"],
       ["Projeler", "PROJECTS.tr.md"],
     ],
     intro: [
@@ -60,7 +58,6 @@ const L = {
 
 const SITES = [
   ["site-main", "https://talkdedsec.com/en"],
-  ["site-code", "https://code.talkdedsec.com"],
   ["site-projects", "https://projects.talkdedsec.com"],
   ["site-store", "https://store.talkdedsec.com"],
   ["site-ornek", "https://ornek.talkdedsec.com"],
@@ -96,7 +93,6 @@ const ALT = {
   "feat-wymcmd": "Why My CMD Opened: finds what launched a console window",
   "h-sites": "Sites",
   "site-main": "talkdedsec.com: tools, games, portfolio, notes and CTF writeups",
-  "site-code": "code.talkdedsec.com: Talkdedsec Editor for Windows",
   "site-projects": "projects.talkdedsec.com: portfolio in a desktop-OS interface",
   "site-store": "store.talkdedsec.com: FiveM scripts",
   "site-ornek": "ornek.talkdedsec.com: live demos of site templates",

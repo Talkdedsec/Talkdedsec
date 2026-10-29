@@ -13,7 +13,6 @@ Talkdedsec adı altında şu an yayında olan her şey. Herkese açık olmayan i
 | Site | Nedir | Teknoloji |
 |:--|:--|:--|
 | [talkdedsec.com](https://talkdedsec.com) | Stüdyo sitesi: araçlar, oyunlar, portfolyo, blog, writeup. İki dilli. | Next.js |
-| [code.talkdedsec.com](https://code.talkdedsec.com) | Talkdedsec Editör: indirmeler, temalar ve dokümantasyon. | Next.js |
 | [projects.talkdedsec.com](https://projects.talkdedsec.com) | Masaüstü-OS arayüzünde portfolyo. | TypeScript |
 | [store.talkdedsec.com](https://store.talkdedsec.com) | Tebex Headless üzerinde FiveM script mağazası. | Next.js |
 | [ornek.talkdedsec.com](https://ornek.talkdedsec.com) | Sattığım site şablonlarının demoları. | Next.js |
@@ -36,6 +35,7 @@ Depolar tek tek açılıyor. Bu tablo her gün GitHub API'sinden yeniden üretil
 <!-- OSS:START -->
 | Depo | Nedir | Teknoloji | Güncelleme |
 |:--|:--|:--|:--|
+| **[tlk-pass](https://github.com/Talkdedsec/tlk-pass)** | Web Crypto ile çalışan çevrimdışı şifre üreteci. Tek HTML dosyası, sıfır bağımlılık, sıfır ağ isteği. | `HTML` `JavaScript` | 29 Eki 2026 |
 | **[tlk-sentinel](https://github.com/Talkdedsec/tlk-sentinel)** | Sunucu ve uygulama güvenlik motoru: loglardan saldırı tespiti, IP banlama, itibar ve anomali skoru, canlı panel. | `TypeScript` `Node` `SQLite` | 29 Eki 2026 |
 | **[tlk-visual](https://github.com/Talkdedsec/tlk-visual)** · 4 ★ | Windows için ekranın tamamını kapsayan renk motoru; doğrudan ekranın gama tablosuna yazıyor. Tek exe, sürücü yok, yönetici hakkı yok. | `Rust` `Slint` `Win32` | 29 Eki 2026 |
 | **[tlk-hex](https://github.com/Talkdedsec/tlk-hex)** · 8 ★ | Interactive disassembler — static analysis / reverse engineering for x86/x64 PE, ELF and raw binaries | `C#` `csharp` `decompiler` | 29 Eki 2026 |
@@ -55,7 +55,6 @@ Depolar tek tek açılıyor. Bu tablo her gün GitHub API'sinden yeniden üretil
 | **[tlk-pdf](https://github.com/Talkdedsec/tlk-pdf)** | Cihazında çalışan PDF düzenleyici: yazı, imza, form doldurma, vurgulama, birleştirme ve bölme. Tarayıcıda ya da Windows programı olarak. | `JavaScript` `pdf.js` `pdf-lib` `Electron` | 22 Eki 2026 |
 | **[tlk-truss](https://github.com/Talkdedsec/tlk-truss)** | Architecture diagrams bound to real code — text in, single-file HTML out, CI fails when the drawing drifts. | `JavaScript` `architecture` `ci` | 22 Eki 2026 |
 | **[tlk-rpf](https://github.com/Talkdedsec/tlk-rpf)** | Open-source editor for the .rpf packages in your FiveM mods folder: textures, visual settings, particle effects, models and maps. A backup before every save, undo for every change. | `TypeScript` `fivem` `gta5` | 22 Eki 2026 |
-| **[tlk-pass](https://github.com/Talkdedsec/tlk-pass)** | Web Crypto ile çalışan çevrimdışı şifre üreteci. Tek HTML dosyası, sıfır bağımlılık, sıfır ağ isteği. | `HTML` `JavaScript` | 22 Eki 2026 |
 | **[clipdeck](https://github.com/Talkdedsec/clipdeck)** | Fast, encrypted clipboard history plus emoji, kaomoji and symbol picker for Windows — a replacement for Win+V and Win+. | `C#` `clipboard` `clipboard-history` | 22 Eki 2026 |
 | **[tlk-ascii](https://github.com/Talkdedsec/tlk-ascii)** | Image, video and text to glowing ASCII art, in your browser or as a Windows app. Palettes, runes, braille, blackletter titles; PNG, SVG, HTML and video export. English and Turkish. | `JavaScript` `ascii` `ascii-art` | 22 Eki 2026 |
 
@@ -72,8 +71,7 @@ yeniden dağıtamazsın; diğerleri MIT ya da GPL-3.0.
 
 **Talkdedsec Editör** — açık kaynaklı bir çekirdek üzerine kurulu, telemetri katmanı kaynağından
 sökülmüş bir Windows kod editörü. Kendi sürüm kanalı, temaları, dokümantasyonu ve destek akışı var.
-Sürümler [talkdedseccode](https://github.com/talkdedseccode) hesabında; indirmeler ve dokümanlar
-[code.talkdedsec.com](https://code.talkdedsec.com) adresinde.
+Sürümler [talkdedseccode](https://github.com/talkdedseccode) hesabında.
 
 **FiveM scriptleri** — server-authoritative, resmon dostu, Türkçe ve İngilizce dilli kaynaklar;
 [store.talkdedsec.com](https://store.talkdedsec.com) üzerinden satılıyor.

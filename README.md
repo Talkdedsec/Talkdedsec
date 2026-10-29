@@ -3,8 +3,6 @@
 <p align="center">
   <a href="https://talkdedsec.com/en">Site</a>
   &nbsp;·&nbsp;
-  <a href="https://code.talkdedsec.com">Editor</a>
-  &nbsp;·&nbsp;
   <a href="PROJECTS.md">Projects</a>
   &nbsp;&nbsp;|&nbsp;&nbsp;
   <a href="README.tr.md"><b>Türkçe</b></a>
@@ -41,7 +39,6 @@ Most of it ships as a product, not a demo — installers, update channels, licen
 
 <p align="center">
   <a href="https://talkdedsec.com/en"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/site-main-dark.svg"><img width="49%" src="assets/v1/site-main-light.svg" alt="talkdedsec.com: tools, games, portfolio, notes and CTF writeups"></picture></a>
-  <a href="https://code.talkdedsec.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/site-code-dark.svg"><img width="49%" src="assets/v1/site-code-light.svg" alt="code.talkdedsec.com: Talkdedsec Editor for Windows"></picture></a>
   <a href="https://projects.talkdedsec.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/site-projects-dark.svg"><img width="49%" src="assets/v1/site-projects-light.svg" alt="projects.talkdedsec.com: portfolio in a desktop-OS interface"></picture></a>
   <a href="https://store.talkdedsec.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/site-store-dark.svg"><img width="49%" src="assets/v1/site-store-light.svg" alt="store.talkdedsec.com: FiveM scripts"></picture></a>
   <a href="https://ornek.talkdedsec.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/site-ornek-dark.svg"><img width="49%" src="assets/v1/site-ornek-light.svg" alt="ornek.talkdedsec.com: live demos of site templates"></picture></a>
@@ -59,6 +56,7 @@ Most of it ships as a product, not a demo — installers, update channels, licen
 <!-- OSS:START -->
 | Repository | What it is | Stack | Updated |
 |:--|:--|:--|:--|
+| **[tlk-pass](https://github.com/Talkdedsec/tlk-pass)** | Offline password generator powered by the Web Crypto API. One HTML file, zero dependencies, zero network requests. | `HTML` `JavaScript` | 29 Oct 2026 |
 | **[tlk-sentinel](https://github.com/Talkdedsec/tlk-sentinel)** | Server and application security engine: log-driven attack detection, IP banning, reputation and anomaly scoring, live panel. | `TypeScript` `Node` `SQLite` | 29 Oct 2026 |
 | **[tlk-visual](https://github.com/Talkdedsec/tlk-visual)** · 4 ★ | Whole-screen colour engine for Windows, written straight to the display gamma ramp. One exe, no driver, no admin rights. | `Rust` `Slint` `Win32` | 29 Oct 2026 |
 | **[tlk-hex](https://github.com/Talkdedsec/tlk-hex)** · 8 ★ | Interactive disassembler — static analysis / reverse engineering for x86/x64 PE, ELF and raw binaries | `C#` `csharp` `decompiler` | 29 Oct 2026 |
@@ -78,7 +76,6 @@ Most of it ships as a product, not a demo — installers, update channels, licen
 | **[tlk-pdf](https://github.com/Talkdedsec/tlk-pdf)** | PDF editor that runs on your device: text, signatures, form filling, highlights, merge and split. In the browser or as a Windows app. | `JavaScript` `pdf.js` `pdf-lib` `Electron` | 22 Oct 2026 |
 | **[tlk-truss](https://github.com/Talkdedsec/tlk-truss)** | Architecture diagrams bound to real code — text in, single-file HTML out, CI fails when the drawing drifts. | `JavaScript` `architecture` `ci` | 22 Oct 2026 |
 | **[tlk-rpf](https://github.com/Talkdedsec/tlk-rpf)** | Open-source editor for the .rpf packages in your FiveM mods folder: textures, visual settings, particle effects, models and maps. A backup before every save, undo for every change. | `TypeScript` `fivem` `gta5` | 22 Oct 2026 |
-| **[tlk-pass](https://github.com/Talkdedsec/tlk-pass)** | Offline password generator powered by the Web Crypto API. One HTML file, zero dependencies, zero network requests. | `HTML` `JavaScript` | 22 Oct 2026 |
 | **[clipdeck](https://github.com/Talkdedsec/clipdeck)** | Fast, encrypted clipboard history plus emoji, kaomoji and symbol picker for Windows — a replacement for Win+V and Win+. | `C#` `clipboard` `clipboard-history` | 22 Oct 2026 |
 | **[tlk-ascii](https://github.com/Talkdedsec/tlk-ascii)** | Image, video and text to glowing ASCII art, in your browser or as a Windows app. Palettes, runes, braille, blackletter titles; PNG, SVG, HTML and video export. English and Turkish. | `JavaScript` `ascii` `ascii-art` | 22 Oct 2026 |
 

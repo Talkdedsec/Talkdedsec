@@ -13,7 +13,6 @@ Everything currently published under the Talkdedsec name. Work that is not publi
 | Site | What it is | Stack |
 |:--|:--|:--|
 | [talkdedsec.com](https://talkdedsec.com/en) | Studio site: tools, games, portfolio, blog, writeups. Bilingual. | Next.js |
-| [code.talkdedsec.com](https://code.talkdedsec.com) | Talkdedsec Editor: downloads, themes and documentation. | Next.js |
 | [projects.talkdedsec.com](https://projects.talkdedsec.com) | Portfolio in a desktop-OS interface. | TypeScript |
 | [store.talkdedsec.com](https://store.talkdedsec.com) | FiveM script store on Tebex Headless. | Next.js |
 | [ornek.talkdedsec.com](https://ornek.talkdedsec.com) | Demos of the site templates I sell. | Next.js |
@@ -36,6 +35,7 @@ Repositories are opened one at a time. This table is rebuilt daily from the GitH
 <!-- OSS:START -->
 | Repository | What it is | Stack | Updated |
 |:--|:--|:--|:--|
+| **[tlk-pass](https://github.com/Talkdedsec/tlk-pass)** | Offline password generator powered by the Web Crypto API. One HTML file, zero dependencies, zero network requests. | `HTML` `JavaScript` | 29 Oct 2026 |
 | **[tlk-sentinel](https://github.com/Talkdedsec/tlk-sentinel)** | Server and application security engine: log-driven attack detection, IP banning, reputation and anomaly scoring, live panel. | `TypeScript` `Node` `SQLite` | 29 Oct 2026 |
 | **[tlk-visual](https://github.com/Talkdedsec/tlk-visual)** · 4 ★ | Whole-screen colour engine for Windows, written straight to the display gamma ramp. One exe, no driver, no admin rights. | `Rust` `Slint` `Win32` | 29 Oct 2026 |
 | **[tlk-hex](https://github.com/Talkdedsec/tlk-hex)** · 8 ★ | Interactive disassembler — static analysis / reverse engineering for x86/x64 PE, ELF and raw binaries | `C#` `csharp` `decompiler` | 29 Oct 2026 |
@@ -55,7 +55,6 @@ Repositories are opened one at a time. This table is rebuilt daily from the GitH
 | **[tlk-pdf](https://github.com/Talkdedsec/tlk-pdf)** | PDF editor that runs on your device: text, signatures, form filling, highlights, merge and split. In the browser or as a Windows app. | `JavaScript` `pdf.js` `pdf-lib` `Electron` | 22 Oct 2026 |
 | **[tlk-truss](https://github.com/Talkdedsec/tlk-truss)** | Architecture diagrams bound to real code — text in, single-file HTML out, CI fails when the drawing drifts. | `JavaScript` `architecture` `ci` | 22 Oct 2026 |
 | **[tlk-rpf](https://github.com/Talkdedsec/tlk-rpf)** | Open-source editor for the .rpf packages in your FiveM mods folder: textures, visual settings, particle effects, models and maps. A backup before every save, undo for every change. | `TypeScript` `fivem` `gta5` | 22 Oct 2026 |
-| **[tlk-pass](https://github.com/Talkdedsec/tlk-pass)** | Offline password generator powered by the Web Crypto API. One HTML file, zero dependencies, zero network requests. | `HTML` `JavaScript` | 22 Oct 2026 |
 | **[clipdeck](https://github.com/Talkdedsec/clipdeck)** | Fast, encrypted clipboard history plus emoji, kaomoji and symbol picker for Windows — a replacement for Win+V and Win+. | `C#` `clipboard` `clipboard-history` | 22 Oct 2026 |
 | **[tlk-ascii](https://github.com/Talkdedsec/tlk-ascii)** | Image, video and text to glowing ASCII art, in your browser or as a Windows app. Palettes, runes, braille, blackletter titles; PNG, SVG, HTML and video export. English and Turkish. | `JavaScript` `ascii` `ascii-art` | 22 Oct 2026 |
 
@@ -70,7 +69,7 @@ or redistribute it; the rest are MIT or GPL-3.0.
 
 ## Products
 
-**Talkdedsec Editor** — a Windows code editor built on an open-source core with the telemetry layer removed at the source. Own release channel, themes, documentation and support flow. Releases live on the [talkdedseccode](https://github.com/talkdedseccode) account; downloads and docs are at [code.talkdedsec.com](https://code.talkdedsec.com).
+**Talkdedsec Editor** — a Windows code editor built on an open-source core with the telemetry layer removed at the source. Own release channel, themes, documentation and support flow. Releases live on the [talkdedseccode](https://github.com/talkdedseccode) account.
 
 **FiveM scripts** — server-authoritative, resmon-friendly resources with Turkish and English locales, sold through [store.talkdedsec.com](https://store.talkdedsec.com).
 
