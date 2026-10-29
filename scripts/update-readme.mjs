@@ -17,7 +17,7 @@ const TEXT = {
   "README.md": {
     lang: "en",
     locale: "en-GB",
-    head: ["Repository", "What it is", "Stack", "Updated"],
+    head: ["Repository", "What it is", "Stack", "Downloads", "Updated"],
     empty: "Nothing public yet. Repositories are opened one at a time.",
     stars: "stars",
     synced: (d) => `Synced ${d} · public repositories only`,
@@ -25,7 +25,7 @@ const TEXT = {
   "README.tr.md": {
     lang: "tr",
     locale: "tr-TR",
-    head: ["Depo", "Nedir", "Teknoloji", "Güncelleme"],
+    head: ["Depo", "Nedir", "Teknoloji", "İndirme", "Güncelleme"],
     empty: "Henüz public depo yok. Depolar tek tek açılıyor.",
     stars: "yıldız",
     synced: (d) => `${d} tarihinde eşitlendi · yalnızca açık depolar`,
@@ -51,6 +51,12 @@ const repos = (await api(`/users/${USER}/repos?per_page=100&sort=pushed`))
   .filter((r) => !r.private && !r.fork && !r.archived && r.name.toLowerCase() !== USER.toLowerCase())
   .sort((a, b) => new Date(b.pushed_at) - new Date(a.pushed_at));
 
+// Release asset downloads, summed over every published release.
+for (const r of repos) {
+  const rels = await api(`/repos/${USER}/${r.name}/releases?per_page=100`);
+  r.downloads = rels.reduce((n, rel) => n + rel.assets.reduce((m, a) => m + a.download_count, 0), 0);
+}
+
 const cell = (s) => String(s ?? "").replace(/\|/g, "\\|").replace(/\r?\n/g, " ").trim();
 
 function block(file) {
@@ -65,12 +71,13 @@ function block(file) {
     const about = ov[t.lang] ?? r.description;
     const stars = r.stargazers_count ? ` · ${r.stargazers_count} ★` : "";
     const upd = new Date(r.pushed_at).toLocaleDateString(t.locale, { day: "2-digit", month: "short", year: "numeric" });
-    return `| **[${cell(r.name)}](${r.html_url})**${stars} | ${cell(about) || "—"} | ${stack || "—"} | ${upd} |`;
+    const dl = r.downloads ? r.downloads.toLocaleString(t.locale) : "—";
+    return `| **[${cell(r.name)}](${r.html_url})**${stars} | ${cell(about) || "—"} | ${stack || "—"} | ${dl} | ${upd} |`;
   });
 
   return [
     `| ${t.head.join(" | ")} |`,
-    "|:--|:--|:--|:--|",
+    "|:--|:--|:--|--:|:--|",
     ...rows,
     "",
     `<sub>${t.synced(date)}</sub>`,
