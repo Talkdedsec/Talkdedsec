@@ -82,8 +82,33 @@ const STACK = [
   ["Linux", "nginx", "PM2", "systemd", "GitHub Actions", "Playwright", "Sentry", "Tebex"],
 ];
 
+// The cards carry their text inside the SVG; alt repeats it for screen readers and search. Rules stay decorative.
+const ALT = {
+  hero: "Talkdedsec, independent software studio: security and productivity tools, a code editor and web platforms. No sponsors, no analytics, no tracking.",
+  "pil-desktop": "01 Desktop: Windows apps and local utilities",
+  "pil-web": "02 Web: product sites and storefronts",
+  "pil-systems": "03 Systems: licensing, releases and deploys",
+  "pil-interactive": "04 Interactive: browser games, puzzles and sandbox titles",
+  metrics: "274 developer tools and 212 games in the browser catalogue",
+  "h-featured": "Featured",
+  "feat-sentinel": "tlk-sentinel: security engine that reads your logs and spots attacks",
+  "feat-visual": "Talkdedsec Visual: whole-screen colour engine for Windows",
+  "feat-wymcmd": "Why My CMD Opened: finds what launched a console window",
+  "h-sites": "Sites",
+  "site-main": "talkdedsec.com: tools, games, portfolio, notes and CTF writeups",
+  "site-code": "code.talkdedsec.com: Talkdedsec Editor for Windows",
+  "site-projects": "projects.talkdedsec.com: portfolio in a desktop-OS interface",
+  "site-store": "store.talkdedsec.com: FiveM scripts",
+  "site-ornek": "ornek.talkdedsec.com: live demos of site templates",
+  "h-catalogue": "Catalogue",
+  "cat-tools": "274 browser developer tools",
+  "cat-games": "212 browser games",
+  "h-oss": "Open source",
+  "h-stack": "Stack",
+};
+
 function pic(name, width, href) {
-  const img = `<picture><source media="(prefers-color-scheme: dark)" srcset="assets/${DIR}/${name}-dark.svg"><img width="${width}" src="assets/${DIR}/${name}-light.svg" alt=""></picture>`;
+  const img = `<picture><source media="(prefers-color-scheme: dark)" srcset="assets/${DIR}/${name}-dark.svg"><img width="${width}" src="assets/${DIR}/${name}-light.svg" alt="${ALT[name] ?? ""}"></picture>`;
   return href ? `<a href="${href}">${img}</a>` : img;
 }
 

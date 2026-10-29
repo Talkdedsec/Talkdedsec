@@ -58,7 +58,7 @@ function block(file) {
   const date = new Date().toLocaleDateString(t.locale, { day: "2-digit", month: "short", year: "numeric" });
   if (!repos.length) return `${t.empty}\n\n<sub>${t.synced(date)}</sub>`;
 
-  const rows = repos.slice(0, 12).map((r) => {
+  const rows = repos.map((r) => {
     const ov = OVERRIDES[r.name] ?? {};
     const parts = ov.stack ?? [r.language, ...(r.topics || []).slice(0, 2)];
     const stack = parts.filter(Boolean).map((x) => `\`${x}\``).join(" ");
