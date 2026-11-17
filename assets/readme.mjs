@@ -15,8 +15,8 @@ const L = {
       ["Projects", "PROJECTS.md"],
     ],
     intro: [
-      "I run a small studio and build everything listed here: a Windows code editor, a catalogue of browser tools and games, a FiveM script store, and the licensing and deployment layer that keeps them running.",
-      "Most of it ships as a product, not a demo — installers, update channels, licence checks and a support inbox. None of it carries analytics or usage tracking; the licensed products check a licence key and send nothing else. No sponsors either.",
+      "I run a small studio and build everything listed here: a Windows code editor, a catalogue of browser tools and games, and the licensing and deployment layer that keeps them running.",
+      "Most of it ships as a product, not a demo: installers, update channels, licence checks and a support inbox.",
     ],
     ossFallback: "Nothing public yet. Repositories are opened one at a time.",
     index: "Full project index →",
@@ -39,8 +39,8 @@ const L = {
       ["Projeler", "PROJECTS.tr.md"],
     ],
     intro: [
-      "Küçük bir stüdyo işletiyorum ve buradaki her şeyi ben yapıyorum: bir Windows kod editörü, tarayıcıda çalışan araç ve oyun kataloğu, bir FiveM script mağazası ve bunları ayakta tutan lisans ile dağıtım katmanı.",
-      "Çoğu demo olarak değil ürün olarak çıkıyor — kurulum paketi, güncelleme kanalı, lisans kontrolü ve destek kutusu var. Hiçbirinde analitik ya da kullanım takibi yok; lisanslı ürünler yalnız lisans anahtarını doğruluyor, başka hiçbir şey göndermiyor. Sponsor da yok.",
+      "Küçük bir stüdyo işletiyorum ve buradaki her şeyi ben yapıyorum: bir Windows kod editörü, tarayıcıda çalışan araç ve oyun kataloğu ve bunları ayakta tutan lisans ile dağıtım katmanı.",
+      "Çoğu demo olarak değil ürün olarak çıkıyor: kurulum paketi, güncelleme kanalı, lisans kontrolü ve destek kutusu var.",
     ],
     ossFallback: "Henüz public depo yok. Depolar tek tek açılıyor.",
     index: "Tüm proje dizini →",
@@ -59,7 +59,6 @@ const L = {
 const SITES = [
   ["site-main", "https://talkdedsec.com/en"],
   ["site-projects", "https://projects.talkdedsec.com"],
-  ["site-store", "https://store.talkdedsec.com"],
   ["site-ornek", "https://ornek.talkdedsec.com"],
 ];
 const CATALOGUE = [
@@ -76,12 +75,12 @@ const FEATURED = [
 const STACK = [
   ["TypeScript", "JavaScript", "Rust", "C#", "Go", "Python", "Lua", "PowerShell", "SQL"],
   ["Next.js", "React", "Node.js", "Tauri", "Prisma", "PostgreSQL", "Redis"],
-  ["Linux", "nginx", "PM2", "systemd", "GitHub Actions", "Playwright", "Sentry", "Tebex"],
+  ["Linux", "nginx", "PM2", "systemd", "GitHub Actions", "Playwright", "Sentry"],
 ];
 
 // The cards carry their text inside the SVG; alt repeats it for screen readers and search. Rules stay decorative.
 const ALT = {
-  hero: "Talkdedsec, independent software studio: security and productivity tools, a code editor and web platforms. No sponsors, no analytics, no tracking.",
+  hero: "Talkdedsec, independent software studio: security and productivity tools, a code editor and web platforms, built and shipped by one person.",
   "pil-desktop": "01 Desktop: Windows apps and local utilities",
   "pil-web": "02 Web: product sites and storefronts",
   "pil-systems": "03 Systems: licensing, releases and deploys",
@@ -94,7 +93,6 @@ const ALT = {
   "h-sites": "Sites",
   "site-main": "talkdedsec.com: tools, games, portfolio, notes and CTF writeups",
   "site-projects": "projects.talkdedsec.com: portfolio in a desktop-OS interface",
-  "site-store": "store.talkdedsec.com: FiveM scripts",
   "site-ornek": "ornek.talkdedsec.com: live demos of site templates",
   "h-catalogue": "Catalogue",
   "cat-tools": "274 browser developer tools",
@@ -141,7 +139,7 @@ ${grid(FEATURED, "32.3%")}
 
 ${full("h-sites")}
 
-${grid(SITES, "49%")}
+${grid(SITES, "32.3%")}
 
 ${full("h-catalogue")}
 

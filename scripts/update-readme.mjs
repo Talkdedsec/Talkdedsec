@@ -48,7 +48,7 @@ async function api(path) {
 }
 
 const repos = (await api(`/users/${USER}/repos?per_page=100&sort=pushed`))
-  .filter((r) => !r.private && !r.fork && !r.archived && r.name.toLowerCase() !== USER.toLowerCase())
+  .filter((r) => !r.private && !r.fork && !r.archived && r.name.toLowerCase() !== USER.toLowerCase() && !OVERRIDES[r.name]?.hidden)
   .sort((a, b) => new Date(b.pushed_at) - new Date(a.pushed_at));
 
 // Release asset downloads, summed over every published release.

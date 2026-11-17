@@ -14,7 +14,6 @@ Everything currently published under the Talkdedsec name. Work that is not publi
 |:--|:--|:--|
 | [talkdedsec.com](https://talkdedsec.com/en) | Studio site: tools, games, portfolio, blog, writeups. Bilingual. | Next.js |
 | [projects.talkdedsec.com](https://projects.talkdedsec.com) | Portfolio in a desktop-OS interface. | TypeScript |
-| [store.talkdedsec.com](https://store.talkdedsec.com) | FiveM script store on Tebex Headless. | Next.js |
 | [ornek.talkdedsec.com](https://ornek.talkdedsec.com) | Demos of the site templates I sell. | Next.js |
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/v1/rule-dark.svg"><img width="100%" src="assets/v1/rule-light.svg" alt=""></picture>
@@ -36,17 +35,16 @@ Repositories are opened one at a time. This table is rebuilt daily from the GitH
 | Repository | What it is | Stack | Downloads | Updated |
 |:--|:--|:--|--:|:--|
 | **[scoop-tlk](https://github.com/Talkdedsec/scoop-tlk)** | Scoop bucket for the Talkdedsec Windows tools - wymcmd and tlk-visual. | `package-manager` `scoop` | — | 16 Nov 2026 |
-| **[tlk-wymcmd](https://github.com/Talkdedsec/tlk-wymcmd)** · 10 ★ | Finds out what launched that console window — scheduled task, service, registry key or click — hours after it closed. | `C#` `.NET 10` `ETW` | 217 | 16 Nov 2026 |
-| **[tlk-color](https://github.com/Talkdedsec/tlk-color)** | Screen color and display tuner for Windows: gamma, temperature, NVIDIA vibrance, profiles, custom resolutions. | `C#` `color-calibration` `csharp` | 6 | 11 Nov 2026 |
-| **[talkdedsec-optimizer](https://github.com/Talkdedsec/talkdedsec-optimizer)** | Windows optimizer with 114 hardware-aware performance, privacy and cleanup tweaks, each undoable in one click. No account, no telemetry. | `TypeScript` `optimizer` `performance` | 14 | 11 Nov 2026 |
+| **[tlk-wymcmd](https://github.com/Talkdedsec/tlk-wymcmd)** · 27 ★ | Finds out what launched that console window — scheduled task, service, registry key or click — hours after it closed. | `C#` `.NET 10` `ETW` | 313 | 16 Nov 2026 |
+| **[tlk-color](https://github.com/Talkdedsec/tlk-color)** | Screen color and display tuner for Windows: gamma, temperature, NVIDIA vibrance, profiles, custom resolutions. | `C#` `color-calibration` `csharp` | 6 | 12 Nov 2026 |
+| **[talkdedsec-optimizer](https://github.com/Talkdedsec/talkdedsec-optimizer)** | Windows optimizer with 114 hardware-aware performance, privacy and cleanup tweaks, each undoable in one click. | `TypeScript` `optimizer` `performance` | 14 | 11 Nov 2026 |
 | **[termanim](https://github.com/Talkdedsec/termanim)** · 1 ★ | 61 ASCII animations for the terminal: loaders, text effects and scenes. Rust library + CLI gallery. | `Rust` `animation` `ascii-art` | 1 | 07 Nov 2026 |
 | **[tlk-see](https://github.com/Talkdedsec/tlk-see)** | TempleOS's oracle in your terminal and your browser - GodWord, scripture, songs and sprites, driven by your keystrokes | `Rust` `cli` `github-pages` | 19 | 01 Nov 2026 |
-| **[tlk-save](https://github.com/Talkdedsec/tlk-save)** | Download videos and audio from YouTube, TikTok, Instagram, X and 1800+ sites. No ads, no tracking. | `Rust` `react` `rust` | 1 | 29 Oct 2026 |
+| **[tlk-save](https://github.com/Talkdedsec/tlk-save)** · 1 ★ | Download videos and audio from YouTube, TikTok, Instagram, X and 1800+ sites. | `Rust` `react` `rust` | 2 | 29 Oct 2026 |
 | **[easy-calc](https://github.com/Talkdedsec/easy-calc)** | Percentage, discount, increase and VAT calculator. Mobile-friendly, private, English and Turkish. | `TypeScript` `calculator` `discount` | — | 29 Oct 2026 |
 | **[tlk-pass](https://github.com/Talkdedsec/tlk-pass)** | Offline password generator powered by the Web Crypto API. One HTML file, zero dependencies, zero network requests. | `HTML` `JavaScript` | — | 29 Oct 2026 |
-| **[tlk-hex](https://github.com/Talkdedsec/tlk-hex)** · 14 ★ | Interactive disassembler — static analysis / reverse engineering for x86/x64 PE, ELF and raw binaries | `C#` `csharp` `decompiler` | 198 | 29 Oct 2026 |
-| **[clipdeck](https://github.com/Talkdedsec/clipdeck)** | Fast, encrypted clipboard history plus emoji, kaomoji and symbol picker for Windows — a replacement for Win+V and Win+. | `C#` `clipboard` `clipboard-history` | 10 | 29 Oct 2026 |
-| **[tlk-rpf](https://github.com/Talkdedsec/tlk-rpf)** · 1 ★ | Open-source editor for the .rpf packages in your FiveM mods folder: textures, visual settings, particle effects, models and maps. A backup before every save, undo for every change. | `TypeScript` `fivem` `gta5` | 27 | 29 Oct 2026 |
+| **[tlk-hex](https://github.com/Talkdedsec/tlk-hex)** · 15 ★ | Interactive disassembler — static analysis / reverse engineering for x86/x64 PE, ELF and raw binaries | `C#` `csharp` `decompiler` | 205 | 29 Oct 2026 |
+| **[clipdeck](https://github.com/Talkdedsec/clipdeck)** · 1 ★ | Fast, encrypted clipboard history plus emoji, kaomoji and symbol picker for Windows — a replacement for Win+V and Win+. | `C#` `clipboard` `clipboard-history` | 11 | 29 Oct 2026 |
 | **[talkdedsec-code](https://github.com/Talkdedsec/talkdedsec-code)** | Telemetry-free code editor for Windows on the open-source VS Code core: Open VSX, five themes, Turkish UI and a native installer. | `TypeScript` `code-editor` `direct2d` | 2 | 29 Oct 2026 |
 | **[talk-graph](https://github.com/Talkdedsec/talk-graph)** | Single-file navigable architecture map generated from a codebase. No dependencies, no config, one HTML file out. | `JavaScript` `architecture` `cli` | — | 29 Oct 2026 |
 | **[tlk-huntx](https://github.com/Talkdedsec/tlk-huntx)** | Single-binary bug bounty engine: scope-gated recon, detection, deterministic verification, LLM-assisted triage. Detection-only. | `Go` `appsec` `attack-surface` | 27 | 29 Oct 2026 |
@@ -55,13 +53,13 @@ Repositories are opened one at a time. This table is rebuilt daily from the GitH
 | **[tlk-sentinel](https://github.com/Talkdedsec/tlk-sentinel)** | Server and application security engine: log-driven attack detection, IP banning, reputation and anomaly scoring, live panel. | `TypeScript` `Node` `SQLite` | — | 29 Oct 2026 |
 | **[tlk-grid](https://github.com/Talkdedsec/tlk-grid)** | Window layout, zoom and overlays for games. Win32 and DWM only, no injection. | `Rust` `dwm` `gaming` | 2 | 29 Oct 2026 |
 | **[tlk-wsmf](https://github.com/Talkdedsec/tlk-wsmf)** | Finds out which Windows application steals your keyboard focus, and stops it. Tray program in Rust, no keyboard hook, English and Turkish. | `Rust` `egui` `focus-stealing` | 18 | 29 Oct 2026 |
-| **[tlk-tune](https://github.com/Talkdedsec/tlk-tune)** | Terminal music player for Windows. One executable, no ffmpeg, mouse and keyboard, album art, synced lyrics, ten-band EQ. | `Rust` `audio` `cli` | 15 | 29 Oct 2026 |
+| **[tlk-tune](https://github.com/Talkdedsec/tlk-tune)** | Terminal music player for Windows. One executable, no ffmpeg, mouse and keyboard, album art, synced lyrics, ten-band EQ. | `Rust` `audio` `cli` | 17 | 29 Oct 2026 |
 | **[tlk-ascii](https://github.com/Talkdedsec/tlk-ascii)** · 1 ★ | Image, video and text to glowing ASCII art, in your browser or as a Windows app. Palettes, runes, braille, blackletter titles; PNG, SVG, HTML and video export. English and Turkish. | `JavaScript` `ascii` `ascii-art` | 7 | 29 Oct 2026 |
 | **[tlk-pdf](https://github.com/Talkdedsec/tlk-pdf)** | PDF editor that runs on your device: text, signatures, form filling, highlights, merge and split. In the browser or as a Windows app. | `JavaScript` `pdf.js` `pdf-lib` `Electron` | 9 | 29 Oct 2026 |
-| **[tlk-visual](https://github.com/Talkdedsec/tlk-visual)** · 6 ★ | Whole-screen colour engine for Windows, written straight to the display gamma ramp. One exe, no driver, no admin rights. | `Rust` `Slint` `Win32` | 144 | 29 Oct 2026 |
+| **[tlk-visual](https://github.com/Talkdedsec/tlk-visual)** · 6 ★ | Whole-screen colour engine for Windows, written straight to the display gamma ramp. One exe, no driver, no admin rights. | `Rust` `Slint` `Win32` | 146 | 29 Oct 2026 |
 | **[tlk-html-viewer](https://github.com/Talkdedsec/tlk-html-viewer)** | HTML, CSS and JavaScript studio with live preview, selectable themes, console and local projects. | `TypeScript` `code-editor` `html` | — | 29 Oct 2026 |
 
-<sub>Synced 16 Nov 2026 · public repositories only</sub>
+<sub>Synced 17 Nov 2026 · public repositories only</sub>
 <!-- OSS:END -->
 
 Each of them ships a README in English and Turkish, a security policy and CI. `tlk-sentinel` is
@@ -73,8 +71,6 @@ or redistribute it; the rest are MIT or GPL-3.0.
 ## Products
 
 **Talkdedsec Editor** — a Windows code editor built on an open-source core with the telemetry layer removed at the source. Own release channel, themes, documentation and support flow. Releases live on the [talkdedseccode](https://github.com/talkdedseccode) account.
-
-**FiveM scripts** — server-authoritative, resmon-friendly resources with Turkish and English locales, sold through [store.talkdedsec.com](https://store.talkdedsec.com).
 
 **Site templates** — production Next.js templates with live demos at [ornek.talkdedsec.com](https://ornek.talkdedsec.com).
 

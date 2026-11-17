@@ -132,7 +132,7 @@ function rule(theme) {
 const HERO = {
   eyebrow: "INDEPENDENT SOFTWARE STUDIO",
   sub1: "Security and productivity tools, a code editor",
-  sub2: "and web platforms. No sponsors, no analytics, no tracking.",
+  sub2: "and web platforms, built and shipped by one person.",
   foot: "talkdedsec.com",
 };
 
@@ -144,22 +144,21 @@ const METRICS = [
 const W2 = 636, W3 = 418;
 
 const CARDS = {
-  "site-main": { w: W2, h: 176, link: 1, kicker: "studio", title: "talkdedsec.com", lines: ["Tools, games, portfolio, notes and CTF writeups.", "Turkish and English."], meta: "NEXT.JS" },
-  "site-projects": { w: W2, h: 176, link: 1, kicker: "portfolio", title: "projects.talkdedsec.com", lines: ["Portfolio in a desktop-OS interface: security tools,", "FiveM scripts, CLI and desktop apps."], meta: "TYPESCRIPT" },
-  "site-store": { w: W2, h: 176, link: 1, kicker: "commerce", title: "store.talkdedsec.com", lines: ["FiveM scripts. Server-authoritative, resmon-friendly,", "delivered through Tebex."], meta: "TEBEX HEADLESS" },
-  "site-ornek": { w: W2, h: 176, link: 1, kicker: "demos", title: "ornek.talkdedsec.com", lines: ["Live demos of the site templates I sell."], meta: "NEXT.JS" },
+  "site-main": { w: W3, h: 200, link: 1, kicker: "studio", title: "talkdedsec.com", lines: ["Tools, games, portfolio,", "notes and CTF writeups.", "Turkish and English."], meta: "NEXT.JS" },
+  "site-projects": { w: W3, h: 200, link: 1, kicker: "portfolio", title: "projects.talkdedsec.com", lines: ["Portfolio in a desktop-OS", "interface: security tools,", "CLI and desktop apps."], meta: "TYPESCRIPT" },
+  "site-ornek": { w: W3, h: 200, link: 1, kicker: "demos", title: "ornek.talkdedsec.com", lines: ["Live demos of the site", "templates I sell."], meta: "NEXT.JS" },
 
-  "cat-tools": { w: W2, h: 200, link: 1, big: "274", kicker: "browser", title: "Developer tools", lines: ["Hashing, base64, JWT, regex, subnet maths, encoding,", "text processing and data formats. Runs entirely in the", "browser — nothing uploaded, nothing logged."], meta: "TALKDEDSEC.COM/TOOLS" },
-  "cat-games": { w: W2, h: 200, link: 1, big: "212", kicker: "browser", title: "Games", lines: ["Puzzle, strategy, reflex, memory and word games,", "plus larger terminal and sandbox titles.", "All client-side, no accounts."], meta: "TALKDEDSEC.COM/GAMES" },
+  "cat-tools": { w: W2, h: 200, link: 1, big: "274", kicker: "browser", title: "Developer tools", lines: ["Hashing, base64, JWT, regex, subnet maths, encoding,", "text processing and data formats.", "Runs entirely in the browser."], meta: "TALKDEDSEC.COM/TOOLS" },
+  "cat-games": { w: W2, h: 200, link: 1, big: "212", kicker: "browser", title: "Games", lines: ["Puzzle, strategy, reflex, memory and word games,", "plus larger terminal and sandbox titles."], meta: "TALKDEDSEC.COM/GAMES" },
 
   "feat-sentinel": { w: W3, h: 224, link: 1, kicker: "security", title: "tlk-sentinel", lines: ["Reads your logs, spots the", "attack, bans the source and", "shows you what happened.", "60 tests, zero runtime deps."], meta: "TYPESCRIPT · NODE · LINUX" },
   "feat-visual": { w: W3, h: 224, link: 1, kicker: "windows", title: "Talkdedsec Visual", lines: ["Whole-screen colour engine", "written to the display gamma", "ramp. One exe, no driver,", "no admin rights."], meta: "RUST · SLINT · WIN32" },
   "feat-wymcmd": { w: W3, h: 224, link: 1, kicker: "forensics", title: "Why My CMD Opened", lines: ["A console flashed and", "vanished. This says what", "started it, hours later,", "with nothing resident."], meta: "C# · .NET 10 · ETW" },
 
-  "pil-desktop": { w: 300, h: 214, kicker: "01", title: "Desktop", lines: ["Windows apps and local", "utilities. Installers,", "updates, no telemetry."], meta: "RUST · C# · TAURI" },
+  "pil-desktop": { w: 300, h: 214, kicker: "01", title: "Desktop", lines: ["Windows apps and local", "utilities with installers", "and update channels."], meta: "RUST · C# · TAURI" },
   "pil-web": { w: 300, h: 214, kicker: "02", title: "Web", lines: ["Product sites and", "storefronts. Bilingual,", "server-rendered."], meta: "NEXT.JS · PRISMA" },
   "pil-systems": { w: 300, h: 214, kicker: "03", title: "Systems", lines: ["Licensing, releases and", "deploys. Runs on my", "own servers."], meta: "NODE · LINUX · NGINX" },
-  "pil-interactive": { w: 300, h: 214, kicker: "04", title: "Interactive", lines: ["Browser games, puzzles", "and sandbox titles. All", "client-side, no accounts."], meta: "TYPESCRIPT · CANVAS" },
+  "pil-interactive": { w: 300, h: 214, kicker: "04", title: "Interactive", lines: ["Browser games, puzzles", "and sandbox titles that", "run in the browser."], meta: "TYPESCRIPT · CANVAS" },
 };
 
 const HEADINGS = { "h-featured": "Featured", "h-sites": "Sites", "h-catalogue": "Catalogue", "h-oss": "Open source", "h-stack": "Stack" };

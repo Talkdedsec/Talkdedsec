@@ -1,5 +1,5 @@
 {
-  "_": "Per-repository overrides for the OSS table. Without one, the row falls back to the GitHub description (which is English only) and to language + the first two topics (which reads badly as a stack). Keys are repository names.",
+  "_": "Per-repository overrides for the OSS table. Without one, the row falls back to the GitHub description (which is English only) and to language + the first two topics (which reads badly as a stack). Keys are repository names. \"hidden\": true leaves a public repository out of the profile.",
 
   "tlk-sentinel": {
     "en": "Server and application security engine: log-driven attack detection, IP banning, reputation and anomaly scoring, live panel.",
@@ -25,5 +25,14 @@
     "en": "PDF editor that runs on your device: text, signatures, form filling, highlights, merge and split. In the browser or as a Windows app.",
     "tr": "Cihazında çalışan PDF düzenleyici: yazı, imza, form doldurma, vurgulama, birleştirme ve bölme. Tarayıcıda ya da Windows programı olarak.",
     "stack": ["JavaScript", "pdf.js", "pdf-lib", "Electron"]
+  },
+  "tlk-rpf": { "hidden": true },
+  "talkdedsec-optimizer": {
+    "en": "Windows optimizer with 114 hardware-aware performance, privacy and cleanup tweaks, each undoable in one click.",
+    "tr": "Donanıma göre 114 performans, gizlilik ve temizlik ayarı sunan Windows optimizer; her biri tek tıkla geri alınır."
+  },
+  "tlk-save": {
+    "en": "Download videos and audio from YouTube, TikTok, Instagram, X and 1800+ sites.",
+    "tr": "YouTube, TikTok, Instagram, X ve 1800'den fazla siteden video ve ses indirir."
   }
 }
