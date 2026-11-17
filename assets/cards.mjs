@@ -1,4 +1,4 @@
-import { mkdirSync, writeFileSync } from "node:fs";
+import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -9,10 +9,12 @@ const SANS = "Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,
 const MONO = "ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace";
 const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 
+// Krom: logonun gümüşü vurgu, grafit zemin. accent kenar çizgisinin üstü, accent2 altı.
 const THEMES = {
-  light: { bg: "#FFFFFF", card: "#FDFDFD", line: "#E7E7E7", text: "#0A0A0A", muted: "#63666B", faint: "#A9ACB1", ghost: "#F1F1F2", accent: "#D62839", accent2: "#8E1B27" },
-  dark: { bg: "#0D1117", card: "#101620", line: "#232A35", text: "#F2F4F7", muted: "#98A0AC", faint: "#5F6773", ghost: "#161D28", accent: "#FF4256", accent2: "#B22638" },
+  light: { bg: "#FFFFFF", card: "#FCFCFD", line: "#E3E5E8", text: "#0B0C0E", muted: "#5E636A", faint: "#A2A7AE", ghost: "#F0F1F3", accent: "#30343A", accent2: "#A7ACB3", ring: "#30343A" },
+  dark: { bg: "#0D1117", card: "#11151B", line: "#252A32", text: "#F2F4F7", muted: "#9AA1AB", faint: "#5D646E", ghost: "#171C24", accent: "#E4E7EB", accent2: "#5F656D", ring: "#E4E7EB" },
 };
+const LOGO = "data:image/png;base64," + readFileSync(join(OUT, "logo.png")).toString("base64");
 
 function card(theme, { w, h, kicker, title, lines, meta, big, link }) {
   const c = THEMES[theme];
@@ -50,27 +52,10 @@ ${g}
 </svg>`;
 }
 
-function eyeGrid(cx, cy, c) {
-  const cols = 34, rows = 20, gap = 9.5;
-  const rx = (cols * gap) / 2, ry = (rows * gap) / 2;
-  let out = "";
-  for (let r = 0; r < rows; r++) {
-    for (let q = 0; q < cols; q++) {
-      const x = cx - rx + q * gap + gap / 2;
-      const y = cy - ry + r * gap + gap / 2;
-      const lens = ((x - cx) / rx) ** 2 + ((y - cy) / ry) ** 2;
-      if (lens > 1) continue;
-      const irisD = Math.hypot((x - cx) / 46, (y - cy) / 46);
-      if (irisD < 0.42) continue;
-      const inIris = irisD < 1;
-      const fade = 1 - lens;
-      const size = inIris ? 2.7 : 1.15 + fade * 1.5;
-      const op = (inIris ? 0.92 : 0.16 + fade * 0.55).toFixed(2);
-      const delay = ((x - cx + rx) / (rx * 2)) * 2.6;
-      out += `<circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="${size.toFixed(2)}" fill="${inIris ? c.accent : c.faint}" opacity="${op}" style="animation:scan 5.2s ${delay.toFixed(2)}s ease-in-out infinite"/>`;
-    }
-  }
-  return out;
+function orbit(cx, cy, c) {
+  const rings = [[250, 64, 0.16], [330, 86, 0.1], [410, 108, 0.06]]
+    .map(([rx, ry, o], k) => `<ellipse cx="${cx}" cy="${cy}" rx="${rx}" ry="${ry}" transform="rotate(-13 ${cx} ${cy})" fill="none" stroke="${c.ring}" stroke-opacity="${o}" stroke-width="1.4" stroke-dasharray="${k ? "2 7" : "none"}"/>`).join("");
+  return `${rings}<image x="${cx - 150}" y="${cy - 150}" width="300" height="300" href="${LOGO}"/>`;
 }
 
 function hero(theme, s) {
@@ -85,7 +70,6 @@ function hero(theme, s) {
 <style>
   @keyframes sweep { 0% { transform: translateX(-170px); opacity: 0 } 22% { opacity: 1 } 100% { transform: translateX(580px); opacity: 0 } }
   @keyframes rise { from { opacity: 0; transform: translateY(14px) } to { opacity: 1; transform: none } }
-  @keyframes scan { 0%,100% { opacity: .16 } 45% { opacity: .95 } }
   @keyframes blink { 0%,46% { opacity: 1 } 47%,100% { opacity: 0 } }
   .r { animation: rise 1s cubic-bezier(.22,1,.36,1) }
   .d1 { animation-delay: .05s } .d2 { animation-delay: .2s } .d3 { animation-delay: .36s } .d4 { animation-delay: .52s }
@@ -93,7 +77,7 @@ function hero(theme, s) {
 </style>
 <rect width="1280" height="${h}" fill="${c.bg}"/>
 <rect width="1280" height="${h}" fill="url(#wash)"/>
-<g opacity=".95">${eyeGrid(1025, 215, c)}</g>
+${orbit(1025, 215, c)}
 <rect x="0" y="0" width="1280" height="1" fill="${c.line}"/>
 <rect x="0" y="${h - 1}" width="1280" height="1" fill="${c.line}"/>
 <g class="r d1"><text x="96" y="126" font-family="${MONO}" font-size="12" letter-spacing="4.6" fill="${c.accent}">${esc(s.eyebrow)}</text></g>
