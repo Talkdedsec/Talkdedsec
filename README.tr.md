@@ -57,7 +57,7 @@ Küçük bir stüdyo işletiyorum ve buradaki her şeyi ben yapıyorum: bir Wind
 |:--|:--|:--|--:|:--|
 | **[scoop-tlk](https://github.com/Talkdedsec/scoop-tlk)** | Scoop bucket for the Talkdedsec Windows tools - wymcmd and tlk-visual. | `package-manager` `scoop` | — | 16 Kas 2026 |
 | **[tlk-wymcmd](https://github.com/Talkdedsec/tlk-wymcmd)** · 27 ★ | O konsol penceresini neyin açtığını buluyor — zamanlanmış görev, servis, kayıt defteri anahtarı ya da tıklama — kapandıktan saatler sonra. | `C#` `.NET 10` `ETW` | 313 | 16 Kas 2026 |
-| **[tlk-color](https://github.com/Talkdedsec/tlk-color)** | Screen color and display tuner for Windows: gamma, temperature, NVIDIA vibrance, profiles, custom resolutions. | `C#` `color-calibration` `csharp` | 6 | 12 Kas 2026 |
+| **[tlk-color](https://github.com/Talkdedsec/tlk-color)** | Screen color and display tuner for Windows: gamma, temperature, NVIDIA vibrance, profiles, custom resolutions. | `C#` `color-calibration` `csharp` | 6 | 11 Kas 2026 |
 | **[talkdedsec-optimizer](https://github.com/Talkdedsec/talkdedsec-optimizer)** | Donanıma göre 114 performans, gizlilik ve temizlik ayarı sunan Windows optimizer; her biri tek tıkla geri alınır. | `TypeScript` `optimizer` `performance` | 14 | 11 Kas 2026 |
 | **[termanim](https://github.com/Talkdedsec/termanim)** · 1 ★ | 61 ASCII animations for the terminal: loaders, text effects and scenes. Rust library + CLI gallery. | `Rust` `animation` `ascii-art` | 1 | 07 Kas 2026 |
 | **[tlk-see](https://github.com/Talkdedsec/tlk-see)** | TempleOS's oracle in your terminal and your browser - GodWord, scripture, songs and sprites, driven by your keystrokes | `Rust` `cli` `github-pages` | 19 | 01 Kas 2026 |

@@ -57,7 +57,7 @@ Most of it ships as a product, not a demo: installers, update channels, licence 
 |:--|:--|:--|--:|:--|
 | **[scoop-tlk](https://github.com/Talkdedsec/scoop-tlk)** | Scoop bucket for the Talkdedsec Windows tools - wymcmd and tlk-visual. | `package-manager` `scoop` | — | 16 Nov 2026 |
 | **[tlk-wymcmd](https://github.com/Talkdedsec/tlk-wymcmd)** · 27 ★ | Finds out what launched that console window — scheduled task, service, registry key or click — hours after it closed. | `C#` `.NET 10` `ETW` | 313 | 16 Nov 2026 |
-| **[tlk-color](https://github.com/Talkdedsec/tlk-color)** | Screen color and display tuner for Windows: gamma, temperature, NVIDIA vibrance, profiles, custom resolutions. | `C#` `color-calibration` `csharp` | 6 | 12 Nov 2026 |
+| **[tlk-color](https://github.com/Talkdedsec/tlk-color)** | Screen color and display tuner for Windows: gamma, temperature, NVIDIA vibrance, profiles, custom resolutions. | `C#` `color-calibration` `csharp` | 6 | 11 Nov 2026 |
 | **[talkdedsec-optimizer](https://github.com/Talkdedsec/talkdedsec-optimizer)** | Windows optimizer with 114 hardware-aware performance, privacy and cleanup tweaks, each undoable in one click. | `TypeScript` `optimizer` `performance` | 14 | 11 Nov 2026 |
 | **[termanim](https://github.com/Talkdedsec/termanim)** · 1 ★ | 61 ASCII animations for the terminal: loaders, text effects and scenes. Rust library + CLI gallery. | `Rust` `animation` `ascii-art` | 1 | 07 Nov 2026 |
 | **[tlk-see](https://github.com/Talkdedsec/tlk-see)** | TempleOS's oracle in your terminal and your browser - GodWord, scripture, songs and sprites, driven by your keystrokes | `Rust` `cli` `github-pages` | 19 | 01 Nov 2026 |
