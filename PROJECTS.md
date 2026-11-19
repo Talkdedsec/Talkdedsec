@@ -35,8 +35,8 @@ Repositories are opened one at a time. This table is rebuilt daily from the GitH
 | Repository | What it is | Stack | Downloads | Updated |
 |:--|:--|:--|--:|:--|
 | **[scoop-tlk](https://github.com/Talkdedsec/scoop-tlk)** | Scoop bucket for the Talkdedsec Windows tools - wymcmd and tlk-visual. | `package-manager` `scoop` | — | 16 Nov 2026 |
-| **[tlk-wymcmd](https://github.com/Talkdedsec/tlk-wymcmd)** · 32 ★ | Finds out what launched that console window — scheduled task, service, registry key or click — hours after it closed. | `C#` `.NET 10` `ETW` | 388 | 16 Nov 2026 |
-| **[tlk-color](https://github.com/Talkdedsec/tlk-color)** · 1 ★ | Screen color and display tuner for Windows: gamma, temperature, NVIDIA vibrance, profiles, custom resolutions. | `C#` `color-calibration` `csharp` | 8 | 11 Nov 2026 |
+| **[tlk-wymcmd](https://github.com/Talkdedsec/tlk-wymcmd)** · 35 ★ | Finds out what launched that console window — scheduled task, service, registry key or click — hours after it closed. | `C#` `.NET 10` `ETW` | 483 | 16 Nov 2026 |
+| **[tlk-color](https://github.com/Talkdedsec/tlk-color)** · 1 ★ | Screen color and display tuner for Windows: gamma, temperature, NVIDIA vibrance, profiles, custom resolutions. | `C#` `color-calibration` `csharp` | 9 | 11 Nov 2026 |
 | **[talkdedsec-optimizer](https://github.com/Talkdedsec/talkdedsec-optimizer)** | Windows optimizer with 114 hardware-aware performance, privacy and cleanup tweaks, each undoable in one click. | `TypeScript` `optimizer` `performance` | 14 | 11 Nov 2026 |
 | **[termanim](https://github.com/Talkdedsec/termanim)** · 1 ★ | 61 ASCII animations for the terminal: loaders, text effects and scenes. Rust library + CLI gallery. | `Rust` `animation` `ascii-art` | 1 | 07 Nov 2026 |
 | **[tlk-see](https://github.com/Talkdedsec/tlk-see)** | TempleOS's oracle in your terminal and your browser - GodWord, scripture, songs and sprites, driven by your keystrokes | `Rust` `cli` `github-pages` | 19 | 01 Nov 2026 |
@@ -56,10 +56,10 @@ Repositories are opened one at a time. This table is rebuilt daily from the GitH
 | **[tlk-tune](https://github.com/Talkdedsec/tlk-tune)** | Terminal music player for Windows. One executable, no ffmpeg, mouse and keyboard, album art, synced lyrics, ten-band EQ. | `Rust` `audio` `cli` | 18 | 29 Oct 2026 |
 | **[tlk-ascii](https://github.com/Talkdedsec/tlk-ascii)** · 1 ★ | Image, video and text to glowing ASCII art, in your browser or as a Windows app. Palettes, runes, braille, blackletter titles; PNG, SVG, HTML and video export. English and Turkish. | `JavaScript` `ascii` `ascii-art` | 7 | 29 Oct 2026 |
 | **[tlk-pdf](https://github.com/Talkdedsec/tlk-pdf)** | PDF editor that runs on your device: text, signatures, form filling, highlights, merge and split. In the browser or as a Windows app. | `JavaScript` `pdf.js` `pdf-lib` `Electron` | 9 | 29 Oct 2026 |
-| **[tlk-visual](https://github.com/Talkdedsec/tlk-visual)** · 6 ★ | Whole-screen colour engine for Windows, written straight to the display gamma ramp. One exe, no driver, no admin rights. | `Rust` `Slint` `Win32` | 161 | 29 Oct 2026 |
+| **[tlk-visual](https://github.com/Talkdedsec/tlk-visual)** · 6 ★ | Whole-screen colour engine for Windows, written straight to the display gamma ramp. One exe, no driver, no admin rights. | `Rust` `Slint` `Win32` | 167 | 29 Oct 2026 |
 | **[tlk-html-viewer](https://github.com/Talkdedsec/tlk-html-viewer)** | HTML, CSS and JavaScript studio with live preview, selectable themes, console and local projects. | `TypeScript` `code-editor` `html` | — | 29 Oct 2026 |
 
-<sub>Synced 18 Nov 2026 · public repositories only</sub>
+<sub>Synced 19 Nov 2026 · public repositories only</sub>
 <!-- OSS:END -->
 
 Each of them ships a README in English and Turkish, a security policy and CI. `tlk-sentinel` is
