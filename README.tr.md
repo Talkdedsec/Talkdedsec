@@ -56,7 +56,7 @@ Küçük bir stüdyo işletiyorum ve buradaki her şeyi ben yapıyorum: bir Wind
 | Depo | Nedir | Teknoloji | İndirme | Güncelleme |
 |:--|:--|:--|--:|:--|
 | **[scoop-tlk](https://github.com/Talkdedsec/scoop-tlk)** | Scoop bucket for the Talkdedsec Windows tools - wymcmd and tlk-visual. | `package-manager` `scoop` | — | 16 Kas 2026 |
-| **[tlk-wymcmd](https://github.com/Talkdedsec/tlk-wymcmd)** · 42 ★ | O konsol penceresini neyin açtığını buluyor — zamanlanmış görev, servis, kayıt defteri anahtarı ya da tıklama — kapandıktan saatler sonra. | `C#` `.NET 10` `ETW` | 603 | 16 Kas 2026 |
+| **[tlk-wymcmd](https://github.com/Talkdedsec/tlk-wymcmd)** · 44 ★ | O konsol penceresini neyin açtığını buluyor — zamanlanmış görev, servis, kayıt defteri anahtarı ya da tıklama — kapandıktan saatler sonra. | `C#` `.NET 10` `ETW` | 623 | 16 Kas 2026 |
 | **[tlk-color](https://github.com/Talkdedsec/tlk-color)** · 1 ★ | Screen color and display tuner for Windows: gamma, temperature, NVIDIA vibrance, profiles, custom resolutions. | `C#` `color-calibration` `csharp` | 14 | 11 Kas 2026 |
 | **[talkdedsec-optimizer](https://github.com/Talkdedsec/talkdedsec-optimizer)** | Donanıma göre 114 performans, gizlilik ve temizlik ayarı sunan Windows optimizer; her biri tek tıkla geri alınır. | `TypeScript` `optimizer` `performance` | 14 | 11 Kas 2026 |
 | **[termanim](https://github.com/Talkdedsec/termanim)** · 1 ★ | 61 ASCII animations for the terminal: loaders, text effects and scenes. Rust library + CLI gallery. | `Rust` `animation` `ascii-art` | 1 | 07 Kas 2026 |
@@ -77,10 +77,10 @@ Küçük bir stüdyo işletiyorum ve buradaki her şeyi ben yapıyorum: bir Wind
 | **[tlk-tune](https://github.com/Talkdedsec/tlk-tune)** | Terminal music player for Windows. One executable, no ffmpeg, mouse and keyboard, album art, synced lyrics, ten-band EQ. | `Rust` `audio` `cli` | 20 | 29 Eki 2026 |
 | **[tlk-ascii](https://github.com/Talkdedsec/tlk-ascii)** · 1 ★ | Image, video and text to glowing ASCII art, in your browser or as a Windows app. Palettes, runes, braille, blackletter titles; PNG, SVG, HTML and video export. English and Turkish. | `JavaScript` `ascii` `ascii-art` | 8 | 29 Eki 2026 |
 | **[tlk-pdf](https://github.com/Talkdedsec/tlk-pdf)** | Cihazında çalışan PDF düzenleyici: yazı, imza, form doldurma, vurgulama, birleştirme ve bölme. Tarayıcıda ya da Windows programı olarak. | `JavaScript` `pdf.js` `pdf-lib` `Electron` | 10 | 29 Eki 2026 |
-| **[tlk-visual](https://github.com/Talkdedsec/tlk-visual)** · 6 ★ | Windows için ekranın tamamını kapsayan renk motoru; doğrudan ekranın gama tablosuna yazıyor. Tek exe, sürücü yok, yönetici hakkı yok. | `Rust` `Slint` `Win32` | 200 | 29 Eki 2026 |
+| **[tlk-visual](https://github.com/Talkdedsec/tlk-visual)** · 6 ★ | Windows için ekranın tamamını kapsayan renk motoru; doğrudan ekranın gama tablosuna yazıyor. Tek exe, sürücü yok, yönetici hakkı yok. | `Rust` `Slint` `Win32` | 203 | 29 Eki 2026 |
 | **[tlk-html-viewer](https://github.com/Talkdedsec/tlk-html-viewer)** | HTML, CSS and JavaScript studio with live preview, selectable themes, console and local projects. | `TypeScript` `code-editor` `html` | — | 29 Eki 2026 |
 
-<sub>24 Kas 2026 tarihinde eşitlendi · yalnızca açık depolar</sub>
+<sub>25 Kas 2026 tarihinde eşitlendi · yalnızca açık depolar</sub>
 <!-- OSS:END -->
 
 <p align="right"><a href="PROJECTS.tr.md"><b>Tüm proje dizini →</b></a></p>
